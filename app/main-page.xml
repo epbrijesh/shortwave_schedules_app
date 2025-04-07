@@ -1,0 +1,145 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      xmlns:CheckBox="@nstudio/nativescript-checkbox"
+      navigatingTo="navigatingTo" 
+      class="page-content">
+    <ActionBar class="text-center">
+        <GridLayout columns="auto, *, auto">
+            <Label col="1" text="Shortwave Radio Schedules" class="text-xl font-bold text-center" />
+        </GridLayout>
+    </ActionBar>
+    
+    <GridLayout rows="auto, auto, *, auto">
+        <!-- Time Display -->
+        <GridLayout row="0" columns="*, *" class="mx-4 mt-4">
+            <StackLayout col="0" class="card p-3 rounded-lg mr-1">
+                <Label text="UTC Time" class="text-sm text-gray-600" />
+                <Label text="{{ currentUTCTime }}" class="text-lg font-bold header-text" />
+            </StackLayout>
+            <StackLayout col="1" class="card p-3 rounded-lg ml-1">
+                <Label text="Local Time" class="text-sm text-gray-600" />
+                <Label text="{{ currentLocalTime }}" class="text-lg font-bold header-text" />
+            </StackLayout>
+        </GridLayout>
+
+        <!-- Search and Live Toggle -->
+        <GridLayout row="1" columns="auto, *, auto" class="mx-4 my-4">
+            <SearchBar col="0" 
+                      hint="Search..." 
+                      text="{{ searchQuery }}" 
+                      textChange="{{ onSearch }}"
+                      submit="{{ onSearch }}"
+                      class="card rounded-lg"
+                      width="200"
+                      automationText="searchBar"
+                      focus="{{ false }}"
+                      isEnabled="true" />
+            <StackLayout col="2" orientation="horizontal" class="ml-4">
+                <Label text="🔴" class="text-lg" />
+                <Label text="Live" class="text-lg ml-1" />
+                <Switch checked="{{ showLiveOnly }}" class="ml-2" />
+            </StackLayout>
+        </GridLayout>
+
+        <!-- Filters and Content -->
+        <TabView row="2" selectedTabTextColor="#B8860B" tabTextFontSize="12" class="tab-view">
+            <!-- List Tab -->
+            <TabViewItem title="List">
+                <GridLayout rows="auto, *">
+                    <!-- Table Header -->
+                    <GridLayout row="0" columns="auto, auto, *, auto" class="bg-[#B8860B] p-2">
+                        <Label col="0" text="FREQ" class="text-white font-bold p-2" tap="{{ onSortByFrequency }}" />
+                        <Label col="1" text="TIME" class="text-white font-bold p-2 ml-2" tap="{{ onSortByTime }}" />
+                        <Label col="2" text="STATION" class="text-white font-bold p-2 ml-2" tap="{{ onSortByStation }}" />
+                        <Label col="3" text="LANG" class="text-white font-bold p-2 ml-2" tap="{{ onSortByLanguage }}" />
+                    </GridLayout>
+
+                    <!-- Table Content -->
+                    <ListView row="1" items="{{ schedules }}" itemTap="{{ onItemTap }}">
+                        <ListView.itemTemplate>
+                            <GridLayout columns="auto, auto, *, auto" class="card border-b border-[#DAA520]">
+                                <Label col="0" text="{{ frequency }}" class="header-text font-bold p-2" />
+                                <Label col="1" text="{{ time }}" class="p-2 ml-2" />
+                                <Label col="2" text="{{ stationName }}" class="p-2 ml-2" textWrap="true" />
+                                <Label col="3" text="{{ language }}" class="p-2 ml-2" />
+                            </GridLayout>
+                        </ListView.itemTemplate>
+                    </ListView>
+                </GridLayout>
+            </TabViewItem>
+
+            <!-- Filters Tab -->
+            <TabViewItem title="Filters">
+                <ScrollView>
+                    <StackLayout class="p-4">
+                        <!-- Frequency Range Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Frequency Range (kHz)" class="text-lg font-bold mb-2 header-text" />
+                            <GridLayout columns="*, auto, *" class="mb-2">
+                                <TextField col="0" text="{{ frequencyMin }}" hint="Min kHz" keyboardType="number" class="text-center p-2 bg-gray-50 rounded border border-[#DAA520]" />
+                                <Label col="1" text="to" class="text-center p-2" />
+                                <TextField col="2" text="{{ frequencyMax }}" hint="Max kHz" keyboardType="number" class="text-center p-2 bg-gray-50 rounded border border-[#DAA520]" />
+                            </GridLayout>
+                        </StackLayout>
+
+                        <!-- Time Range Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Time Range (UTC)" class="text-lg font-bold mb-2 header-text" />
+                            <GridLayout columns="*, auto, *" class="mb-2">
+                                <TextField col="0" text="{{ timeStart }}" hint="00:00" class="text-center p-2 bg-gray-50 rounded border border-[#DAA520]" />
+                                <Label col="1" text="to" class="text-center p-2" />
+                                <TextField col="2" text="{{ timeEnd }}" hint="23:59" class="text-center p-2 bg-gray-50 rounded border border-[#DAA520]" />
+                            </GridLayout>
+                        </StackLayout>
+
+                        <!-- Language Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Languages" class="text-lg font-bold mb-2 header-text" />
+                            <ScrollView height="200" class="bg-gray-50 rounded border border-[#DAA520]">
+                                <StackLayout class="p-2">
+                                    <Repeater items="{{ availableLanguages }}">
+                                        <Repeater.itemTemplate>
+                                            <GridLayout columns="auto, *" class="p-1">
+                                                <CheckBox:CheckBox col="0" 
+                                                    checked="{{ isSelected }}" 
+                                                    text="{{ name }}"
+                                                    fillColor="#DAA520"
+                                                    boxType="square"
+                                                    checkedChange="{{ $parents['MainViewModel'].onLanguageCheckedChange }}" />
+                                            </GridLayout>
+                                        </Repeater.itemTemplate>
+                                    </Repeater>
+                                </StackLayout>
+                            </ScrollView>
+                        </StackLayout>
+
+                        <!-- ITU Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="ITU Codes" class="text-lg font-bold mb-2 header-text" />
+                            <ScrollView height="200" class="bg-gray-50 rounded border border-[#DAA520]">
+                                <StackLayout class="p-2">
+                                    <Repeater items="{{ availableITUs }}">
+                                        <Repeater.itemTemplate>
+                                            <GridLayout columns="auto, *" class="p-1">
+                                                <CheckBox:CheckBox col="0" 
+                                                    checked="{{ isSelected }}" 
+                                                    text="{{ name }}"
+                                                    fillColor="#DAA520"
+                                                    boxType="square"
+                                                    checkedChange="{{ $parents['MainViewModel'].onITUCheckedChange }}" />
+                                            </GridLayout>
+                                        </Repeater.itemTemplate>
+                                    </Repeater>
+                                </StackLayout>
+                            </ScrollView>
+                        </StackLayout>
+
+                        <!-- Apply Button -->
+                        <Button text="Apply Filters" 
+                                tap="{{ applyFilters }}"
+                                class="primary-button p-3 rounded" />
+                    </StackLayout>
+                </ScrollView>
+            </TabViewItem>
+        </TabView>
+    </GridLayout>
+</Page>

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
+
+.page-content {
+    background-color: #FFF8DC;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #DAA520;
+}
+
+.header-text {
+    color: #B8860B;
+}
+
+.tab-view {
+    selected-tab-text-color: #B8860B;
+}
+
+.primary-button {
+    background-color: #DAA520;
+    color: #FFFFFF;
+}
+
+.secondary-button {
+    background-color: #B8860B;
+    color: #FFFFFF;
+}
