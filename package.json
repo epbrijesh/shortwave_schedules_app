@@ -8,7 +8,8 @@
     "@nstudio/nativescript-checkbox": "^2.0.4"
   },
   "devDependencies": {
-    "@nativescript/preview-cli": "^1.0.14",
+    "@nativescript/android": "8.8.6",
+    "@nativescript/preview-cli": "1.0.14",
     "@nativescript/stackblitz": "^0.0.8",
     "@nativescript/tailwind": "^2.1.0",
     "@nativescript/types": "~8.9.0",
