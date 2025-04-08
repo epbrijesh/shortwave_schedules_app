@@ -7,7 +7,7 @@ export interface RadioSchedule {
   itu: string;
   txLocation: string;
   coordinates: string;
-  power: number;
+  power: string;
   azimuth: string;
   remarks: string;
 }

@@ -3,6 +3,7 @@
         <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onBackButtonTap" />
         <GridLayout columns="auto, *, auto">
             <Label text="Station Details" class="text-xl font-bold text-center" />
+            <Button col="2" text="Copy" tap="{{ copyToClipboard }}" class="secondary-button p-2 rounded-lg mr-2" />
         </GridLayout>
     </ActionBar>
     
@@ -11,37 +12,37 @@
             <!-- Key Station Info Section -->
             <StackLayout class="card p-6 rounded-lg mb-4">
                 <StackLayout class="text-center">
-                    <Label text="{{ frequency + ' kHz' }}" class="text-3xl font-bold text-[#8B0000]" />
+                    <Label text="{{ frequency + ' kHz' }}" class="text-3xl font-bold text-[#006400]" />
                     <Label text="{{ time + ' UTC' }}" class="text-xl font-bold text-[#8B0000] my-2" />
-                    <Label text="{{ stationName }}" class="text-xl font-bold text-[#8B0000] leading-none" textWrap="true" />
+                    <Label text="{{ stationName }}" class="text-xl font-bold text-[#000000] leading-none" textWrap="true" />
                 </StackLayout>
             </StackLayout>
 
             <!-- Details Section -->
             <StackLayout class="card p-4 rounded-lg">
                 <Label text="Language" class="text-sm text-gray-600" />
-                <Label text="{{ language }}" class="text-lg mb-4" />
+                <Label text="{{ language }}" class="text-lg mb-4 text-[#0000FF]" />
                 
                 <Label text="Location" class="text-sm text-gray-600" />
-                <Label text="{{ txLocation }}" class="text-lg mb-4" />
+                <Label text="{{ txLocation }}" class="text-lg mb-4 text-[#000000]" />
                 
                 <Label text="Coordinates" class="text-sm text-gray-600" />
-                <Label text="{{ coordinates }}" class="text-lg mb-2" />
+                <Label text="{{ coordinates }}" class="text-lg mb-2 text-[#000000]" />
                 
                 <!-- Map View -->
                 <WebView height="300" loaded="{{ onMapLoaded }}" class="mb-4 rounded-lg" />
                 
                 <Label text="Power" class="text-sm text-gray-600" />
-                <Label text="{{ power + ' kW' }}" class="text-lg mb-4" />
+                <Label text="{{ power + ' kW' }}" class="text-lg mb-4 text-[#000000]" />
                 
                 <Label text="Azimuth" class="text-sm text-gray-600" />
-                <Label text="{{ azimuth }}" class="text-lg mb-4" />
+                <Label text="{{ azimuth }}" class="text-lg mb-4 text-[#000000]" />
                 
                 <Label text="Remarks" class="text-sm text-gray-600" />
-                <Label text="{{ remarks }}" class="text-lg mb-4" />
+                <Label text="{{ remarks }}" class="text-lg mb-4 text-[#000000]" />
                 
                 <Label text="Broadcasting Days" class="text-sm text-gray-600" />
-                <Label text="{{ broadcastDays }}" class="text-lg" />
+                <Label text="{{ broadcastDays }}" class="text-lg text-[#000000]" />
             </StackLayout>
         </StackLayout>
     </ScrollView>

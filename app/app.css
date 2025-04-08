@@ -3,33 +3,33 @@
 @tailwind utilities;
 
 ActionBar {
-    background-color: #B8860B;
+    background-color: #4A90E2;
     color: #FFFFFF;
 }
 
 .page-content {
-    background-color: #FFF8DC;
+    background-color: #F0F8FF;
 }
 
 .card {
     background-color: #FFFFFF;
-    border: 1px solid #DAA520;
+    border: 1px solid #4A90E2;
 }
 
 .header-text {
-    color: #B8860B;
+    color: #4A90E2;
 }
 
 .tab-view {
-    selected-tab-text-color: #B8860B;
+    selected-tab-text-color: #4A90E2;
 }
 
 .primary-button {
-    background-color: #DAA520;
-    color: #FFFFFF;
+    background-color: #FFD700;
+    color: #000000;
 }
 
 .secondary-button {
-    background-color: #B8860B;
+    background-color: #4A90E2;
     color: #FFFFFF;
 }
