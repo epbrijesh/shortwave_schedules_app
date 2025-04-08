@@ -1,9 +1,9 @@
 [
   {
-    "frequency": 6160,
+    "frequency": 6135,
     "time": "0500-1500",
     "days": "1234567",
-    "stationName": "TEST R.Madagasikara",
+    "stationName": "R.Madagasikara TEST",
     "language": "Malagasy",
     "itu": "MDG",
     "txLocation": "Antananarivo",
