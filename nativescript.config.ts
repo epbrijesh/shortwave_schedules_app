@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'com.thinkdigit.swschedule',
+  id: 'org.nativescript.app',
   appPath: 'app',
   appResourcesPath: 'App_Resources',
   android: {
