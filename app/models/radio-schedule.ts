@@ -15,7 +15,22 @@ export interface RadioSchedule {
 
 export const daysToString = (days: string): string => {
   const dayMap = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  return days.split('').map((day, index) => day !== '.' ? dayMap[index] : '').filter(d => d).join(', ');
+  
+  // Handle short format like "2", "3", "23", etc.
+  if (days.length < 7 && /^[1-7]+$/.test(days)) {
+    return days.split('').map(dayNum => {
+      const index = parseInt(dayNum) - 1; // Convert 1-7 to 0-6 index
+      return dayMap[index];
+    }).join(', ');
+  }
+  
+  // Handle full format like ".2....." or "1234567"
+  return days.split('').map((day, index) => {
+    if (day !== '.' && /[1-7]/.test(day)) {
+      return dayMap[index];
+    }
+    return '';
+  }).filter(d => d).join(', ');
 };
 
 export const daysToShortString = (days: string): string => {
@@ -24,7 +39,28 @@ export const daysToShortString = (days: string): string => {
   }
   
   const dayMap = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
-  const activeDays = days.split('').map((day, index) => day !== '.' ? dayMap[index] : '').filter(d => d);
+  
+  // Handle short format like "2", "3", "23", etc.
+  if (days.length < 7 && /^[1-7]+$/.test(days)) {
+    const activeDays = days.split('').map(dayNum => {
+      const index = parseInt(dayNum) - 1; // Convert 1-7 to 0-6 index
+      return dayMap[index];
+    });
+    
+    if (activeDays.length === 0) {
+      return 'No Days';
+    }
+    
+    return activeDays.join('');
+  }
+  
+  // Handle full format like ".2....." or "1234567"
+  const activeDays = days.split('').map((day, index) => {
+    if (day !== '.' && /[1-7]/.test(day)) {
+      return dayMap[index];
+    }
+    return '';
+  }).filter(d => d);
   
   if (activeDays.length === 0) {
     return 'No Days';
