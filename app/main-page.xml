@@ -15,26 +15,33 @@
             <StackLayout col="0" class="card p-2 rounded-lg mx-1">
                 <Label text="UTC Time" class="text-sm text-gray-600 text-center" />
                 <Label text="{{ currentUTCTime }}" class="text-lg font-bold header-text text-center" />
+                <Label text="{{ currentUTCDay }}" class="text-sm font-bold text-center" />
                 <Label text="{{ currentUTCDate }}" class="text-sm text-gray-600 text-center" />
             </StackLayout>
 
             <!-- Local Time -->
             <StackLayout col="1" class="card p-2 rounded-lg mx-1">
-                <Label text="Local Time" class="text-sm text-gray-600 text-center" />
+                <Label text="{{ selectedTimezoneName }}" class="text-sm text-gray-600 text-center" />
                 <Label text="{{ currentLocalTime }}" class="text-lg font-bold header-text text-center" />
+                <Label text="{{ currentLocalDay }}" class="text-sm font-bold text-center" />
                 <Label text="{{ currentLocalDate }}" class="text-sm text-gray-600 text-center" />
             </StackLayout>
 
-            <!-- Live & Search -->
+            <!-- Live, DRM & Search -->
             <StackLayout col="2" class="card p-2 rounded-lg mx-1">
-                <GridLayout rows="auto, auto">
+                <GridLayout rows="auto, auto, auto">
                     <!-- Live Toggle -->
-                    <StackLayout row="0">
-                        <Label text="🔴 Live" class="text-sm text-center" />
-                        <Switch checked="{{ showLiveOnly }}" class="scale-75" horizontalAlignment="center" />
-                    </StackLayout>
+                    <GridLayout row="0" columns="auto, auto" class="mb-2" tap="{{ toggleLive }}">
+                        <Label col="0" text="🔴" class="text-lg text-center" />
+                        <Label col="1" text="Live" class="text-sm ml-1 text-center font-bold" verticalAlignment="center" color="{{ showLiveOnly ? '#FF0000' : '#D3D3D3' }}" />
+                    </GridLayout>
+                    <!-- DRM Icon and Label -->
+                    <GridLayout row="1" columns="auto, auto" class="mb-2" tap="{{ toggleDRM }}">
+                        <Label col="0" text="📻" class="text-lg text-center" />
+                        <Label col="1" text="DRM" class="text-sm ml-1 text-center font-bold" verticalAlignment="center" color="{{ isDRMActive ? '#0000FF' : '#D3D3D3' }}" />
+                    </GridLayout>
                     <!-- Search Icon and Label -->
-                    <GridLayout row="1" columns="auto, auto" class="mt-2" tap="{{ toggleSearch }}">
+                    <GridLayout row="2" columns="auto, auto" tap="{{ toggleSearch }}">
                         <Label col="0" text="🔍" class="text-lg text-center" />
                         <Label col="1" text="Search" class="text-sm ml-1 text-center" verticalAlignment="center" />
                     </GridLayout>
@@ -62,7 +69,7 @@
                     <!-- Table Header -->
                     <GridLayout row="0" columns="auto, auto, *, auto" class="bg-[#4A90E2] p-2">
                         <Label col="0" text="FREQ" class="text-white font-bold p-2" tap="{{ onSortByFrequency }}" />
-                        <Label col="1" text="TIME" class="text-white font-bold p-2 ml-2" tap="{{ onSortByTime }}" />
+                        <Label col="1" text="TIME/DAYS" class="text-white font-bold p-2 ml-2" tap="{{ onSortByTime }}" />
                         <Label col="2" text="      STATION" class="text-white font-bold p-2 ml-2" tap="{{ onSortByStation }}" />
                         <Label col="3" text="LANG" class="text-white font-bold p-2 ml-2" tap="{{ onSortByLanguage }}" />
                     </GridLayout>
@@ -72,7 +79,44 @@
                         <ListView.itemTemplate>
                             <GridLayout columns="auto, auto, *, auto" class="card border-b border-[#4A90E2]">
                                 <Label col="0" text="{{ frequency }}" class="header-text font-bold p-2" />
-                                <Label col="1" text="{{ time }}" class="p-2 ml-2" />
+                                <StackLayout col="1" class="p-2 ml-2">
+                                    <Label text="{{ time }}" class="text-sm" />
+                                    <Label text="{{ broadcastDaysShort }}" class="text-xs text-gray-600" />
+                                </StackLayout>
+                                <Label col="2" text="{{ stationName }}" class="p-2 ml-2" textWrap="true" />
+                                <Label col="3" text="{{ language }}" class="p-2 ml-2" />
+                            </GridLayout>
+                        </ListView.itemTemplate>
+                    </ListView>
+                </GridLayout>
+            </TabViewItem>
+
+            <!-- Upcoming Tab -->
+            <TabViewItem title="Upcoming">
+                <GridLayout rows="auto, auto, *">
+                    <!-- Next Hour Info -->
+                    <StackLayout row="0" class="card p-3 mx-4 mt-2 rounded-lg">
+                        <Label text="{{ nextHourInfo }}" class="text-center text-lg font-bold header-text" />
+                        <Label text="{{ upcomingCount }}" class="text-center text-sm text-gray-600" />
+                    </StackLayout>
+
+                    <!-- Table Header -->
+                    <GridLayout row="1" columns="auto, auto, *, auto" class="bg-[#4A90E2] p-2 mt-2">
+                        <Label col="0" text="FREQ" class="text-white font-bold p-2" tap="{{ onSortUpcomingByFrequency }}" />
+                        <Label col="1" text="TIME/DAYS" class="text-white font-bold p-2 ml-2" tap="{{ onSortUpcomingByTime }}" />
+                        <Label col="2" text="      STATION" class="text-white font-bold p-2 ml-2" tap="{{ onSortUpcomingByStation }}" />
+                        <Label col="3" text="LANG" class="text-white font-bold p-2 ml-2" tap="{{ onSortUpcomingByLanguage }}" />
+                    </GridLayout>
+
+                    <!-- Table Content -->
+                    <ListView row="2" items="{{ upcomingSchedules }}" itemTap="{{ onUpcomingItemTap }}" height="100%">
+                        <ListView.itemTemplate>
+                            <GridLayout columns="auto, auto, *, auto" class="card border-b border-[#4A90E2]">
+                                <Label col="0" text="{{ frequency }}" class="header-text font-bold p-2" />
+                                <StackLayout col="1" class="p-2 ml-2">
+                                    <Label text="{{ time }}" class="text-sm" />
+                                    <Label text="{{ broadcastDaysShort }}" class="text-xs text-gray-600" />
+                                </StackLayout>
                                 <Label col="2" text="{{ stationName }}" class="p-2 ml-2" textWrap="true" />
                                 <Label col="3" text="{{ language }}" class="p-2 ml-2" />
                             </GridLayout>
@@ -105,46 +149,120 @@
                             </GridLayout>
                         </StackLayout>
 
+                        <!-- Power Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Power Filter" class="text-lg font-bold mb-2 header-text" />
+                            
+                            <!-- Toggle Switch for Power Filter -->
+                            <GridLayout columns="*, auto" class="mb-3">
+                                <Label col="0" text="Show only stations above 25 kW" class="text-lg" verticalAlignment="center" />
+                                <Switch col="1" checked="{{ enablePowerFilter }}" class="scale-100" />
+                            </GridLayout>
+                            
+                            <Label text="Filter to show only high-power stations (above 25 kW) for better reception" 
+                                   class="text-sm text-gray-600 leading-none" 
+                                   textWrap="true" />
+                        </StackLayout>
+
+                        <!-- Distance Filter -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Distance Filter" class="text-lg font-bold mb-2 header-text" />
+                            
+                            <!-- Toggle Switch for Distance Filter -->
+                            <GridLayout columns="*, auto" class="mb-3">
+                                <Label col="0" text="Enable Distance Filter" class="text-lg" verticalAlignment="center" />
+                                <Switch col="1" checked="{{ enableDistanceFilter }}" class="scale-100" />
+                            </GridLayout>
+                            
+                            <!-- Distance Input - only visible when toggle is enabled -->
+                            <StackLayout visibility="{{ enableDistanceFilter ? 'visible' : 'collapsed' }}">
+                                <Label text="Maximum Distance (km)" class="text-md font-semibold mb-2" />
+                                <TextField text="{{ maxDistance }}" 
+                                          hint="5000" 
+                                          keyboardType="number" 
+                                          class="text-center p-2 bg-gray-50 rounded border border-[#4A90E2] mb-2" />
+                                <Label text="Filter stations within this distance from your location" 
+                                       class="text-sm text-gray-600 leading-none" 
+                                       textWrap="true" />
+                                <Label text="Note: Set your location in Settings to use this filter" 
+                                       class="text-sm text-yellow-600 leading-none mt-1" 
+                                       textWrap="true" 
+                                       visibility="{{ hasUserLocation ? 'collapsed' : 'visible' }}" />
+                            </StackLayout>
+                            
+                            <!-- Info when toggle is disabled -->
+                            <StackLayout visibility="{{ enableDistanceFilter ? 'collapsed' : 'visible' }}">
+                                <Label text="Enable the toggle above to filter stations by distance from your location" 
+                                       class="text-sm text-gray-500 leading-none" 
+                                       textWrap="true" />
+                            </StackLayout>
+                        </StackLayout>
+
+                        <!-- Map Settings -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Display Settings" class="text-lg font-bold mb-4 header-text" />
+                            
+                            <!-- Show Map Toggle -->
+                            <GridLayout columns="*, auto" class="mb-4">
+                                <Label col="0" text="Show Map in Details" class="text-lg" verticalAlignment="center" />
+                                <Switch col="1" checked="{{ showMap }}" class="scale-100" />
+                            </GridLayout>
+                            
+                            <Label text="Enable or disable the map display in station details page. If enabled, it slows the app a bit." 
+                                   class="text-sm text-gray-600 leading-none" 
+                                   textWrap="true" />
+                        </StackLayout>
+
                         <!-- Language Filter -->
                         <StackLayout class="card rounded-lg p-4 mb-4">
                             <Label text="Languages" class="text-lg font-bold mb-2 header-text" />
-                            <ScrollView height="150" class="bg-gray-50 rounded border border-[#4A90E2]">
-                                <StackLayout class="p-2">
-                                    <Repeater items="{{ availableLanguages }}">
-                                        <Repeater.itemTemplate>
-                                            <GridLayout columns="auto, *" class="p-1">
-                                                <CheckBox:CheckBox col="0" 
-                                                    checked="{{ isSelected }}" 
-                                                    text="{{ name }}"
-                                                    fillColor="#4A90E2"
-                                                    boxType="square"
-                                                    checkedChange="{{ $parents['MainViewModel'].onLanguageCheckedChange }}" />
-                                            </GridLayout>
-                                        </Repeater.itemTemplate>
-                                    </Repeater>
-                                </StackLayout>
-                            </ScrollView>
+                            
+                            <!-- Quick Language Selection -->
+                            <Label text="Quick Select:" class="text-sm text-gray-600 mb-2" />
+                            <GridLayout columns="*, *, *, *" class="mb-4">
+                                <Button col="0" text="English" 
+                                        tap="{{ selectEnglish }}"
+                                        class="text-xs p-2 rounded mr-1"
+                                        style="background-color: #4CAF50; color: white;" />
+                                <Button col="1" text="Urdu" 
+                                        tap="{{ selectUrdu }}"
+                                        class="text-xs p-2 rounded mx-1"
+                                        style="background-color: #2196F3; color: white;" />
+                                <Button col="2" text="Tamil" 
+                                        tap="{{ selectTamil }}"
+                                        class="text-xs p-2 rounded mx-1"
+                                        style="background-color: #FF9800; color: white;" />
+                                <Button col="3" text="Hindi" 
+                                        tap="{{ selectHindi }}"
+                                        class="text-xs p-2 rounded ml-1"
+                                        style="background-color: #9C27B0; color: white;" />
+                            </GridLayout>
+                            
+                            <GridLayout columns="*, auto" class="mb-2">
+                                <Label col="0" text="{{ selectedLanguagesText }}" class="text-sm text-gray-600" textWrap="true" />
+                                <Button col="1" text="Select" 
+                                        tap="{{ showLanguageSelector }}"
+                                        class="secondary-button p-2 rounded text-sm" />
+                            </GridLayout>
+                            <Button text="Clear Languages" 
+                                    tap="{{ clearLanguages }}"
+                                    class="primary-button p-2 rounded text-sm mt-2"
+                                    visibility="{{ hasSelectedLanguages ? 'visible' : 'collapsed' }}" />
                         </StackLayout>
 
                         <!-- ITU Filter -->
                         <StackLayout class="card rounded-lg p-4 mb-4">
                             <Label text="ITU Codes" class="text-lg font-bold mb-2 header-text" />
-                            <ScrollView height="150" class="bg-gray-50 rounded border border-[#4A90E2]">
-                                <StackLayout class="p-2">
-                                    <Repeater items="{{ availableITUs }}">
-                                        <Repeater.itemTemplate>
-                                            <GridLayout columns="auto, *" class="p-1">
-                                                <CheckBox:CheckBox col="0" 
-                                                    checked="{{ isSelected }}" 
-                                                    text="{{ name }}"
-                                                    fillColor="#4A90E2"
-                                                    boxType="square"
-                                                    checkedChange="{{ $parents['MainViewModel'].onITUCheckedChange }}" />
-                                            </GridLayout>
-                                        </Repeater.itemTemplate>
-                                    </Repeater>
-                                </StackLayout>
-                            </ScrollView>
+                            <GridLayout columns="*, auto" class="mb-2">
+                                <Label col="0" text="{{ selectedITUsText }}" class="text-sm text-gray-600" textWrap="true" />
+                                <Button col="1" text="Select" 
+                                        tap="{{ showITUSelector }}"
+                                        class="secondary-button p-2 rounded text-sm" />
+                            </GridLayout>
+                            <Button text="Clear ITU Codes" 
+                                    tap="{{ clearITUs }}"
+                                    class="primary-button p-2 rounded text-sm mt-2"
+                                    visibility="{{ hasSelectedITUs ? 'visible' : 'collapsed' }}" />
                         </StackLayout>
 
                         <!-- Apply Button -->
@@ -159,9 +277,98 @@
             <TabViewItem title="Settings">
                 <ScrollView>
                     <StackLayout class="p-4">
+                        <!-- Current Location Settings -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Current Location" class="text-lg font-bold mb-4 header-text" />
+                            
+                            <!-- Location Display -->
+                            <GridLayout rows="auto, auto, auto" columns="auto, *" class="mb-4">
+                                <Label row="0" col="0" text="Coordinates:" class="text-sm text-gray-600" />
+                                <Label row="0" col="1" text="{{ currentLocationCoords }}" class="text-sm ml-2 font-mono" />
+                                
+                                <Label row="1" col="0" text="Status:" class="text-sm text-gray-600" />
+                                <Label row="1" col="1" text="{{ locationStatus }}" class="text-sm ml-2" />
+                                
+                                <Label row="2" col="0" text="Last Updated:" class="text-sm text-gray-600" />
+                                <Label row="2" col="1" text="{{ locationLastUpdated }}" class="text-sm ml-2" />
+                            </GridLayout>
+
+                            <!-- Location Buttons -->
+                            <GridLayout columns="*, *" class="mb-4">
+                                <Button col="0" text="{{ isGettingLocation ? 'Getting...' : 'Get Location' }}"
+                                        tap="{{ getCurrentLocation }}"
+                                        isEnabled="{{ !isGettingLocation }}"
+                                        class="secondary-button p-3 rounded mr-2" />
+                                
+                                <Button col="1" text="Clear Location"
+                                        tap="{{ clearCurrentLocation }}"
+                                        class="primary-button p-3 rounded ml-2" />
+                            </GridLayout>
+
+                            <!-- Location Map -->
+                            <WebView height="250" 
+                                     loaded="{{ onLocationMapLoaded }}" 
+                                     class="mb-4 rounded-lg border border-[#4A90E2]" 
+                                     visibility="{{ hasCurrentLocation ? 'visible' : 'collapsed' }}" />
+                            
+                            <Label text="Your current location will be displayed in the same coordinate format used by radio stations in this app." 
+                                   class="text-sm text-gray-600 leading-none" 
+                                   textWrap="true" />
+                        </StackLayout>
+
+                        <!-- Timezone Settings -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Time Zone Settings" class="text-lg font-bold mb-4 header-text" />
+                            
+                            <!-- Timezone Selection -->
+                            <GridLayout columns="*, auto" class="mb-4">
+                                <Label col="0" text="Select Time Zone" class="text-lg" verticalAlignment="center" />
+                                <Button col="1" text="{{ selectedTimezone }}" 
+                                        tap="{{ showTimezoneSelector }}"
+                                        class="secondary-button p-2 rounded text-sm" />
+                            </GridLayout>
+                            
+                            <Label text="Choose your local timezone to display accurate local time alongside UTC time." 
+                                   class="text-sm text-gray-600 leading-none mb-4" 
+                                   textWrap="true" />
+                        </StackLayout>
+
+                        <!-- Database Version -->
+                        <StackLayout class="card rounded-lg p-4 mb-4">
+                            <Label text="Database Version" class="text-lg font-bold mb-2 header-text" />
+                            
+                            <!-- Version Info -->
+                            <GridLayout rows="auto, auto" columns="auto, *" class="mb-4">
+                                <Label row="0" col="0" text="Current Version:" class="text-sm text-gray-600" />
+                                <Label row="0" col="1" text="{{ currentVersion }}" class="text-sm ml-2" />
+                                
+                                <Label row="1" col="0" text="Online Version:" class="text-sm text-gray-600" />
+                                <Label row="1" col="1" text="{{ onlineVersion }}" class="text-sm ml-2" />
+                            </GridLayout>
+
+                            <!-- Check Version Button -->
+                            <Button text="{{ isChecking ? 'Checking...' : 'Check for Updates' }}"
+                                    tap="{{ checkVersion }}"
+                                    isEnabled="{{ !isChecking }}"
+                                    class="secondary-button p-3 rounded mb-2" />
+
+                            <!-- Sync Button -->
+                            <Button text="{{ isSyncing ? 'Syncing...' : 'Sync Database' }}"
+                                    tap="{{ syncDatabase }}"
+                                    isEnabled="{{ !isSyncing &amp;&amp; onlineVersion !== currentVersion }}"
+                                    class="primary-button p-3 rounded" />
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+            </TabViewItem>
+
+            <!-- About Tab -->
+            <TabViewItem title="About">
+                <ScrollView>
+                    <StackLayout class="p-4">
                         <StackLayout class="card rounded-lg p-4 mb-4">
                             <Image src="~/assets/app_01.png" width="120" height="120" class="mb-4" horizontalAlignment="center" />
-                            <Label text="SW Radio Schedule 1.0" color="#4A90E2" class="text-xl text-center font-bold mb-2" />
+                            <Label text="SW Radio Schedule 2.0" color="#4A90E2" class="text-xl text-center font-bold mb-2" />
                             <Label textWrap="true" text="AOKI Shortwave Radio Schedule Viewer" color="#333333" class="text-center" />
                             <Label text="Rate App" class="text-xl external-link text-center font-bold" tap="{{ openPlayStore }}" />	
                             <Image src="~/assets/app_11.png" width="200" class="mb-4" horizontalAlignment="center" />
@@ -196,31 +403,6 @@
                             <Label text="......................................................................" class="text-center" />
                             <Image src="~/assets/app_10.jpg" width="500" class="rounded-full mb-4" horizontalAlignment="center" doubleTap="{{ onGithubImageTap }}" />
                             <Label text="Source Code is available in my GitHub repository. The app is OpenSource and licensed under Apache-2.0 license." textWrap="true" class="text-center mt-2" color="#333333" horizontalAlignment="center" />
-                        </StackLayout>
-
-                        <StackLayout class="card rounded-lg p-4 mb-4">
-                            <Label text="Database Version" class="text-lg font-bold mb-2 header-text" />
-                            
-                            <!-- Version Info -->
-                            <GridLayout rows="auto, auto" columns="auto, *" class="mb-4">
-                                <Label row="0" col="0" text="Current Version:" class="text-sm text-gray-600" />
-                                <Label row="0" col="1" text="{{ currentVersion }}" class="text-sm ml-2" />
-                                
-                                <Label row="1" col="0" text="Online Version:" class="text-sm text-gray-600" />
-                                <Label row="1" col="1" text="{{ onlineVersion }}" class="text-sm ml-2" />
-                            </GridLayout>
-
-                            <!-- Check Version Button -->
-                            <Button text="{{ isChecking ? 'Checking...' : 'Check for Updates' }}"
-                                    tap="{{ checkVersion }}"
-                                    isEnabled="{{ !isChecking }}"
-                                    class="secondary-button p-3 rounded mb-2" />
-
-                            <!-- Sync Button -->
-                            <Button text="{{ isSyncing ? 'Syncing...' : 'Sync Database' }}"
-                                    tap="{{ syncDatabase }}"
-                                    isEnabled="{{ !isSyncing &amp;&amp; onlineVersion !== currentVersion }}"
-                                    class="primary-button p-3 rounded" />
                         </StackLayout>
                     </StackLayout>
                 </ScrollView>

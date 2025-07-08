@@ -1,4 +1,7 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page-content">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      navigatingTo="navigatingTo" 
+      navigatingFrom="navigatingFrom"
+      class="page-content">
     <ActionBar class="text-center">
         <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onBackButtonTap" />
         <GridLayout columns="auto, *, auto">
@@ -18,19 +21,15 @@
                 </StackLayout>
             </StackLayout>
 
-            <!-- Details Section -->
-            <StackLayout class="card p-4 rounded-lg">
+            <!-- Station Details Section -->
+            <StackLayout class="card p-4 rounded-lg mb-4">
+                <Label text="Station Information" class="text-lg font-bold mb-4 header-text" />
+                
                 <Label text="Language" class="text-sm text-gray-600" />
                 <Label text="{{ language }}" class="text-lg mb-4 text-[#0000FF]" />
                 
                 <Label text="Location" class="text-sm text-gray-600" />
                 <Label text="{{ txLocation }}" class="text-lg mb-4 text-[#000000]" />
-                
-                <Label text="Coordinates" class="text-sm text-gray-600" />
-                <Label text="{{ coordinates }}" class="text-lg mb-2 text-[#000000]" />
-                
-                <!-- Map View -->
-                <WebView height="300" loaded="{{ onMapLoaded }}" class="mb-4 rounded-lg" />
                 
                 <Label text="Power" class="text-sm text-gray-600" />
                 <Label text="{{ power + ' kW' }}" class="text-lg mb-4 text-[#000000]" />
@@ -43,6 +42,73 @@
                 
                 <Label text="Broadcasting Days" class="text-sm text-gray-600" />
                 <Label text="{{ broadcastDays }}" class="text-lg text-[#000000]" />
+            </StackLayout>
+
+            <!-- Coordinates Section -->
+            <StackLayout class="card p-4 rounded-lg mb-4">
+                <Label text="Coordinates" class="text-lg font-bold mb-4 header-text" />
+                <Label text="Station Coordinates" class="text-sm text-gray-600" />
+                <Label text="{{ coordinates }}" class="text-lg text-[#000000] font-mono" />
+            </StackLayout>
+
+            <!-- Distance Section -->
+            <StackLayout class="card p-4 rounded-lg mb-4" visibility="{{ hasUserLocation ? 'visible' : 'collapsed' }}">
+                <GridLayout columns="auto, *" class="mb-2">
+                    <Label col="0" text="📍" class="text-2xl mr-2" />
+                    <StackLayout col="1">
+                        <Label text="Distance from Your Location" class="text-sm text-gray-600" />
+                        <Label text="{{ distance }}" class="text-xl font-bold text-[#FF6B35]" />
+                    </StackLayout>
+                </GridLayout>
+            </StackLayout>
+
+            <!-- Transmission Direction Section -->
+            <StackLayout class="card p-4 rounded-lg mb-4">
+                <Label text="Transmission Direction" class="text-lg font-bold mb-4 header-text" />
+                
+                <!-- Direction Indicator Container -->
+                <GridLayout columns="auto, *" class="mb-4">
+                    <!-- Direction Visual Using Uploaded Image -->
+                    <StackLayout col="0" class="direction-container mr-4">
+                        <!-- Non-Directional Symbol (visible when azimuth is ND) -->
+                        <Image src="~/assets/non_directional.png" 
+                               class="direction-image" 
+                               visibility="{{ isNonDirectional ? 'visible' : 'collapsed' }}" />
+                        
+                        <!-- Directional Image (visible when azimuth is numeric) -->
+                        <Image src="~/assets/zero_degree.png" 
+                               class="direction-image" 
+                               visibility="{{ isNonDirectional ? 'collapsed' : 'visible' }}" 
+                               rotate="{{ azimuthValue }}" />
+                    </StackLayout>
+                    
+                    <!-- Direction Info -->
+                    <StackLayout col="1">
+                        <Label text="Azimuth Direction" class="text-sm text-gray-600" />
+                        <Label text="{{ azimuthDisplay }}" class="leading-none text-xl font-bold text-[#4A90E2]" />
+                        <Label text="{{ directionDescription }}" class="leading-none text-sm text-gray-600 mt-2" textWrap="true" />
+                    </StackLayout>
+                </GridLayout>
+            </StackLayout>
+
+            <!-- Location Not Set Notice -->
+            <StackLayout class="card p-4 rounded-lg mb-4 bg-yellow-50 border border-yellow-200" visibility="{{ hasUserLocation ? 'collapsed' : 'visible' }}">
+                <GridLayout columns="auto, *" class="mb-2">
+                    <Label col="0" text="⚠️" class="text-xl mr-2" />
+                    <StackLayout col="1">
+                        <Label text="Distance Calculation" class="text-sm text-gray-600" />
+                        <Label text="Set your location in Settings to see distance" class="text-sm text-yellow-700" textWrap="true" />
+                    </StackLayout>
+                </GridLayout>
+            </StackLayout>
+
+            <!-- Wide Area Map Section - conditionally visible -->
+            <StackLayout class="card p-4 rounded-lg mb-4" visibility="{{ showMap ? 'visible' : 'collapsed' }}">
+                <Label text="Location Map" class="text-lg font-bold header-text mb-4" />
+                
+                <WebView height="400" 
+                         loaded="{{ onMapLoaded }}" 
+                         class="rounded-lg border border-[#4A90E2]" />
             </StackLayout>
         </StackLayout>
     </ScrollView>

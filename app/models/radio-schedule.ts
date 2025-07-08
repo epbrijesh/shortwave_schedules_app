@@ -10,11 +10,27 @@ export interface RadioSchedule {
   power: string;
   azimuth: string;
   remarks: string;
+  broadcastDaysShort?: string; // Add computed property for short days display
 }
 
 export const daysToString = (days: string): string => {
-  const dayMap = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  const dayMap = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   return days.split('').map((day, index) => day !== '.' ? dayMap[index] : '').filter(d => d).join(', ');
+};
+
+export const daysToShortString = (days: string): string => {
+  if (days === '1234567') {
+    return 'All Days';
+  }
+  
+  const dayMap = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+  const activeDays = days.split('').map((day, index) => day !== '.' ? dayMap[index] : '').filter(d => d);
+  
+  if (activeDays.length === 0) {
+    return 'No Days';
+  }
+  
+  return activeDays.join('');
 };
 
 export const parseCoordinates = (coordinates: string): { lat: number; lon: number } | null => {

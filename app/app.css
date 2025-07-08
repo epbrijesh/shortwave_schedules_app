@@ -33,3 +33,27 @@ ActionBar {
     background-color: #4A90E2;
     color: #FFFFFF;
 }
+
+/* Simple Direction Indicator using uploaded image */
+.direction-container {
+    position: relative;
+    background-color: #F8F9FA;
+    border: 2px solid #4A90E2;
+    border-radius: 50%;
+    margin: 10;
+    width: 120;
+    height: 120;
+}
+
+.direction-image {
+    width: 100;
+    height: 100;
+    margin: 10;
+    transform-origin: center;
+}
+
+.non-directional-symbol {
+    vertical-align: center;
+    horizontal-align: center;
+    margin-top: 35;
+}
