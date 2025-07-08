@@ -5,7 +5,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Time Signal",
    language: "A1B",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Otakadoyama Tamura C",
    coordinates: "372221N1405056E",
    power: "50",
@@ -18,7 +18,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Time Signal",
    language: "A1B",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Haganeyama",
    coordinates: "332756N1301032E",
    power: "50",
@@ -171,7 +171,7 @@ export const radioSchedules = [
  {
    frequency: 225,
    time: "0440-0450",
-   days: "0.234567",
+   days: ".234567",
    stationName: "Polskie Radio 1",
    language: "Belarussian",
    itu: "POL",
@@ -223,7 +223,7 @@ export const radioSchedules = [
  {
    frequency: 225,
    time: "1020-1030",
-   days: "0.234567",
+   days: ".234567",
    stationName: "Polskie Radio 1",
    language: "Belarussian",
    itu: "POL",
@@ -330,7 +330,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Imari",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga-Imari",
    coordinates: "331709N1295033E",
    power: "0.1",
@@ -343,7 +343,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Morioka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Morioka",
    coordinates: "393745N1410806E",
    power: "10",
@@ -356,7 +356,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nago",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Nago",
    coordinates: "263959N1280037E",
    power: "1",
@@ -369,7 +369,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Niihama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Niihama",
    coordinates: "335835N1331846E",
    power: "0.5",
@@ -408,7 +408,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ishigaku",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Ishigaki",
    coordinates: "242150N1240928E",
    power: "5",
@@ -421,7 +421,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kitakyushu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Kitakyushu",
    coordinates: "335602N1304819E",
    power: "1",
@@ -434,7 +434,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Matsumoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Matsumoto",
    coordinates: "361328N1375636E",
    power: "1",
@@ -447,7 +447,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyazaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki",
    coordinates: "315710N1312624E",
    power: "5",
@@ -460,7 +460,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nanao",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Nanao",
    coordinates: "370214N1365934E",
    power: "1",
@@ -473,7 +473,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yamagata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata",
    coordinates: "381645N1401934E",
    power: "5",
@@ -538,7 +538,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Naha",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Naha",
    coordinates: "261043N1274215E",
    power: "10",
@@ -556,7 +556,7 @@ export const radioSchedules = [
    coordinates: "464826N0321311E",
    power: "400",
    azimuth: "",
-   remarks: "UR 1 Feb.1,2021-"
+   remarks: "UR 1"
  },
  {
    frequency: 558,
@@ -590,7 +590,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Kansai (CRK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kobe",
    coordinates: "343255N1345959E",
    power: "20",
@@ -603,7 +603,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sapporo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sapporo",
    coordinates: "430522N1413527E",
    power: "100",
@@ -642,7 +642,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hamamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu",
    coordinates: "344027N1374551E",
    power: "1",
@@ -655,7 +655,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kagoshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "314335N1304407E",
    power: "10",
@@ -668,7 +668,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ofunato",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Ofunato",
    coordinates: "390529N1414253E",
    power: "0.5",
@@ -746,7 +746,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Iwakuni",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwakuni",
    coordinates: "340941N1321401E",
    power: "0.3",
@@ -759,7 +759,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Koza",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Koza",
    coordinates: "333056N1354951E",
    power: "0.1",
@@ -772,7 +772,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kushiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kushiro",
    coordinates: "425923N1442447E",
    power: "10",
@@ -785,7 +785,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Maizuru",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Maizuru",
    coordinates: "352832N1352326E",
    power: "0.5",
@@ -837,7 +837,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tokyo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saitama-Kuki",
    coordinates: "360415N1393729E",
    power: "300",
@@ -894,7 +894,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 603,
@@ -907,7 +907,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 603,
@@ -920,7 +920,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 603,
@@ -933,7 +933,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 603,
@@ -954,7 +954,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Obihiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Obihiro",
    coordinates: "425853N1431158E",
    power: "5",
@@ -967,7 +967,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Okayama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama",
    coordinates: "343644N1335354E",
    power: "5",
@@ -1045,7 +1045,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukuoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka",
    coordinates: "333158N1302645E",
    power: "100",
@@ -1094,7 +1094,7 @@ export const radioSchedules = [
  {
    frequency: 612,
    time: "1545-1615",
-   days: "0.234567",
+   days: ".234567",
    stationName: "TWR Asia",
    language: "Russian",
    itu: "KGZ",
@@ -1162,7 +1162,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Asahikawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Asahikawa",
    coordinates: "434547N1422452E",
    power: "3",
@@ -1175,7 +1175,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Iida",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Iida",
    coordinates: "352952N1375056E",
    power: "1",
@@ -1188,7 +1188,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nobeoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Nobeoka",
    coordinates: "323423N1314116E",
    power: "1",
@@ -1448,7 +1448,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Oita",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita",
    coordinates: "331453N1313430E",
    power: "5",
@@ -1461,7 +1461,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Shizuoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka",
    coordinates: "345701N1382505E",
    power: "10",
@@ -1487,7 +1487,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hakodate",
    coordinates: "414950N1404445E",
    power: "5",
@@ -1552,7 +1552,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "AFN Okinawa",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa",
    coordinates: "261612N1274226E",
    power: "10",
@@ -1565,7 +1565,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Toyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyama",
    coordinates: "364324N1371401E",
    power: "5",
@@ -1643,7 +1643,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Osaka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Osaka",
    coordinates: "343302N1353401E",
    power: "100",
@@ -1669,7 +1669,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hakodate",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hakodate",
    coordinates: "414843N1404518E",
    power: "5",
@@ -1682,7 +1682,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yamaguchi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Hofu",
    coordinates: "340150N1313038E",
    power: "5",
@@ -1713,7 +1713,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1726,7 +1726,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1739,7 +1739,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1752,7 +1752,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1765,7 +1765,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1778,7 +1778,7 @@ export const radioSchedules = [
    coordinates: "185333N1083920E",
    power: "600",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 684,
@@ -1825,7 +1825,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwaizumi",
    coordinates: "395043N1414633E",
    power: "0.1",
@@ -1838,7 +1838,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kuji",
    coordinates: "401236N1414412E",
    power: "0.1",
@@ -1851,7 +1851,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Morioka",
    coordinates: "393643N1410739E",
    power: "5",
@@ -1864,7 +1864,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ofunato",
    coordinates: "390229N1414420E",
    power: "1",
@@ -1877,7 +1877,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nagasaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki",
    coordinates: "324314N1295302E",
    power: "5",
@@ -1955,7 +1955,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tokyo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saitama-Kuki",
    coordinates: "360415N1393729E",
    power: "300",
@@ -2033,7 +2033,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hiroshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima",
    coordinates: "342609N1322812E",
    power: "10",
@@ -2046,7 +2046,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kitami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitami",
    coordinates: "435722N1441322E",
    power: "10",
@@ -2057,7 +2057,7 @@ export const radioSchedules = [
    frequency: 702,
    time: "1700-0500",
    days: "1234567",
-   stationName: "SRo 3 R�dio Devin",
+   stationName: "SRo 3 Radio Devin",
    language: "Slovak",
    itu: "SVK",
    txLocation: "Cizatice",
@@ -2176,7 +2176,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Kumano",
    coordinates: "335225N1360455E",
    power: "0.1",
@@ -2189,7 +2189,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takayama",
    coordinates: "360923N1371522E",
    power: "0.1",
@@ -2202,7 +2202,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kamioka",
    coordinates: "361930N1371756E",
    power: "0.1",
@@ -2215,7 +2215,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitakyushu",
    coordinates: "335624N1304805E",
    power: "1",
@@ -2332,7 +2332,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nagoya",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagoya",
    coordinates: "350226N1364655E",
    power: "50",
@@ -2384,7 +2384,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kita Nihon Hoso (KNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "ToyamaTakaoka",
    coordinates: "364658N1370225E",
    power: "1",
@@ -2397,7 +2397,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kita Nihon Hoso (KNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyama",
    coordinates: "364314N1371452E",
    power: "5",
@@ -2449,7 +2449,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Ryukyu Hoso (RBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Naha-Kakazu",
    coordinates: "261110N1274205E",
    power: "10",
@@ -2514,7 +2514,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Sapporo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sapporo",
    coordinates: "430534N1413622E",
    power: "500",
@@ -2605,7 +2605,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kumamoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto",
    coordinates: "325024N1304338E",
    power: "10",
@@ -2709,7 +2709,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shunan",
    coordinates: "340204N1314237E",
    power: "5",
@@ -2722,7 +2722,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi",
    coordinates: "340750N1312634E",
    power: "0.3",
@@ -2735,7 +2735,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Susa Tamagawa",
    coordinates: "343749N1313722E",
    power: "0.3",
@@ -2748,7 +2748,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamanashi Hoso (YBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fujiyoshida",
    coordinates: "352945N1384839E",
    power: "1",
@@ -2761,7 +2761,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamanashi Hoso (YBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ootsuki Uenohara",
    coordinates: "353741N1390220E",
    power: "1",
@@ -2774,7 +2774,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamanashi Hoso (YBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kofu",
    coordinates: "354051N1383030E",
    power: "5",
@@ -2800,7 +2800,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Akita",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita",
    coordinates: "395702N1395610E",
    power: "500",
@@ -2891,7 +2891,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Enbetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Enbetsu",
    coordinates: "444251N1414739E",
    power: "1",
@@ -2904,7 +2904,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Esashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Esashi",
    coordinates: "415144N1400841E",
    power: "0.3",
@@ -2917,7 +2917,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Imabari",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Imabari",
    coordinates: "340258N1330025E",
    power: "0.1",
@@ -2930,7 +2930,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Iwaizumi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Iwaizumi",
    coordinates: "395043N1414633E",
    power: "0.1",
@@ -2943,7 +2943,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Naze",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Naze",
    coordinates: "282409N1292929E",
    power: "1",
@@ -2956,7 +2956,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ozu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Ozu",
    coordinates: "333119N1323329E",
    power: "0.1",
@@ -2969,7 +2969,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Takada",
    coordinates: "370636N1381707E",
    power: "1",
@@ -2982,7 +2982,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takayama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takayama",
    coordinates: "360805N1371442E",
    power: "1",
@@ -2995,7 +2995,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Toujou",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Toujou",
    coordinates: "345413N1331604E",
    power: "0.1",
@@ -3047,7 +3047,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Akita Hoso (ABS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Kazuno",
    coordinates: "401132N1404850E",
    power: "0.1",
@@ -3060,7 +3060,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Owase",
    coordinates: "340352N1361148E",
    power: "0.1",
@@ -3073,7 +3073,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Engaru",
    coordinates: "440308N1432941E",
    power: "0.1",
@@ -3086,7 +3086,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "431941N1453625E",
    power: "0.1",
@@ -3099,7 +3099,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tomakomai",
    coordinates: "423944N1413620E",
    power: "0.1",
@@ -3112,7 +3112,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitami",
    coordinates: "434907N1435215E",
    power: "0.1",
@@ -3177,7 +3177,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Fukushima (RFC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Haramachi",
    coordinates: "373934N1405734E",
    power: "0.1",
@@ -3190,7 +3190,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tohoku Hoso (TBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Kesennuma",
    coordinates: "385351N1413330E",
    power: "0.1",
@@ -3203,7 +3203,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Ena",
    coordinates: "352827N1372536E",
    power: "0.1",
@@ -3216,7 +3216,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "AFN Tokyo",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo",
    coordinates: "354635N1393650E",
    power: "50",
@@ -3274,32 +3274,6 @@ export const radioSchedules = [
    power: "200",
    azimuth: "",
    remarks: "PBS"
- },
- {
-   frequency: 810,
-   time: "0100-2010",
-   days: "1234567",
-   stationName: "Pravasi Bharathi",
-   language: "Malayalam",
-   itu: "UAE",
-   txLocation: "Maqta",
-   coordinates: "241931N0543557E",
-   power: "200",
-   azimuth: "",
-   remarks: "IIM AM"
- },
- {
-   frequency: 810,
-   time: "2010-0100",
-   days: "1234567",
-   stationName: "Pravasi Bharathi (DRM)",
-   language: "Malayalam(Digital)",
-   itu: "UAE",
-   txLocation: "Maqta",
-   coordinates: "241931N0543557E",
-   power: "50",
-   azimuth: "",
-   remarks: "IIM DRM"
  },
  {
    frequency: 810,
@@ -3385,7 +3359,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nagano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano",
    coordinates: "364019N1381525E",
    power: "5",
@@ -3437,7 +3411,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Osaka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Osaka-Habikino",
    coordinates: "343316N1353408E",
    power: "300",
@@ -3476,7 +3450,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nayoro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nayoro",
    coordinates: "442216N1422728E",
    power: "1",
@@ -3489,7 +3463,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Niigata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata",
    coordinates: "375042N1385503E",
    power: "10",
@@ -3502,7 +3476,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 GujoHachiman",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-GujoHachiman",
    coordinates: "354439N1365639E",
    power: "0.1",
@@ -3515,7 +3489,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hirosaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Hirosaki",
    coordinates: "403710N1402710E",
    power: "0.5",
@@ -3528,7 +3502,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hitoyoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hitoyoshi",
    coordinates: "321259N1304705E",
    power: "1",
@@ -3541,7 +3515,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ishimi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Ishimi",
    coordinates: "345316N1322548E",
    power: "0.1",
@@ -3554,7 +3528,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kamaishi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Kamaishi",
    coordinates: "391632N1415242E",
    power: "0.1",
@@ -3567,7 +3541,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Koriyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Koriyama",
    coordinates: "372128N1402121E",
    power: "5",
@@ -3580,7 +3554,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Noheji",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Noheji",
    coordinates: "405429N1411117E",
    power: "0.1",
@@ -3593,7 +3567,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Uwajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Uwajima",
    coordinates: "331248N1323326E",
    power: "1",
@@ -3684,7 +3658,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Fukui Hoso (FBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui",
    coordinates: "360710N1361712E",
    power: "5",
@@ -3697,7 +3671,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Asahikawa",
    coordinates: "434625N1422621E",
    power: "3",
@@ -3710,7 +3684,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Enbetsu",
    coordinates: "444358N1414725E",
    power: "1",
@@ -3723,7 +3697,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Muroran",
    coordinates: "421850N1405855E",
    power: "3",
@@ -3736,7 +3710,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Okinawa (ROK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Naha-Nanjo",
    coordinates: "261052N1274528E",
    power: "10",
@@ -3762,7 +3736,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shinetsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Matsumoto",
    coordinates: "361406N1375647E",
    power: "1",
@@ -3775,7 +3749,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tochigi Hoso (CRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tochigi-Nasu",
    coordinates: "365326N1395747E",
    power: "1",
@@ -3788,7 +3762,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aichi-Toyohashi",
    coordinates: "344509N1372354E",
    power: "0.1",
@@ -3853,7 +3827,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kumamoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto",
    coordinates: "325427N1305034E",
    power: "500",
@@ -3931,7 +3905,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shizuoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka",
    coordinates: "345701N1382505E",
    power: "10",
@@ -3957,7 +3931,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kushiro",
    coordinates: "430020N1442613E",
    power: "3",
@@ -3970,7 +3944,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Esashi",
    coordinates: "415416N1400834E",
    power: "1",
@@ -3983,7 +3957,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitahiyama",
    coordinates: "422554N1442638E",
    power: "0.1",
@@ -4214,7 +4188,7 @@ export const radioSchedules = [
  {
    frequency: 882,
    time: "1500-1515",
-   days: ".....6.",
+   days: "4",
    stationName: "TWR Asia",
    language: "Hindi",
    itu: "CLN",
@@ -4222,7 +4196,7 @@ export const radioSchedules = [
    coordinates: "075836N0794808E",
    power: "350",
    azimuth: "",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 882,
@@ -4239,8 +4213,8 @@ export const radioSchedules = [
  },
  {
    frequency: 882,
-   time: "1500-1530",
-   days: "....5..",
+   time: "1515-1530",
+   days: "5",
    stationName: "TWR Asia",
    language: "Hindi",
    itu: "CLN",
@@ -4248,7 +4222,7 @@ export const radioSchedules = [
    coordinates: "075836N0794808E",
    power: "350",
    azimuth: "",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 882,
@@ -4321,7 +4295,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sendai",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sendai",
    coordinates: "381623N1405436E",
    power: "20",
@@ -4347,7 +4321,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hakodate",
    coordinates: "415052N1404034E",
    power: "5",
@@ -4360,7 +4334,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kouchi Hoso (RKC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi",
    coordinates: "333442N1333600E",
    power: "5",
@@ -4386,7 +4360,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Yonago",
    coordinates: "352626N1331751E",
    power: "5",
@@ -4438,7 +4412,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nagoya",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagoya",
    coordinates: "350226N1364655E",
    power: "10",
@@ -4477,7 +4451,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Engaru",
    coordinates: "440308N1432941E",
    power: "0.1",
@@ -4490,7 +4464,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Abashiri",
    coordinates: "435952N1441418E",
    power: "5",
@@ -4555,7 +4529,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata",
    coordinates: "381436N1401717E",
    power: "5",
@@ -4568,7 +4542,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sakata",
    coordinates: "385608N1395009E",
    power: "0.5",
@@ -4581,7 +4555,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oguni",
    coordinates: "380441N1394353E",
    power: "0.1",
@@ -4594,7 +4568,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shinjo",
    coordinates: "384547N1401919E",
    power: "1",
@@ -4607,7 +4581,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tsuruoka",
    coordinates: "384524N1394719E",
    power: "1",
@@ -4620,7 +4594,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamagata Hoso (YBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yonezawa",
    coordinates: "375603N1400511E",
    power: "1",
@@ -4633,7 +4607,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimonoseki",
    coordinates: "335802N1305612E",
    power: "1",
@@ -4646,7 +4620,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwakuni",
    coordinates: "340840N1321225E",
    power: "1",
@@ -4685,7 +4659,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukui",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui",
    coordinates: "360227N1361401E",
    power: "5",
@@ -4698,7 +4672,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Isahaya",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Isahaya",
    coordinates: "325020N1300246E",
    power: "0.1",
@@ -4711,7 +4685,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kofu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamanashi-Kofu",
    coordinates: "353932N1383207E",
    power: "5",
@@ -4724,7 +4698,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama-Tsuyama",
    coordinates: "350330N1340025E",
    power: "1",
@@ -4737,7 +4711,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Wakkanai",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Wakkanai",
    coordinates: "452230N1414242E",
    power: "1",
@@ -4763,7 +4737,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Akita Hoso (ABS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita",
    coordinates: "394148N1400556E",
    power: "5",
@@ -4789,7 +4763,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kobayashi",
    coordinates: "320015N1305711E",
    power: "1",
@@ -4802,7 +4776,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kushima",
    coordinates: "312648N1311332E",
    power: "0.1",
@@ -4815,7 +4789,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyakonojo",
    coordinates: "314544N1310528E",
    power: "0.1",
@@ -4828,7 +4802,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki",
    coordinates: "315539N1312758E",
    power: "5",
@@ -4841,7 +4815,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nichinan",
    coordinates: "313705N1312023E",
    power: "1",
@@ -4854,7 +4828,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nobeoka",
    coordinates: "323311N1314048E",
    power: "1",
@@ -4867,7 +4841,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Miyazaki Hoso (MRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takachiho",
    coordinates: "324153N1311853E",
    power: "1",
@@ -4919,7 +4893,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukue",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Fukue",
    coordinates: "324131N1284853E",
    power: "1",
@@ -4932,7 +4906,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hikone",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shiga-Hikone",
    coordinates: "311442N1361118E",
    power: "1",
@@ -4945,7 +4919,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Muroran",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Muroran",
    coordinates: "421855N1405857E",
    power: "3",
@@ -4958,7 +4932,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tokushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima",
    coordinates: "340400N1343439E",
    power: "5",
@@ -5023,7 +4997,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "TBS Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo",
    coordinates: "354819N1393930E",
    power: "100",
@@ -5062,7 +5036,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Aomori",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori",
    coordinates: "404738N1404527E",
    power: "5",
@@ -5075,7 +5049,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hagi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Hagi",
    coordinates: "342531N1312433E",
    power: "1",
@@ -5088,7 +5062,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Matsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Matsuyama",
    coordinates: "334924N1324408E",
    power: "5",
@@ -5101,7 +5075,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Saga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga",
    coordinates: "331507N1301557E",
    power: "1",
@@ -5114,7 +5088,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yonago",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Yonago",
    coordinates: "352648N1331851E",
    power: "1",
@@ -5439,7 +5413,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kashiwazaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Kashiwazaki",
    coordinates: "372118N1383206E",
    power: "0.1",
@@ -5452,7 +5426,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kisofukushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Kisofukushima",
    coordinates: "355048N1374146E",
    power: "1",
@@ -5465,7 +5439,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nakatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Nakatsu",
    coordinates: "333522N1311304E",
    power: "0.1",
@@ -5478,7 +5452,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sasebo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Sasebo",
    coordinates: "330742N1294159E",
    power: "1",
@@ -5491,7 +5465,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shizugawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Shizugawa",
    coordinates: "384111N1412825E",
    power: "0.1",
@@ -5556,7 +5530,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kochi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi",
    coordinates: "333347N1333524E",
    power: "10",
@@ -5582,7 +5556,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hachinohe",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Hachinohe",
    coordinates: "402745N1412811E",
    power: "1",
@@ -5595,7 +5569,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Itoigawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Itoigawa",
    coordinates: "370155N1375029E",
    power: "0.1",
@@ -5608,7 +5582,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Komagane",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Komagane",
    coordinates: "354324N1375632E",
    power: "0.1",
@@ -5621,7 +5595,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyazu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Miyazu",
    coordinates: "353220N1351226E",
    power: "0.1",
@@ -5634,7 +5608,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nakamura",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Nakamura",
    coordinates: "325931N1325458E",
    power: "1",
@@ -5647,7 +5621,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Onomichi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Onomichi",
    coordinates: "342331N1331027E",
    power: "1",
@@ -5660,7 +5634,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tsuwano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Tsuwano",
    coordinates: "342721N1314559E",
    power: "0.1",
@@ -5699,7 +5673,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "ABC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto",
    coordinates: "345857N1354714E",
    power: "0.3",
@@ -5712,7 +5686,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "ABC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Osaka",
    coordinates: "343059N1352604E",
    power: "50",
@@ -5816,7 +5790,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukuoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka",
    coordinates: "333158N1302645E",
    power: "50",
@@ -5829,7 +5803,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Akune",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Akune",
    coordinates: "320126N1301210E",
    power: "0.1",
@@ -5842,7 +5816,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Engaru",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Engaru",
    coordinates: "440249N1433059E",
    power: "0.1",
@@ -5855,7 +5829,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fuchu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fuchu",
    coordinates: "343344N1331346E",
    power: "0.1",
@@ -5868,7 +5842,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukuchiyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Fukuchiyama",
    coordinates: "351757N1350700E",
    power: "0.1",
@@ -5881,7 +5855,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Futatsui",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Futatsui",
    coordinates: "401205N1401644E",
    power: "0.1",
@@ -5894,7 +5868,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Gotemba",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka-Gotemba",
    coordinates: "351845N1385334E",
    power: "0.1",
@@ -5907,7 +5881,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hakuba",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Hakuba",
    coordinates: "364223N1375157E",
    power: "0.1",
@@ -5920,7 +5894,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hamada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Hamada",
    coordinates: "345404N1320431E",
    power: "0.1",
@@ -5933,7 +5907,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Haramachi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Haramachi",
    coordinates: "373656N1405557E",
    power: "0.1",
@@ -5946,7 +5920,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hita",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Hita",
    coordinates: "331822N1305546E",
    power: "0.1",
@@ -5959,7 +5933,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Honjo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Honjo",
    coordinates: "392208N1400333E",
    power: "0.1",
@@ -5972,7 +5946,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kobayashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Myazaki-Kobayashi",
    coordinates: "320009N1305731E",
    power: "0.1",
@@ -5985,7 +5959,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Komoro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Komoro",
    coordinates: "361937N1382602E",
    power: "0.1",
@@ -5998,7 +5972,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kurayoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Kurayoshi",
    coordinates: "352531N1334809E",
    power: "0.1",
@@ -6011,7 +5985,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kure",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Kure",
    coordinates: "341444N1323522E",
    power: "0.1",
@@ -6024,7 +5998,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Kushima",
    coordinates: "312827N1311352E",
    power: "0.1",
@@ -6037,7 +6011,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Minamiaso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto-Minamiaso",
    coordinates: "324856N1310556E",
    power: "0.1",
@@ -6050,7 +6024,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyako",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Miyako",
    coordinates: "393805N1415732E",
    power: "0.1",
@@ -6063,7 +6037,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nakatonbetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nakatonbetsu",
    coordinates: "445823N1421757E",
    power: "0.1",
@@ -6076,7 +6050,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Otoyo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Otoyo",
    coordinates: "334501N1334115E",
    power: "0.1",
@@ -6089,7 +6063,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Setouchi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Setouchi",
    coordinates: "281005N1291857E",
    power: "0.1",
@@ -6102,7 +6076,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shimonoseki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguti-Shimonoseki",
    coordinates: "335753N1305602E",
    power: "0.1",
@@ -6115,7 +6089,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shingu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Shingu",
    coordinates: "334307N1360000E",
    power: "0.1",
@@ -6128,7 +6102,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shinshiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aichi-Shinshiro",
    coordinates: "345410N1373104E",
    power: "0.1",
@@ -6141,7 +6115,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sukumo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Sukumo",
    coordinates: "325550N1324228E",
    power: "0.1",
@@ -6154,7 +6128,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Susami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Susami",
    coordinates: "333312N1353000E",
    power: "0.1",
@@ -6167,7 +6141,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takko",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Takko",
    coordinates: "402041N1410949E",
    power: "0.1",
@@ -6180,7 +6154,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tsuruga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui-Tsuruga",
    coordinates: "353628N1360320E",
    power: "0.1",
@@ -6193,7 +6167,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Wakasa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Wakasa",
    coordinates: "352010N1342408E",
    power: "0.1",
@@ -6206,7 +6180,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yamanaka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Yamanaka",
    coordinates: "361521N1362209E",
    power: "0.1",
@@ -6219,7 +6193,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yonezawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Yonezawa",
    coordinates: "375427N1400616E",
    power: "0.1",
@@ -6232,7 +6206,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Koide",
    coordinates: "371631N1385847E",
    power: "0.1",
@@ -6271,7 +6245,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Miyoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Miyoshi",
    coordinates: "344747N1325115E",
    power: "0.1",
@@ -6284,7 +6258,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Niihama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Niihama",
    coordinates: "335835N1331846E",
    power: "0.1",
@@ -6297,7 +6271,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Taisho",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Taisho",
    coordinates: "331142N1325823E",
    power: "0.1",
@@ -6310,7 +6284,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Takamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Takamatsu",
    coordinates: "341855N1340345E",
    power: "1",
@@ -6323,7 +6297,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Toyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyama",
    coordinates: "364324N1371401E",
    power: "1",
@@ -6336,7 +6310,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tsuruoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Tsuruoka",
    coordinates: "384410N1395134E",
    power: "1",
@@ -6349,7 +6323,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yawatahama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Yawatahama",
    coordinates: "332735N1322540E",
    power: "0.1",
@@ -6583,7 +6557,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagoya",
    coordinates: "350239N1364327E",
    power: "50",
@@ -6674,7 +6648,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Noheji",
    coordinates: "405157N1410651E",
    power: "0.1",
@@ -6687,7 +6661,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Gero",
    coordinates: "354912N1371359E",
    power: "0.1",
@@ -6700,7 +6674,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Kamioka",
    coordinates: "362039N1371855E",
    power: "0.1",
@@ -6726,7 +6700,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kamaishi",
    coordinates: "391621N1415350E",
    power: "1",
@@ -6739,7 +6713,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Tanohata",
    coordinates: "395543N1415522E",
    power: "0.3",
@@ -6752,7 +6726,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Hirado",
    coordinates: "332330N1293255E",
    power: "0.1",
@@ -6765,7 +6739,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kashiwazaki",
    coordinates: "372252N1383334E",
    power: "0.1",
@@ -6778,7 +6752,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagaoka",
    coordinates: "372529N1385014E",
    power: "0.1",
@@ -6791,7 +6765,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokamachi",
    coordinates: "370823N1384429E",
    power: "0.1",
@@ -6804,7 +6778,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "RKB Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Omuta",
    coordinates: "330200N1302600E",
    power: "0.1",
@@ -6817,7 +6791,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "RKB Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Yukuhashi",
    coordinates: "334420N1310043E",
    power: "0.1",
@@ -6830,7 +6804,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shinetsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Ueda",
    coordinates: "362322N1381626E",
    power: "0.1",
@@ -6843,7 +6817,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nemuro",
    coordinates: "431842N1453344E",
    power: "0.1",
@@ -6856,7 +6830,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tochigi Hoso (CRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tochigi-Ashikaga",
    coordinates: "361806N1392937E",
    power: "0.1",
@@ -6869,7 +6843,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Owase",
    coordinates: "340352N1361148E",
    power: "0.1",
@@ -6999,7 +6973,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hiroshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima",
    coordinates: "342609N1322812E",
    power: "20",
@@ -7012,7 +6986,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Obihiro",
    coordinates: "425721N1431146E",
    power: "5",
@@ -7103,7 +7077,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Sendai",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sendai",
    coordinates: "381623N1405436E",
    power: "10",
@@ -7155,7 +7129,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Kitahiyama",
    coordinates: "422543N1395557E",
    power: "0.1",
@@ -7168,7 +7142,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sasebo",
    coordinates: "330902N1294420E",
    power: "1",
@@ -7181,7 +7155,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Kitsuki",
    coordinates: "332446N1314023E",
    power: "5",
@@ -7194,7 +7168,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yufuin",
    coordinates: "331540N1311956E",
    power: "0.1",
@@ -7216,7 +7190,7 @@ export const radioSchedules = [
  },
  {
    frequency: 1098,
-   time: "1300-1700",
+   time: "0700-0800",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -7233,7 +7207,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Fukushima (RFC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koriyama",
    coordinates: "372314N1402138E",
    power: "5",
@@ -7259,7 +7233,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shin'etsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ina",
    coordinates: "355027N1375854E",
    power: "0.1",
@@ -7272,7 +7246,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shin'etsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano",
    coordinates: "363757N1381444E",
    power: "5",
@@ -7285,7 +7259,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shin'etsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iida",
    coordinates: "353006N1374856E",
    power: "1",
@@ -7350,7 +7324,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokuriku Hoso (MRO)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Kanazawa",
    coordinates: "363219N1363652E",
    power: "5",
@@ -7363,7 +7337,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokuriku Hoso (MRO)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Nanao",
    coordinates: "370159N1365715E",
    power: "1",
@@ -7376,7 +7350,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokuriku Hoso (MRO)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Wajima",
    coordinates: "372348N1365319E",
    power: "0.1",
@@ -7389,7 +7363,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Minami Nihon Hoso (MBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akune",
    coordinates: "320343N1301229E",
    power: "1",
@@ -7402,7 +7376,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Minami Nihon Hoso (MBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "314312N1304323E",
    power: "20",
@@ -7415,7 +7389,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Minami Nihon Hoso (MBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Satsumasendai",
    coordinates: "314839N1301726E",
    power: "1",
@@ -7428,7 +7402,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Minami Nihon Hoso (MBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okuti",
    coordinates: "320148N1303621E",
    power: "1",
@@ -7480,7 +7454,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Uwajima",
    coordinates: "331227N1323350E",
    power: "1",
@@ -7493,7 +7467,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mishomidoro",
    coordinates: "325719N1323159E",
    power: "0.1",
@@ -7506,7 +7480,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Matsuyama",
    coordinates: "334751N1324629E",
    power: "5",
@@ -7519,7 +7493,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niihama",
    coordinates: "335857N1331845E",
    power: "1",
@@ -7532,7 +7506,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ozu",
    coordinates: "333225N1323339E",
    power: "0.1",
@@ -7545,7 +7519,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nankai Hoso (RNB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yawatahama",
    coordinates: "332707N1322611E",
    power: "0.1",
@@ -7558,7 +7532,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NBC Radio Saga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga-Imari",
    coordinates: "331709N1295033E",
    power: "0.1",
@@ -7571,7 +7545,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata",
    coordinates: "375331N1390540E",
    power: "5",
@@ -7584,7 +7558,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hagi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Hagi",
    coordinates: "342531N1312433E",
    power: "1",
@@ -7597,7 +7571,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Muroran",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Muroran",
    coordinates: "421855N1405857E",
    power: "1",
@@ -7610,7 +7584,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Naha",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Naha",
    coordinates: "261042N1274215E",
    power: "10",
@@ -7623,7 +7597,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nayoro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nayoro",
    coordinates: "442216N1422728E",
    power: "1",
@@ -7636,7 +7610,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Niimi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama-Niimi",
    coordinates: "345820N1332755E",
    power: "0.1",
@@ -7649,7 +7623,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Obihiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Obihiro",
    coordinates: "425853N1431158E",
    power: "1",
@@ -7662,7 +7636,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Takayama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Takayama",
    coordinates: "360805N1371442E",
    power: "1",
@@ -7675,7 +7649,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tottori",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori",
    coordinates: "353043N1341210E",
    power: "1",
@@ -7688,7 +7662,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Bunka Hoso(NCB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo",
    coordinates: "354932N1394518E",
    power: "100",
@@ -7740,7 +7714,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBS Kyoto (KBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto",
    coordinates: "345250N1354425E",
    power: "20",
@@ -7896,7 +7870,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kochi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi",
    coordinates: "333347N1333524E",
    power: "10",
@@ -7909,7 +7883,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kushiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kushiro",
    coordinates: "425923N1442447E",
    power: "10",
@@ -7922,7 +7896,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama-Tsuyama",
    coordinates: "350330N1340025E",
    power: "0.1",
@@ -7974,7 +7948,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Aizuwakamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Aizuwakamatsu",
    coordinates: "372937N1395620E",
    power: "0.1",
@@ -7987,7 +7961,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Atami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka-Atami",
    coordinates: "350514N1390433E",
    power: "0.1",
@@ -8000,7 +7974,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fukuyama",
    coordinates: "342959N1332100E",
    power: "0.1",
@@ -8013,7 +7987,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Futaba",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Futaba",
    coordinates: "372110N1410126E",
    power: "0.1",
@@ -8026,7 +8000,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ikeda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Ikeda",
    coordinates: "340144N1334742E",
    power: "0.1",
@@ -8039,7 +8013,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Imagane",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Imagane",
    coordinates: "422527N1395750E",
    power: "0.1",
@@ -8052,7 +8026,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kesennuma",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Kesennuma",
    coordinates: "385343N1413345E",
    power: "0.1",
@@ -8065,7 +8039,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Matsumae",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Matsumae",
    coordinates: "412537N1400516E",
    power: "0.1",
@@ -8078,7 +8052,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyakonojo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Miyakonojo",
    coordinates: "314544N1310528E",
    power: "0.1",
@@ -8091,7 +8065,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nakatsugawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nakatsugawa",
    coordinates: "352838N1372917E",
    power: "0.1",
@@ -8104,7 +8078,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Naruko",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Naruko",
    coordinates: "384520N1404332E",
    power: "0.1",
@@ -8117,7 +8091,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Obama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui-Obama",
    coordinates: "353000N1354509E",
    power: "0.1",
@@ -8130,7 +8104,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Odate",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Odate",
    coordinates: "401545N1403337E",
    power: "0.1",
@@ -8143,7 +8117,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Owase",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Owase",
    coordinates: "340414N1361137E",
    power: "0.1",
@@ -8156,7 +8130,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Rumoi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Rumoi",
    coordinates: "435601N1413826E",
    power: "0.1",
@@ -8169,7 +8143,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Saeki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Saeki",
    coordinates: "325810N1315439E",
    power: "0.1",
@@ -8182,7 +8156,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shiratori",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Shiratori",
    coordinates: "355112N1365223E",
    power: "0.1",
@@ -8195,7 +8169,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shobara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Shobara",
    coordinates: "345137N1330126E",
    power: "0.1",
@@ -8208,7 +8182,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tanabe",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Tanabe",
    coordinates: "334449N1352335E",
    power: "0.1",
@@ -8221,7 +8195,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Towada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Towada",
    coordinates: "403626N1411400E",
    power: "0.1",
@@ -8234,7 +8208,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Toyohashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyohashi",
    coordinates: "344543N1372152E",
    power: "0.1",
@@ -8247,7 +8221,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Toyooka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hyogo-Toyooka",
    coordinates: "353156N1344939E",
    power: "0.1",
@@ -8260,7 +8234,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tsunan",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Tsunan",
    coordinates: "370312N1384102E",
    power: "0.1",
@@ -8273,7 +8247,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ueno",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Ueno",
    coordinates: "344522N1360800E",
    power: "0.1",
@@ -8286,7 +8260,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yusuhara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Yusuhara",
    coordinates: "332340N1325528E",
    power: "0.1",
@@ -8559,7 +8533,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Mainichi Hoso (MBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto",
    coordinates: "345857N1354714E",
    power: "0.3",
@@ -8572,7 +8546,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Mainichi Hoso (MBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Osaka",
    coordinates: "343106N1352637E",
    power: "50",
@@ -8767,7 +8741,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kitami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitami",
    coordinates: "435722N1441352E",
    power: "10",
@@ -8819,7 +8793,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hagiwara",
    coordinates: "354948N1371353E",
    power: "0.1",
@@ -8832,7 +8806,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Ibaragi Hoso (IBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mito",
    coordinates: "362604N1402624E",
    power: "5",
@@ -8845,7 +8819,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kouchi Hoso (RKC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nakamura",
    coordinates: "325900N1325519E",
    power: "3",
@@ -8858,7 +8832,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aso",
    coordinates: "325615N1310314E",
    power: "1",
@@ -8871,7 +8845,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kawaura",
    coordinates: "321806N1300422E",
    power: "0.1",
@@ -8884,7 +8858,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto-Goshi",
    coordinates: "325502N1304336E",
    power: "10",
@@ -8897,7 +8871,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Goshonoura",
    coordinates: "322024N1301838E",
    power: "1",
@@ -8910,7 +8884,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Arao",
    coordinates: "325827N1302555E",
    power: "0.1",
@@ -8923,7 +8897,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oguni",
    coordinates: "330633N1310342E",
    power: "0.1",
@@ -8936,7 +8910,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hitoyoshi",
    coordinates: "321214N1304733E",
    power: "1",
@@ -8949,7 +8923,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Soyo Minami",
    coordinates: "324128N1310716E",
    power: "0.1",
@@ -8962,7 +8936,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Soyo Kita",
    coordinates: "324606N1311125E",
    power: "0.1",
@@ -8975,7 +8949,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kumamoto Hoso (RKK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Minamiaso",
    coordinates: "324909N1310554E",
    power: "0.1",
@@ -8988,7 +8962,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "RKB Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitakyushu",
    coordinates: "335626N1304828E",
    power: "1",
@@ -9001,7 +8975,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shinetsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Suwa",
    coordinates: "360328N1380401E",
    power: "0.1",
@@ -9014,7 +8988,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Asahikawa",
    coordinates: "434626N1422632E",
    power: "3",
@@ -9027,7 +9001,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Enbetsu",
    coordinates: "444358N1414725E",
    power: "1",
@@ -9040,7 +9014,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakkanai",
    coordinates: "452405N1414013E",
    power: "1",
@@ -9053,7 +9027,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nayoro",
    coordinates: "442137N1422523E",
    power: "1",
@@ -9066,7 +9040,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Rumoi",
    coordinates: "435523N1413758E",
    power: "0.1",
@@ -9105,7 +9079,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Hirosaki",
    coordinates: "403642N1402905E",
    power: "0.5",
@@ -9118,7 +9092,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBS Kyoto (KBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shiga-Hikone",
    coordinates: "311442N1361118E",
    power: "1",
@@ -9131,7 +9105,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBS Kyoto (KBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Maizuru",
    coordinates: "353208N1352030E",
    power: "2",
@@ -9144,7 +9118,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tohoku Hoso (TBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Shizugawa",
    coordinates: "384111N1412825E",
    power: "0.1",
@@ -9157,7 +9131,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kanazawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Nonoichi",
    coordinates: "363205N1363624E",
    power: "10",
@@ -9170,7 +9144,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sera",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Sera",
    coordinates: "343605N1330344E",
    power: "0.1",
@@ -9183,7 +9157,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tanohata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Tanohata",
    coordinates: "395543N1415522E",
    power: "0.1",
@@ -9222,7 +9196,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori",
    coordinates: "404729N1403850E",
    power: "5",
@@ -9261,7 +9235,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki",
    coordinates: "324315N1295322E",
    power: "5",
@@ -9274,7 +9248,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Shimabara",
    coordinates: "324634N1302137E",
    power: "0.1",
@@ -9287,7 +9261,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Isahaya",
    coordinates: "325020N1300246E",
    power: "0.1",
@@ -9300,7 +9274,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Osaka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hyogo-SinOnsenmachi",
    coordinates: "353530N1342919E",
    power: "0.5",
@@ -9326,7 +9300,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Tanabeshiraham",
    coordinates: "334211N1352347E",
    power: "0.1",
@@ -9339,7 +9313,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Hikigawa Susam",
    coordinates: "333330N1352737E",
    power: "0.3",
@@ -9365,7 +9339,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nippon Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo",
    coordinates: "352348N1395916E",
    power: "100",
@@ -9396,7 +9370,7 @@ export const radioSchedules = [
    coordinates: "100711N1053357E",
    power: "500",
    azimuth: "",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 1242,
@@ -9409,7 +9383,7 @@ export const radioSchedules = [
    coordinates: "100711N1053357E",
    power: "500",
    azimuth: "",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 1242,
@@ -9422,7 +9396,7 @@ export const radioSchedules = [
    coordinates: "100711N1053357E",
    power: "500",
    azimuth: "",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 1242,
@@ -9435,7 +9409,7 @@ export const radioSchedules = [
    coordinates: "100711N1053357E",
    power: "500",
    azimuth: "",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 1251,
@@ -9664,7 +9638,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tohoku Hoso (TBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyagi-Sendai",
    coordinates: "381405N1405800E",
    power: "20",
@@ -9729,7 +9703,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Esashi",
    coordinates: "415437N1400840E",
    power: "1",
@@ -9742,7 +9716,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Obihiro",
    coordinates: "425201N1431801E",
    power: "5",
@@ -9755,7 +9729,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Saeki",
    coordinates: "325810N1315439E",
    power: "1",
@@ -9768,7 +9742,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shikoku Hoso (JRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Ikeda",
    coordinates: "340113N1334726E",
    power: "1",
@@ -9781,7 +9755,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shikoku Hoso (JRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima",
    coordinates: "340609N1343550E",
    power: "5",
@@ -9794,7 +9768,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shikoku Hoso (JRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Hiwasa",
    coordinates: "334344N1343215E",
    power: "0.1",
@@ -9807,7 +9781,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shikoku Hoso (JRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Mugi",
    coordinates: "333810N1342525E",
    power: "0.1",
@@ -9846,7 +9820,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "RKB Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka",
    coordinates: "334112N1302543E",
    power: "50",
@@ -9872,7 +9846,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sapporo",
    coordinates: "430805N1413154E",
    power: "50",
@@ -9911,7 +9885,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Matsue",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Matsue",
    coordinates: "352242N1324444E",
    power: "10",
@@ -9976,7 +9950,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Osaka (OBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto",
    coordinates: "345857N1354714E",
    power: "0.3",
@@ -9989,7 +9963,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Osaka (OBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Osaka",
    coordinates: "343307N1353142E",
    power: "50",
@@ -10033,7 +10007,7 @@ export const radioSchedules = [
    coordinates: "464319N1311240E",
    power: "200",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10046,7 +10020,7 @@ export const radioSchedules = [
    coordinates: "430727N1263125E",
    power: "600",
    azimuth: "ND",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10059,7 +10033,7 @@ export const radioSchedules = [
    coordinates: "464319N1311240E",
    power: "200",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10072,7 +10046,7 @@ export const radioSchedules = [
    coordinates: "464319N1311240E",
    power: "200",
    azimuth: "",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10085,7 +10059,7 @@ export const radioSchedules = [
    coordinates: "440926N0865335E",
    power: "500",
    azimuth: "235",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10098,7 +10072,7 @@ export const radioSchedules = [
    coordinates: "430727N1263125E",
    power: "600",
    azimuth: "ND",
-   remarks: "CRI b24"
+   remarks: "CRI a25"
  },
  {
    frequency: 1323,
@@ -10132,7 +10106,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Chizu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Chizu",
    coordinates: "351540N1341311E",
    power: "0.1",
@@ -10145,7 +10119,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima",
    coordinates: "374630N1402920E",
    power: "1",
@@ -10158,7 +10132,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Gotsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Gotsu",
    coordinates: "350056N1321255E",
    power: "0.1",
@@ -10171,7 +10145,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kuze",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama-Kuze",
    coordinates: "350515N1334442E",
    power: "0.1",
@@ -10184,7 +10158,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Muikamachi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Muikamachi",
    coordinates: "370627N1385245E",
    power: "0.1",
@@ -10197,7 +10171,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Mutsukaichi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Mutsukaichi",
    coordinates: "342051N1315512E",
    power: "0.1",
@@ -10210,7 +10184,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nomura",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Nomura",
    coordinates: "332316N1323914E",
    power: "0.1",
@@ -10223,7 +10197,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Susaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kochi-Susaki",
    coordinates: "332312N1331853E",
    power: "0.1",
@@ -10236,7 +10210,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takeda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Takeda",
    coordinates: "325735N1312223E",
    power: "0.1",
@@ -10249,7 +10223,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yamada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Yamada",
    coordinates: "392452N1415923E",
    power: "1",
@@ -10327,7 +10301,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aichi-Shinshiro",
    coordinates: "345353N1373011E",
    power: "0.1",
@@ -10340,7 +10314,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagoya",
    coordinates: "351027N1364719E",
    power: "50",
@@ -10418,7 +10392,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hagiwara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Hagiwara",
    coordinates: "354926N1371358E",
    power: "0.1",
@@ -10431,7 +10405,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hanawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Hanawa",
    coordinates: "401255N1404737E",
    power: "0.1",
@@ -10444,7 +10418,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hirado",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Hirado",
    coordinates: "332330N1293255E",
    power: "0.1",
@@ -10457,7 +10431,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ina",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Ina",
    coordinates: "355013N1375654E",
    power: "0.1",
@@ -10470,7 +10444,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Iwaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Iwaki",
    coordinates: "370333N1405252E",
    power: "1",
@@ -10483,7 +10457,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Johen",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Johen",
    coordinates: "325752N1323446E",
    power: "0.1",
@@ -10496,7 +10470,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kamioka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Kamioka",
    coordinates: "361930N1371756E",
    power: "0.1",
@@ -10509,7 +10483,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kubokawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koti-Kubokawa",
    coordinates: "331221N1330745E",
    power: "0.1",
@@ -10522,7 +10496,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kuji",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Kuji",
    coordinates: "401049N1414709E",
    power: "0.1",
@@ -10535,7 +10509,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kusu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Kusu",
    coordinates: "331636N1311015E",
    power: "0.1",
@@ -10548,7 +10522,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Masuda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Masuda",
    coordinates: "344110N1315026E",
    power: "0.1",
@@ -10561,7 +10535,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Minamata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto-Minamata",
    coordinates: "321245N1302253E",
    power: "0.1",
@@ -10574,7 +10548,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nakashibetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nakashibetsu",
    coordinates: "433239N1445827E",
    power: "0.1",
@@ -10587,7 +10561,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nichinan",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Nichinan",
    coordinates: "313618N1312226E",
    power: "0.1",
@@ -10600,7 +10574,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Niimi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama-Niimi",
    coordinates: "345820N1332755E",
    power: "0.1",
@@ -10613,7 +10587,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sakuma",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka-Sakuma",
    coordinates: "350456N1374757E",
    power: "0.1",
@@ -10626,7 +10600,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Sameura",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koti-Sameura",
    coordinates: "334457N1333338E",
    power: "0.1",
@@ -10639,7 +10613,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shinjo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Shinjo",
    coordinates: "384648N1401841E",
    power: "0.1",
@@ -10652,7 +10626,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Tajima",
    coordinates: "371222N1394616E",
    power: "0.1",
@@ -10665,7 +10639,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tokamachi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Tokamachi",
    coordinates: "370831N1384444E",
    power: "0.1",
@@ -10678,7 +10652,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tokunoshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Tokunoshima",
    coordinates: "274513N1290058E",
    power: "0.1",
@@ -10691,7 +10665,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tono",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Tono",
    coordinates: "392024N1413234E",
    power: "0.1",
@@ -10704,7 +10678,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Ueda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Ueda",
    coordinates: "362407N1381602E",
    power: "0.1",
@@ -10717,7 +10691,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Urakawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaodo-Urakawa",
    coordinates: "421022N1424620E",
    power: "0.1",
@@ -10730,7 +10704,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yokote",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Yokote",
    coordinates: "391840N1403328E",
    power: "0.1",
@@ -10743,7 +10717,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima",
    coordinates: "341537N1322321E",
    power: "20",
@@ -10782,7 +10756,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Esashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Esashi",
    coordinates: "415144N1400841E",
    power: "0.1",
@@ -10795,7 +10769,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukuchiyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Fukuchiyama",
    coordinates: "351757N1350700E",
    power: "0.1",
@@ -10808,7 +10782,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hamada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Hamada",
    coordinates: "345404N1320431E",
    power: "0.1",
@@ -10821,7 +10795,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ikeda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Ikeda",
    coordinates: "340145N1334743E",
    power: "0.1",
@@ -10834,7 +10808,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Katsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui-Katsuyama",
    coordinates: "360134N1363130E",
    power: "0.1",
@@ -10847,7 +10821,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kurayoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Kurayoshi",
    coordinates: "352531N1334809E",
    power: "0.1",
@@ -10860,7 +10834,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Miyako",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Miyako",
    coordinates: "393805N1415732E",
    power: "0.1",
@@ -10873,7 +10847,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Miyakonojo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Miyakonojo",
    coordinates: "314544N1310528E",
    power: "0.1",
@@ -10886,7 +10860,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nakatonbetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nakatonbetsu",
    coordinates: "445823N1421755E",
    power: "0.1",
@@ -10899,7 +10873,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nakatsugawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Nakatsugawa",
    coordinates: "352837N1372916E",
    power: "0.1",
@@ -10912,7 +10886,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nemuro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nemuro",
    coordinates: "432007N1453546E",
    power: "0.1",
@@ -10925,7 +10899,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Obama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui-Obama",
    coordinates: "353000N1354508E",
    power: "0.1",
@@ -10938,7 +10912,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Odate",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Odate",
    coordinates: "401545N1403338E",
    power: "0.1",
@@ -10951,7 +10925,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ofunato",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Ofunato",
    coordinates: "390529N1414253E",
    power: "0.1",
@@ -10964,7 +10938,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Okaya Suwa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Okaya Suwa",
    coordinates: "360331N1380345E",
    power: "0.1",
@@ -10977,7 +10951,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Rumoi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Rumoi",
    coordinates: "435602N1413825E",
    power: "0.1",
@@ -10990,7 +10964,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Shimonoseki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Shimonoseki",
    coordinates: "335753N1305602E",
    power: "0.1",
@@ -11003,7 +10977,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Shingu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Shingu",
    coordinates: "334307N1360000E",
    power: "0.1",
@@ -11016,7 +10990,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Shobara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Shobara",
    coordinates: "345137N1330126E",
    power: "0.1",
@@ -11029,7 +11003,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tadami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Tadami",
    coordinates: "371818N1392124E",
    power: "0.1",
@@ -11042,7 +11016,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Takachiho",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Takachiho",
    coordinates: "323423N1314116E",
    power: "0.1",
@@ -11055,7 +11029,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Takada",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Takada",
    coordinates: "370636N1381707E",
    power: "0.1",
@@ -11068,7 +11042,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Toyohashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aichi-Toyohashi",
    coordinates: "344543N1372152E",
    power: "0.1",
@@ -11081,7 +11055,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tsuwano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Tsuwano",
    coordinates: "342720N1314558E",
    power: "0.1",
@@ -11094,7 +11068,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Wajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Wajima",
    coordinates: "372330N1365430E",
    power: "0.1",
@@ -11107,7 +11081,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yonezawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Yonezawa",
    coordinates: "375427N1400616E",
    power: "0.1",
@@ -11133,7 +11107,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Wakkanai",
    coordinates: "452403N1414020E",
    power: "1",
@@ -11146,7 +11120,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kawamoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Kawamoto",
    coordinates: "345807N1322915E",
    power: "0.1",
@@ -11159,7 +11133,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Koide",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Koide",
    coordinates: "371631N1385847E",
    power: "0.1",
@@ -11172,7 +11146,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kumano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Kumano",
    coordinates: "335340N1360551E",
    power: "0.1",
@@ -11185,7 +11159,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyako",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Miyako",
    coordinates: "244907N1251722E",
    power: "0.1",
@@ -11198,7 +11172,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nishiaizu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Nishiaizu",
    coordinates: "373615N1393825E",
    power: "0.1",
@@ -11211,7 +11185,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Susa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Susa",
    coordinates: "343722N1313738E",
    power: "0.1",
@@ -11224,7 +11198,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Taisho",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koti-Taisho",
    coordinates: "331242N1325823E",
    power: "0.1",
@@ -11237,7 +11211,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Takamatsu",
    coordinates: "341855N1340345E",
    power: "5",
@@ -11250,7 +11224,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tottori",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori",
    coordinates: "353043N1341210E",
    power: "1",
@@ -11263,7 +11237,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tsuruoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Tsuruoka",
    coordinates: "384410N1395134E",
    power: "1",
@@ -11276,7 +11250,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yawatahama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Yawatahama",
    coordinates: "332736N1322540E",
    power: "0.1",
@@ -11315,7 +11289,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hachinohe",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hachinohe",
    coordinates: "402745N1412811E",
    power: "1",
@@ -11328,7 +11302,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nagasaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki",
    coordinates: "324314N1295302E",
    power: "1",
@@ -11341,7 +11315,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yamaguchi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi",
    coordinates: "340150N1313038E",
    power: "5",
@@ -11406,7 +11380,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kagoshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "314335N1304407E",
    power: "10",
@@ -11419,7 +11393,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kanazawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Nonoichi",
    coordinates: "363205N1363624E",
    power: "10",
@@ -11432,7 +11406,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Morioka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Morioka",
    coordinates: "393745N1410806E",
    power: "10",
@@ -11445,7 +11419,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Okayama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama",
    coordinates: "343644N1335354E",
    power: "5",
@@ -11715,7 +11689,7 @@ export const radioSchedules = [
  {
    frequency: 1386,
    time: "2130-2145",
-   days: "123456",
+   days: "123456.",
    stationName: "Radio Ukraine International",
    language: "Ukrainian",
    itu: "LTU",
@@ -11754,7 +11728,7 @@ export const radioSchedules = [
  {
    frequency: 1386,
    time: "2200-2210",
-   days: "0.234567",
+   days: ".234567",
    stationName: "Radio Ukraine International",
    language: "Belarussian",
    itu: "LTU",
@@ -11861,7 +11835,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kouchi Hoso (RKC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sukumo",
    coordinates: "325550N1324228E",
    power: "0.1",
@@ -11874,7 +11848,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kouchi Hoso (RKC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tosashimizu",
    coordinates: "324608N1325759E",
    power: "0.1",
@@ -11965,7 +11939,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Fukushima (RFC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aizuwakamatsu",
    coordinates: "372908N1395630E",
    power: "1",
@@ -11978,7 +11952,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Kansai (CRK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyooka",
    coordinates: "353009N1345017E",
    power: "1",
@@ -12030,7 +12004,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Kushiro",
    coordinates: "430020N1442613E",
    power: "5",
@@ -12056,7 +12030,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gotemba",
    coordinates: "352016N1385442E",
    power: "0.1",
@@ -12069,7 +12043,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu",
    coordinates: "344349N1374234E",
    power: "1",
@@ -12082,7 +12056,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu-Tatsuyama",
    coordinates: "343750N1374908E",
    power: "0.1",
@@ -12095,7 +12069,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu-Haruno",
    coordinates: "345951N1375520E",
    power: "0.1",
@@ -12108,7 +12082,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kakegawa",
    coordinates: "344645N1380150E",
    power: "0.1",
@@ -12121,7 +12095,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu-Misakubo",
    coordinates: "350937N1375227E",
    power: "0.1",
@@ -12134,7 +12108,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mishima",
    coordinates: "350541N1385505E",
    power: "0.1",
@@ -12147,7 +12121,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu-Sakuma",
    coordinates: "350428N1374713E",
    power: "0.1",
@@ -12160,7 +12134,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka",
    coordinates: "345553N1382250E",
    power: "10",
@@ -12173,7 +12147,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamamatsu-Tenryu",
    coordinates: "345648N1374448E",
    power: "0.1",
@@ -12303,7 +12277,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka",
    coordinates: "334122N1302414E",
    power: "50",
@@ -12524,7 +12498,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Nippon",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yokohama",
    coordinates: "353254N1394159E",
    power: "50",
@@ -12550,7 +12524,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu",
    coordinates: "352537N1364158E",
    power: "5",
@@ -12563,7 +12537,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Ena",
    coordinates: "352646N1372706E",
    power: "0.5",
@@ -12576,7 +12550,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Gifu Radio (GBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Tajimi",
    coordinates: "351953N1370934E",
    power: "0.1",
@@ -12589,7 +12563,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagasaki Hoso (NBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Fukue",
    coordinates: "324131N1284853E",
    power: "1",
@@ -12602,7 +12576,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Fukushima (RFC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Iwaki",
    coordinates: "370333N1405431E",
    power: "1",
@@ -12615,7 +12589,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Izumo",
    coordinates: "352118N1324345E",
    power: "1",
@@ -12628,7 +12602,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Masuda",
    coordinates: "344114N1314957E",
    power: "0.1",
@@ -12641,7 +12615,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Tottori",
    coordinates: "353024N1341131E",
    power: "1",
@@ -12810,7 +12784,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama",
    coordinates: "341455N1350839E",
    power: "5",
@@ -12823,7 +12797,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Kushimoto",
    coordinates: "332730N1354705E",
    power: "0.1",
@@ -12847,19 +12821,6 @@ export const radioSchedules = [
    frequency: 1440,
    time: "0000-2400",
    days: "1234567",
-   stationName: "Radio 208",
-   language: "Danish/English",
-   itu: "DNK",
-   txLocation: "Ishoej",
-   coordinates: "5537N01221E",
-   power: "0.4",
-   azimuth: "ND",
-   remarks: "TOE a23"
- },
- {
-   frequency: 1440,
-   time: "0000-2400",
-   days: "1234567",
    stationName: "SBA Radio Riyadh",
    language: "Arabic",
    itu: "ARS",
@@ -12875,7 +12836,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sapporo",
    coordinates: "430733N1412802E",
    power: "50",
@@ -12888,7 +12849,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Muroran",
    coordinates: "422203N1405921E",
    power: "3",
@@ -12901,7 +12862,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tomakomai",
    coordinates: "424142N1413847E",
    power: "1",
@@ -12927,7 +12888,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Abashiri",
    coordinates: "440007N1441425E",
    power: "5",
@@ -12940,7 +12901,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Minami Nihon Hoso (MBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Naze",
    coordinates: "282314N1292920E",
    power: "0.3",
@@ -12953,7 +12914,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nishi Nihon Hoso (RNC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Kanonji",
    coordinates: "340639N1333900E",
    power: "0.1",
@@ -12966,7 +12927,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nishi Nihon Hoso (RNC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Marugame",
    coordinates: "341554N1334946E",
    power: "1",
@@ -12979,7 +12940,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nishi Nihon Hoso (RNC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Takamatsu",
    coordinates: "341915N1340422E",
    power: "5",
@@ -12992,7 +12953,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nishi Nihon Hoso (RNC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagawa-Shiratori",
    coordinates: "341418N1342157E",
    power: "0.1",
@@ -13044,7 +13005,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Miyoshi",
    coordinates: "344820N1325219E",
    power: "0.1",
@@ -13057,7 +13018,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Shobara",
    coordinates: "345118N1330036E",
    power: "1",
@@ -13070,7 +13031,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Toujou",
    coordinates: "345211N1331637E",
    power: "0.1",
@@ -13083,7 +13044,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Ibaragi Hoso (IBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sekijo",
    coordinates: "361606N1395715E",
    power: "1",
@@ -13096,7 +13057,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Ibaragi Hoso (IBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tsuchiura",
    coordinates: "360426N1401030E",
    power: "1",
@@ -13122,7 +13083,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NBC Radio Saga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga-Arita",
    coordinates: "331052N1295322E",
    power: "0.1",
@@ -13135,7 +13096,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NBC Radio Saga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga",
    coordinates: "331507N1301557E",
    power: "1",
@@ -13148,7 +13109,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NBC Radio Saga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Saga-Karatsu",
    coordinates: "331443N1301716E",
    power: "0.1",
@@ -13161,7 +13122,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Fukushima (RFC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima",
    coordinates: "374626N1402927E",
    power: "1",
@@ -13174,7 +13135,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shinetsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Saku",
    coordinates: "361713N1382854E",
    power: "0.1",
@@ -13200,7 +13161,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Kamioka",
    coordinates: "361932N1371741E",
    power: "0.1",
@@ -13213,7 +13174,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Akune",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Akune",
    coordinates: "320126N1301210E",
    power: "0.1",
@@ -13226,7 +13187,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fukuyama",
    coordinates: "342959N1332100E",
    power: "0.1",
@@ -13239,7 +13200,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hakodate",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Hakodate",
    coordinates: "414843N1404518E",
    power: "1",
@@ -13252,7 +13213,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hirosaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Hirosaki",
    coordinates: "403711N1402711E",
    power: "0.5",
@@ -13265,7 +13226,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Miyazaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki",
    coordinates: "315710N1312624E",
    power: "1",
@@ -13278,7 +13239,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nagano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano",
    coordinates: "364019N1381525E",
    power: "1",
@@ -13291,7 +13252,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nanao",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Nanao",
    coordinates: "370214N1365934E",
    power: "0.1",
@@ -13304,7 +13265,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Oita",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita",
    coordinates: "331453N1313430E",
    power: "1",
@@ -13317,7 +13278,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Wakkanai",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Wakkanai",
    coordinates: "452230N1414242E",
    power: "1",
@@ -13330,7 +13291,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yusuhara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koti-Yusuhara",
    coordinates: "332340N1325528E",
    power: "0.1",
@@ -13366,7 +13327,7 @@ export const radioSchedules = [
  {
    frequency: 1467,
    time: "1330-1400",
-   days: "0.234567",
+   days: ".234567",
    stationName: "TWR Asia",
    language: "Urdu",
    itu: "KGZ",
@@ -13691,7 +13652,7 @@ export const radioSchedules = [
  {
    frequency: 1467,
    time: "2015-2045",
-   days: "0.234567",
+   days: ".234567",
    stationName: "TWR Europe",
    language: "Kabyle",
    itu: "F",
@@ -13720,7 +13681,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Iida",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Iida",
    coordinates: "352952N1375056E",
    power: "1",
@@ -13733,7 +13694,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Imabari",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Imabari",
    coordinates: "340258N1330025E",
    power: "0.1",
@@ -13746,7 +13707,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ozu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Ozu",
    coordinates: "333119N1323329E",
    power: "0.1",
@@ -13782,7 +13743,7 @@ export const radioSchedules = [
  {
    frequency: 1476,
    time: "0320-0350",
-   days: "123456",
+   days: "123456.",
    stationName: "TWR Africa",
    language: "Hausa",
    itu: "BEN",
@@ -13928,7 +13889,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Akita Hoso (ABS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Asamai",
    coordinates: "391534N1403019E",
    power: "0.1",
@@ -13941,7 +13902,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Fukaura",
    coordinates: "403828N1395514E",
    power: "0.1",
@@ -13954,7 +13915,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Hachinohe",
    coordinates: "403029N1412811E",
    power: "1",
@@ -13967,7 +13928,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Aomori Hoso (RAB)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Towada",
    coordinates: "403626N1411400E",
    power: "0.1",
@@ -13983,7 +13944,7 @@ export const radioSchedules = [
    itu: "G",
    txLocation: "Wallasey",
    coordinates: "532532N0030249W",
-   power: "0.79",
+   power: ".79",
    azimuth: "",
    remarks: "BBC"
  },
@@ -13993,7 +13954,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aichi-Toyohashi",
    coordinates: "344521N1372348E",
    power: "0.1",
@@ -14006,7 +13967,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Ueno",
    coordinates: "344520N1360654E",
    power: "0.1",
@@ -14019,7 +13980,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokuriku Hoso (MRO)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ishikawa-Yamanaka",
    coordinates: "361433N1362154E",
    power: "0.1",
@@ -14032,7 +13993,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Omuta",
    coordinates: "330200N1302600E",
    power: "0.1",
@@ -14045,7 +14006,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBC Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Yukuhashi",
    coordinates: "334420N1310043E",
    power: "0.1",
@@ -14058,7 +14019,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "KBS Kyoto (KBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Fukuchiyama",
    coordinates: "351828N1350815E",
    power: "0.1",
@@ -14071,7 +14032,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata-Shiozawa",
    coordinates: "370136N1385043E",
    power: "0.1",
@@ -14084,7 +14045,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Radio Nippon",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kanagawa-Odawara",
    coordinates: "351805N1390925E",
    power: "0.1",
@@ -14097,7 +14058,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Ota",
    coordinates: "351123N1322951E",
    power: "0.1",
@@ -14110,7 +14071,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shinetsu Hoso (SBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Karuizawa",
    coordinates: "362005N1383617E",
    power: "0.1",
@@ -14123,7 +14084,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "STV Radio",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Kitami",
    coordinates: "434917N1435225E",
    power: "0.1",
@@ -14136,7 +14097,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Gero",
    coordinates: "354917N1371359E",
    power: "0.1",
@@ -14149,7 +14110,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Takayama",
    coordinates: "360923N1371522E",
    power: "0.1",
@@ -14162,7 +14123,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Kumano",
    coordinates: "335225N1360455E",
    power: "0.1",
@@ -14175,7 +14136,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Hashimoto",
    coordinates: "341821N1353453E",
    power: "0.1",
@@ -14188,7 +14149,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Koyasan",
    coordinates: "341238N1353442E",
    power: "0.1",
@@ -14201,7 +14162,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Yamaguchi Hoso (KRY)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamaguchi-Hagi",
    coordinates: "342448N1312441E",
    power: "1",
@@ -14214,7 +14175,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Nayoro",
    coordinates: "442040N1422834E",
    power: "1",
@@ -14240,7 +14201,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okayama",
    coordinates: "343850N1335008E",
    power: "10",
@@ -14253,7 +14214,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kasaoka",
    coordinates: "342737N1333024E",
    power: "0.1",
@@ -14266,7 +14227,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takahashi",
    coordinates: "344910N1333306E",
    power: "1",
@@ -14279,7 +14240,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niimi",
    coordinates: "345845N1332930E",
    power: "1",
@@ -14292,7 +14253,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tsuyama",
    coordinates: "350350N1340033E",
    power: "1",
@@ -14305,7 +14266,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Bizen",
    coordinates: "345213N1340807E",
    power: "1",
@@ -14318,7 +14279,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanyo Hoso (RSK)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ochiai",
    coordinates: "350308N1334225E",
    power: "1",
@@ -14331,7 +14292,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Akita",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita",
    coordinates: "394648N1400435E",
    power: "10",
@@ -14344,7 +14305,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Aso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto-Aso",
    coordinates: "325552N1310714E",
    power: "1",
@@ -14357,7 +14318,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Okuti",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagosima-Okuchi",
    coordinates: "320315N1303545E",
    power: "0.1",
@@ -14370,10 +14331,10 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yanashiro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokushima-Yamashiro",
    coordinates: "335705N1334533E",
-   power: "0.05",
+   power: ".05",
    azimuth: "",
    remarks: ""
  },
@@ -14383,7 +14344,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Iwami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Iwami",
    coordinates: "345316N1322548E",
    power: "0.1",
@@ -14396,7 +14357,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Komagane",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Komagane",
    coordinates: "354323N1375632E",
    power: "0.1",
@@ -14409,7 +14370,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Koriyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Koriyama",
    coordinates: "372138N1402121E",
    power: "1",
@@ -14422,7 +14383,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Kushima",
    coordinates: "312827N1311352E",
    power: "0.1",
@@ -14435,7 +14396,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Matsumoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Matsumoto",
    coordinates: "361328N1375636E",
    power: "1",
@@ -14448,7 +14409,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Matsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Matsuyama",
    coordinates: "334924N1324408E",
    power: "5",
@@ -14461,7 +14422,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Sasebo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagasaki-Sasebo",
    coordinates: "330747N1294159E",
    power: "0.5",
@@ -14474,7 +14435,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tsuruga",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui-Tsuruga",
    coordinates: "353628N1360320E",
    power: "0.1",
@@ -14526,7 +14487,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Aomori",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori",
    coordinates: "404738N1404527E",
    power: "1",
@@ -14539,7 +14500,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukui",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukui",
    coordinates: "360227N1361401E",
    power: "1",
@@ -14552,7 +14513,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 GujoHachiman",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-GujoHachiman",
    coordinates: "354439N1365639E",
    power: "0.1",
@@ -14565,7 +14526,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hamamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shizuoka-Hamamatsu",
    coordinates: "344027N1374551E",
    power: "1",
@@ -14578,7 +14539,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hanawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Hanawa",
    coordinates: "401255N1404737E",
    power: "0.1",
@@ -14591,7 +14552,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ishigaku",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Ishigaki",
    coordinates: "242150N1240928E",
    power: "1",
@@ -14604,7 +14565,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kure",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Kure",
    coordinates: "341444N1323522E",
    power: "0.1",
@@ -14617,7 +14578,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nakamura",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Koti-Nakamura",
    coordinates: "325931N1325458E",
    power: "1",
@@ -14630,7 +14591,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Saeki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oita-Saeki",
    coordinates: "325810N1315439E",
    power: "0.1",
@@ -14643,7 +14604,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yamagata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata",
    coordinates: "381645N1401934E",
    power: "1",
@@ -14656,7 +14617,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yonago",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tottori-Yonago",
    coordinates: "352648N1331851E",
    power: "0.1",
@@ -14695,7 +14656,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fuchu",
    coordinates: "343344N1331446E",
    power: "0.1",
@@ -14708,7 +14669,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fukuyama",
    coordinates: "343007N1332149E",
    power: "1",
@@ -14721,7 +14682,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chugoku Hoso (RCC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Mihara",
    coordinates: "342315N1330329E",
    power: "1",
@@ -14734,7 +14695,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Itoigawa",
    coordinates: "370154N1375029E",
    power: "0.1",
@@ -14747,7 +14708,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Niigata Hoso (BSN)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Joetsu",
    coordinates: "370940N1381428E",
    power: "1",
@@ -14786,7 +14747,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tochigi Hoso (CRT)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Utsunomiya",
    coordinates: "363255N1394801E",
    power: "5",
@@ -14838,7 +14799,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Aizuwakamatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aizuwakamatsu",
    coordinates: "372937N1395621E",
    power: "0.1",
@@ -14851,7 +14812,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Engaru",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Engaru",
    coordinates: "440249N1433059E",
    power: "0.1",
@@ -14864,7 +14825,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Imagane",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Imagane",
    coordinates: "422528N1395752E",
    power: "0.1",
@@ -14877,7 +14838,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ina",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ina",
    coordinates: "355013N1375654E",
    power: "0.1",
@@ -14890,7 +14851,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Iwaki",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwaki",
    coordinates: "370333N1405252E",
    power: "0.1",
@@ -14903,7 +14864,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Johen",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Johen",
    coordinates: "325752N1323446E",
    power: "0.1",
@@ -14916,7 +14877,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kamioka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kamioka",
    coordinates: "361930N1371756E",
    power: "0.1",
@@ -14929,7 +14890,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kesennuma",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kesennuma",
    coordinates: "385343N1413344E",
    power: "0.1",
@@ -14942,7 +14903,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kobayashi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kobayashi",
    coordinates: "320009N1305731E",
    power: "0.1",
@@ -14955,7 +14916,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Komoro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Komoro",
    coordinates: "361937N1382602E",
    power: "0.1",
@@ -14968,7 +14929,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kuji",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kuji",
    coordinates: "401049N1414709E",
    power: "0.1",
@@ -14981,7 +14942,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Masuda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Masuda",
    coordinates: "344110N1315026E",
    power: "0.1",
@@ -14994,7 +14955,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nakashibetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nakashibetsu",
    coordinates: "433239N1445827E",
    power: "0.1",
@@ -15007,7 +14968,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Owase",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Owase",
    coordinates: "340414N1361136E",
    power: "0.1",
@@ -15020,7 +14981,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Shinjo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shinjo",
    coordinates: "384648N1401841E",
    power: "0.1",
@@ -15033,7 +14994,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tokunoshima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokunoshima",
    coordinates: "274513N1290058E",
    power: "0.1",
@@ -15046,7 +15007,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Toyooka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Toyooka",
    coordinates: "353156N1344939E",
    power: "0.1",
@@ -15059,7 +15020,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tsunan",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tsunan",
    coordinates: "370312N1384102E",
    power: "0.1",
@@ -15202,7 +15163,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Akita Hoso (ABS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Odate",
    coordinates: "401640N1402959E",
    power: "0.1",
@@ -15215,7 +15176,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Akita Hoso (ABS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Honjo",
    coordinates: "392235N1400429E",
    power: "0.1",
@@ -15228,7 +15189,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takayama",
    coordinates: "360918N1371428E",
    power: "0.1",
@@ -15241,7 +15202,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shinshiro",
    coordinates: "345410N1373104E",
    power: "0.1",
@@ -15254,7 +15215,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Chubu Nippon Hoso (CBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nakatsugawa",
    coordinates: "352946N1372853E",
    power: "0.1",
@@ -15267,7 +15228,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Fukui Hoso (FBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Obama",
    coordinates: "352958N1354452E",
    power: "0.1",
@@ -15280,7 +15241,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Fukui Hoso (FBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tsuruga",
    coordinates: "353735N1360400E",
    power: "0.1",
@@ -15293,7 +15254,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Hokkaido Hoso (HBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Rumoi",
    coordinates: "435725N1413843E",
    power: "0.1",
@@ -15306,7 +15267,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "IBC Iwate Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyako",
    coordinates: "393840N1415555E",
    power: "0.1",
@@ -15332,7 +15293,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Kouchi Hoso (RKC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Susaki",
    coordinates: "332312N1331853E",
    power: "0.1",
@@ -15345,7 +15306,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takeda",
    coordinates: "325818N1312213E",
    power: "0.1",
@@ -15358,7 +15319,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nakatsu",
    coordinates: "333522N1311304E",
    power: "0.1",
@@ -15371,7 +15332,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Oita Hoso (OBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hita",
    coordinates: "331951N1305521E",
    power: "0.1",
@@ -15449,7 +15410,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kurayoshi",
    coordinates: "352630N1334908E",
    power: "0.1",
@@ -15462,7 +15423,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Sanin Hoso (BSS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hamada",
    coordinates: "345412N1320246E",
    power: "0.1",
@@ -15475,7 +15436,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Atami",
    coordinates: "350216N1391016E",
    power: "0.1",
@@ -15488,7 +15449,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Shizuoka Hoso (SBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fujinomiya",
    coordinates: "351533N1383543E",
    power: "0.1",
@@ -15501,7 +15462,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tohoku Hoso (TBC)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Naruko",
    coordinates: "384411N1404156E",
    power: "0.1",
@@ -15514,7 +15475,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Tokai Radio Hoso",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ueno",
    coordinates: "344522N1360824E",
    power: "0.1",
@@ -15527,7 +15488,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shingu",
    coordinates: "334305N1360008E",
    power: "0.1",
@@ -15540,7 +15501,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Wakayama Hoso (WBS)",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gobo",
    coordinates: "335421N1350704E",
    power: "0.1",
@@ -15784,7 +15745,7 @@ export const radioSchedules = [
  {
    frequency: 1566,
    time: "2100-2130",
-   days: "123456",
+   days: "123456.",
    stationName: "TWR Africa",
    language: "French",
    itu: "BEN",
@@ -15891,7 +15852,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "AFN Iwakuni",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwakuni",
    coordinates: "340941N1321401E",
    power: "1",
@@ -15904,7 +15865,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "AFN Misawa",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Misawa",
    coordinates: "404152N1412116E",
    power: "1",
@@ -15917,7 +15878,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "AFN Sasebo",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Sasebo",
    coordinates: "331004N1294302E",
    power: "0.3",
@@ -16164,7 +16125,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Atsumi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamagata-Atsumi",
    coordinates: "383712N1393514E",
    power: "0.1",
@@ -16177,7 +16138,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fujiyoshida",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fujiyoshida",
    coordinates: "352946N1384900E",
    power: "0.1",
@@ -16190,7 +16151,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Fukaura",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Aomori-Fukaura",
    coordinates: "403905N1395553E",
    power: "0.1",
@@ -16203,7 +16164,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hikimi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hikimi",
    coordinates: "343417N1320110E",
    power: "0.1",
@@ -16216,7 +16177,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hino",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hino",
    coordinates: "351303N1332325E",
    power: "0.1",
@@ -16229,7 +16190,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hiroo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroo",
    coordinates: "421824N1431913E",
    power: "0.1",
@@ -16242,7 +16203,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Hokubo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokubo",
    coordinates: "345736N1333905E",
    power: "0.1",
@@ -16255,7 +16216,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kanonji",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kanonji",
    coordinates: "340750N1334042E",
    power: "0.1",
@@ -16268,7 +16229,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Karatsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Karatsu",
    coordinates: "332645N1195929E",
    power: "0.1",
@@ -16281,7 +16242,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kasumi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kasumi",
    coordinates: "353819N1343722E",
    power: "0.1",
@@ -16294,7 +16255,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Katsuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Katsuyama",
    coordinates: "360134N1363130E",
    power: "0.1",
@@ -16307,7 +16268,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kitami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kitami",
    coordinates: "434829N1435208E",
    power: "0.1",
@@ -16320,7 +16281,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Kosaka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Kosaka",
    coordinates: "401913N1404015E",
    power: "0.1",
@@ -16333,7 +16294,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Mikata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mikata",
    coordinates: "353411N1355423E",
    power: "0.1",
@@ -16346,7 +16307,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Misakubo",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Misakubo",
    coordinates: "350937N1375227E",
    power: "0.1",
@@ -16359,7 +16320,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Miyoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyoshi",
    coordinates: "344747N1325115E",
    power: "0.1",
@@ -16372,7 +16333,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Mugi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mugi",
    coordinates: "334017N1342519E",
    power: "0.1",
@@ -16385,7 +16346,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Nemuro",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "432006N1453545E",
    power: "0.1",
@@ -16398,7 +16359,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Oguni",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Oguni",
    coordinates: "380359N1394540E",
    power: "0.1",
@@ -16411,7 +16372,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Okaya Suwa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okaya Suwa",
    coordinates: "360331N1380345E",
    power: "0.1",
@@ -16424,7 +16385,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Okuwa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Okuwa",
    coordinates: "354043N1373822E",
    power: "0.1",
@@ -16437,7 +16398,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Shimabara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimabara",
    coordinates: "324721N1302236E",
    power: "0.1",
@@ -16450,7 +16411,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tadami",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tadami",
    coordinates: "371818N1392124E",
    power: "0.1",
@@ -16463,7 +16424,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Takachiho",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Takachiho",
    coordinates: "323423N1314116E",
    power: "0.1",
@@ -16476,7 +16437,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Tosashimizu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tosashimizu",
    coordinates: "353009N1345018E",
    power: "0.1",
@@ -16489,7 +16450,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Uwa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Uwa",
    coordinates: "332208N1323005E",
    power: "0.1",
@@ -16502,7 +16463,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Wajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wajima",
    coordinates: "372330N1365430E",
    power: "0.1",
@@ -16515,7 +16476,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 1 Yuzawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yuzawa",
    coordinates: "390829N1402901E",
    power: "0.1",
@@ -16567,7 +16528,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Matsue",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Matsue",
    coordinates: "352242N1324444E",
    power: "10",
@@ -16580,7 +16541,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Niigata",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Niigata",
    coordinates: "375042N1385503E",
    power: "10",
@@ -16671,7 +16632,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Asahikawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Asahikawa",
    coordinates: "434547N1422452E",
    power: "1",
@@ -16684,7 +16645,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Enbetsu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Enbetsu",
    coordinates: "444251N1414739E",
    power: "1",
@@ -16697,7 +16658,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima",
    coordinates: "374630N1402920E",
    power: "1",
@@ -16710,7 +16671,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Fukuyama",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Fukuyama",
    coordinates: "342331N1331026E",
    power: "1",
@@ -16723,7 +16684,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hagiwara",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Gifu-Hagiwara",
    coordinates: "354926N1371358E",
    power: "0.1",
@@ -16736,7 +16697,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Hitoyoshi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kumamoto-Hitoyoshi",
    coordinates: "321259N1304704E",
    power: "1",
@@ -16749,7 +16710,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Iwaizumi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Iwaizumi",
    coordinates: "395043N1414633E",
    power: "0.1",
@@ -16762,7 +16723,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kamaishi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Iwate-Kamaishi",
    coordinates: "391632N1415242E",
    power: "0.1",
@@ -16775,7 +16736,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kawamoto",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Shimane-Kawamoto",
    coordinates: "345810N1322917E",
    power: "0.1",
@@ -16788,7 +16749,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kisofukushima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Kisofukushima",
    coordinates: "355048N1374147E",
    power: "0.1",
@@ -16801,7 +16762,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kitakyushu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukuoka-Kitakyushu",
    coordinates: "335601N1304819E",
    power: "1",
@@ -16814,7 +16775,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kofu",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Yamanashi-Kofu",
    coordinates: "353931N1383206E",
    power: "1",
@@ -16827,7 +16788,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Koza",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Koza",
    coordinates: "333105N1354955E",
    power: "0.1",
@@ -16840,7 +16801,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Kumano",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Mie-Kumano",
    coordinates: "335340N1360551E",
    power: "0.1",
@@ -16853,7 +16814,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Maizuru",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kyoto-Maizuru",
    coordinates: "352832N1352326E",
    power: "0.1",
@@ -16866,7 +16827,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Miyako",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Okinawa-Miyako",
    coordinates: "244907N1251722E",
    power: "0.1",
@@ -16879,7 +16840,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Naze",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima-Naze",
    coordinates: "282409N1292929E",
    power: "0.1",
@@ -16892,7 +16853,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nichinan",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Nichinan",
    coordinates: "313618N1312226E",
    power: "0.1",
@@ -16905,7 +16866,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Nobeoka",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Miyazaki-Nobeoka",
    coordinates: "323423N1314116E",
    power: "1",
@@ -16918,7 +16879,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Onomichi",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Onomichi",
    coordinates: "342420N1331229E",
    power: "1",
@@ -16931,7 +16892,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Fukushima-Tajima",
    coordinates: "371222N1394616E",
    power: "0.1",
@@ -16944,7 +16905,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Tanabe",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Wakayama-Tanabe",
    coordinates: "334449N1352334E",
    power: "0.1",
@@ -16957,7 +16918,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Toujou",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hiroshima-Toujou",
    coordinates: "345413N1331604E",
    power: "0.1",
@@ -16970,7 +16931,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Ueda",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nagano-Ueda",
    coordinates: "362400N1381607E",
    power: "0.1",
@@ -16983,7 +16944,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Urakawa",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Hokkaido-Urakawa",
    coordinates: "421022N1424619E",
    power: "0.1",
@@ -16996,7 +16957,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Uwajima",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ehime-Uwajima",
    coordinates: "331248N1323326E",
    power: "1",
@@ -17009,7 +16970,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK 2 Yokote",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Akita-Yokote",
    coordinates: "391840N1403328E",
    power: "0.1",
@@ -17074,7 +17035,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Isewan Martis x15x45",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Irago",
    coordinates: "343450N1370100E",
    power: "1",
@@ -17087,7 +17048,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagoya Martis x00x30",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kinjofuto",
    coordinates: "350206N1365046E",
    power: "1",
@@ -17100,7 +17061,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Isewan Martis x15x45",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Irago",
    coordinates: "343450N1370100E",
    power: "1",
@@ -17113,7 +17074,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Nagoya Martis x00x30",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kinjofuto",
    coordinates: "350206N1365046E",
    power: "1",
@@ -17132,6 +17093,19 @@ export const radioSchedules = [
    power: "5",
    azimuth: "ND",
    remarks: "KCBS a25"
+ },
+ {
+   frequency: 2368,
+   time: "0600-2100",
+   days: "1234567",
+   stationName: "Radio Symban",
+   language: "Greek",
+   itu: "AUS",
+   txLocation: "Sydney-Lepping",
+   coordinates: "3358S15048E",
+   power: "",
+   azimuth: "",
+   remarks: ""
  },
  {
    frequency: 2500,
@@ -17188,7 +17162,7 @@ export const radioSchedules = [
  {
    frequency: 3215,
    time: "0100-0200",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -17434,7 +17408,7 @@ export const radioSchedules = [
  },
  {
    frequency: 3480,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -17443,7 +17417,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 3623,
@@ -17451,7 +17425,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JMH",
    language: "F3C",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "311922N1303138E",
    power: "5",
@@ -17512,7 +17486,7 @@ export const radioSchedules = [
  },
  {
    frequency: 3910,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -17521,7 +17495,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 3920,
@@ -17542,7 +17516,7 @@ export const radioSchedules = [
    days: ".....6.",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "431748N1453350E",
    power: "10",
@@ -17555,7 +17529,7 @@ export const radioSchedules = [
    days: ".23.5..",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "431748N1453350E",
    power: "10",
@@ -17568,7 +17542,7 @@ export const radioSchedules = [
    days: "...4...",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "431748N1453350E",
    power: "10",
@@ -17581,7 +17555,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Nemuro",
    coordinates: "431748N1453350E",
    power: "10",
@@ -17603,7 +17577,7 @@ export const radioSchedules = [
  },
  {
    frequency: 3930,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -17612,7 +17586,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 3945,
@@ -17639,71 +17613,6 @@ export const radioSchedules = [
    power: "2.5",
    azimuth: "ND",
    remarks: "VBTC b24"
- },
- {
-   frequency: 3950,
-   time: "0030-0257",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24=7260"
- },
- {
-   frequency: 3950,
-   time: "1230-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 3950,
-   time: "2310-2400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 3950,
-   time: "0000-0030",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR1)",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 3950,
-   time: "1205-1230",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR1)",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24 Nov.12"
  },
  {
    frequency: 3955,
@@ -17773,7 +17682,7 @@ export const radioSchedules = [
  {
    frequency: 3955,
    time: "2100-0500",
-   days: "0.234567",
+   days: ".234567",
    stationName: "The Overcomer Ministry",
    language: "English",
    itu: "D",
@@ -17795,6 +17704,19 @@ export const radioSchedules = [
    power: "5",
    azimuth: "ND",
    remarks: "KCBS a25"
+ },
+ {
+   frequency: 3965,
+   time: "0000-2400",
+   days: "1234567",
+   stationName: "World Music Radio",
+   language: "Danish/English",
+   itu: "DNK",
+   txLocation: "Bramming",
+   coordinates: "5529N00839E",
+   power: "0.4",
+   azimuth: "ND",
+   remarks: "WMR a25 Jun.-"
  },
  {
    frequency: 3975,
@@ -17889,7 +17811,7 @@ export const radioSchedules = [
  },
  {
    frequency: 3985,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -17898,7 +17820,7 @@ export const radioSchedules = [
    coordinates: "371249N1264640E",
    power: "100",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 3985,
@@ -18055,58 +17977,6 @@ export const radioSchedules = [
    power: "15",
    azimuth: "ND",
    remarks: "GPBS b24"
- },
- {
-   frequency: 3990,
-   time: "1225-1400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24 Nov.12"
- },
- {
-   frequency: 3990,
-   time: "1430-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 3990,
-   time: "2310-0300",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 3990,
-   time: "1400-1430",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
  },
  {
    frequency: 3995,
@@ -18332,7 +18202,7 @@ export const radioSchedules = [
  {
    frequency: 4055,
    time: "1020-1130",
-   days: "0.234567",
+   days: ".234567",
    stationName: "Radio Verdad",
    language: "Spanish",
    itu: "GTM",
@@ -18361,7 +18231,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -18374,7 +18244,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -18400,7 +18270,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -18422,7 +18292,7 @@ export const radioSchedules = [
  },
  {
    frequency: 4450,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -18431,46 +18301,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
- },
- {
-   frequency: 4500,
-   time: "1205-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Mongolian",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "50",
-   azimuth: "ND",
-   remarks: "XJBS b24 Nov.12"
- },
- {
-   frequency: 4500,
-   time: "2315-0330",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Mongolian",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "50",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 4500,
-   time: "0000-0030",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR8)",
-   language: "Mongolian",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "50",
-   azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 4560,
@@ -18483,7 +18314,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 4750,
@@ -18796,32 +18627,6 @@ export const radioSchedules = [
    power: "3",
    azimuth: "345",
    remarks: "RRI a25"
- },
- {
-   frequency: 4760,
-   time: "0210-0430",
-   days: "1234567",
-   stationName: "AIR Leh",
-   language: "Ladaki",
-   itu: "IND",
-   txLocation: "Ladakh",
-   coordinates: "340725N0773525E",
-   power: "7",
-   azimuth: "ND",
-   remarks: "AIR b24"
- },
- {
-   frequency: 4760,
-   time: "1130-1700",
-   days: "1234567",
-   stationName: "AIR Leh",
-   language: "Ladaki",
-   itu: "IND",
-   txLocation: "Ladakh",
-   coordinates: "340725N0773525E",
-   power: "7",
-   azimuth: "ND",
-   remarks: "AIR b24"
  },
  {
    frequency: 4765,
@@ -19138,7 +18943,7 @@ export const radioSchedules = [
  {
    frequency: 4840,
    time: "1000-1200",
-   days: "123456",
+   days: "123456.",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -19201,58 +19006,6 @@ export const radioSchedules = [
    remarks: "VORW a24"
  },
  {
-   frequency: 4850,
-   time: "1155-1400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24 Nov.12"
- },
- {
-   frequency: 4850,
-   time: "1430-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 4850,
-   time: "2345-0328",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24=7340"
- },
- {
-   frequency: 4850,
-   time: "1400-1430",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR17)",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
    frequency: 4880,
    time: "0250-0005",
    days: "1234567",
@@ -19267,7 +19020,7 @@ export const radioSchedules = [
  },
  {
    frequency: 4885,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -19276,7 +19029,7 @@ export const radioSchedules = [
    coordinates: "373811N1270629E",
    power: "10",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 4885,
@@ -19303,6 +19056,19 @@ export const radioSchedules = [
    power: "5",
    azimuth: "ND",
    remarks: "ZYG362"
+ },
+ {
+   frequency: 4890,
+   time: "0250-0005",
+   days: "1234567",
+   stationName: "North Korean Jamming",
+   language: "Noise jamming",
+   itu: "KRE",
+   txLocation: "Kujang",
+   coordinates: "400456N1260639E",
+   power: "200",
+   azimuth: "",
+   remarks: "\\NKSuperJamming"
  },
  {
    frequency: 4900,
@@ -19565,149 +19331,6 @@ export const radioSchedules = [
    remarks: "CTB a25"
  },
  {
-   frequency: 4930,
-   time: "0300-0400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "0400-0500",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "0400-0500",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "0500-0600",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1400-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1720-1740",
-   days: "1....67",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1730-1800",
-   days: ".2345..",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1800-1830",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1830-1900",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 4930,
-   time: "1900-2100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273544E",
-   power: "100",
-   azimuth: "20",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 4940,
    time: "2200-0400",
    days: "1234567",
@@ -19771,58 +19394,6 @@ export const radioSchedules = [
    power: "0.1",
    azimuth: "ND",
    remarks: "XRN a23"
- },
- {
-   frequency: 4980,
-   time: "1135-1400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24 Nov.12"
- },
- {
-   frequency: 4980,
-   time: "1430-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 4980,
-   time: "2310-0245",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 4980,
-   time: "1400-1430",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
  },
  {
    frequency: 4985,
@@ -19908,7 +19479,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "HFD Radio Station",
    language: "H3A",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo-Chofu",
    coordinates: "3539N13932E",
    power: "0.2",
@@ -20196,10 +19767,10 @@ export const radioSchedules = [
    language: "English",
    itu: "SLM",
    txLocation: "Honiara",
-   coordinates: "0925S16003E",
+   coordinates: "092617S1600328E",
    power: "10",
    azimuth: "ND",
-   remarks: "SIBC a23"
+   remarks: "SIBC a25"
  },
  {
    frequency: 5020,
@@ -20209,10 +19780,10 @@ export const radioSchedules = [
    language: "English",
    itu: "SLM",
    txLocation: "Honiara",
-   coordinates: "0925S16003E",
+   coordinates: "092617S1600328E",
    power: "10",
    azimuth: "ND",
-   remarks: "SIBC a23"
+   remarks: "SIBC a25"
  },
  {
    frequency: 5025,
@@ -20397,97 +19968,6 @@ export const radioSchedules = [
    remarks: "WWRB"
  },
  {
-   frequency: 5055,
-   time: "1955-1406",
-   days: "1234567",
-   stationName: "Radio 4KZ",
-   language: "English",
-   itu: "AUS",
-   txLocation: "North Queensland",
-   coordinates: "1732S14603E",
-   power: "1.5",
-   azimuth: "ND",
-   remarks: "4KZ rel.531kHz"
- },
- {
-   frequency: 5060,
-   time: "0030-0257",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24=11770"
- },
- {
-   frequency: 5060,
-   time: "1135-1200",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24 Nov.12"
- },
- {
-   frequency: 5060,
-   time: "1230-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5060,
-   time: "2310-2400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5060,
-   time: "0000-0030",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR1)",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5060,
-   time: "1200-1230",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR1)",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
    frequency: 5130,
    time: "1500-1800",
    days: "1234567",
@@ -20522,7 +20002,7 @@ export const radioSchedules = [
    itu: "TWN",
    txLocation: "Tainan",
    coordinates: "",
-   power: "0.25",
+   power: ".25",
    azimuth: "",
    remarks: "CWB //8117"
  },
@@ -20958,19 +20438,6 @@ export const radioSchedules = [
  {
    frequency: 5850,
    time: "0200-0300",
-   days: "......7",
-   stationName: "WRMI The Mighty KBC",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Okeechobee12",
-   coordinates: "272726N0805559W",
-   power: "100",
-   azimuth: "315",
-   remarks: "RMI b24"
- },
- {
-   frequency: 5850,
-   time: "0200-0300",
    days: "..34...",
    stationName: "WRMI Truth2Ponder with Bob Bierm",
    language: "English",
@@ -21322,7 +20789,7 @@ export const radioSchedules = [
  {
    frequency: 5850,
    time: "1200-1230",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Soteriah International",
    language: "English",
    itu: "USA",
@@ -21450,32 +20917,6 @@ export const radioSchedules = [
    remarks: "HLL2 H3E"
  },
  {
-   frequency: 5860,
-   time: "0000-1730",
-   days: "1234567",
-   stationName: "R.FARDA",
-   language: "Persian",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "50",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 5860,
-   time: "1730-2400",
-   days: "1234567",
-   stationName: "R.FARDA",
-   language: "Persian",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "50",
-   remarks: "RFE/AGM a24"
- },
- {
    frequency: 5875,
    time: "1230-1300",
    days: ".23456.",
@@ -21486,7 +20927,7 @@ export const radioSchedules = [
    coordinates: "152244N1203733E",
    power: "250",
    azimuth: "21",
-   remarks: "_BBC a25"
+   remarks: "_BBC a25-Apr.14"
  },
  {
    frequency: 5875,
@@ -21513,50 +20954,11 @@ export const radioSchedules = [
    power: "100",
    azimuth: "78",
    remarks: "BBC a25"
- },
- {
-   frequency: 5875,
-   time: "1900-2100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "38",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5885,
-   time: "1430-1600",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5885,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "275",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 5890,
    time: "0200-0400",
-   days: "123456",
+   days: "123456.",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -21591,19 +20993,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "90",
    remarks: "TOM WWCR4 a23"
- },
- {
-   frequency: 5890,
-   time: "1700-1900",
-   days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM Deewa R a24"
  },
  {
    frequency: 5895,
@@ -21785,7 +21174,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "240",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21798,7 +21187,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "30",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21811,7 +21200,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "270",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21824,7 +21213,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "270",
-   remarks: "ROR a23"
+   remarks: "RRO a23"
  },
  {
    frequency: 5910,
@@ -21837,7 +21226,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "240",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21850,7 +21239,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "30",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21863,7 +21252,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "270",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21876,7 +21265,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "240",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21889,7 +21278,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "30",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21902,7 +21291,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "270",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 5910,
@@ -21915,7 +21304,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "30",
    azimuth: "270",
-   remarks: "ROR a23"
+   remarks: "RRO a23"
  },
  {
    frequency: 5915,
@@ -22062,71 +21451,6 @@ export const radioSchedules = [
  },
  {
    frequency: 5920,
-   time: "1600-1630",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5920,
-   time: "1600-1700",
-   days: "1......",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5920,
-   time: "1600-1700",
-   days: "..3.5..",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5920,
-   time: "1600-1700",
-   days: "...4...",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "English",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5920,
-   time: "1630-1700",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5920,
    time: "0100-0400",
    days: "1234567",
    stationName: "WTWW",
@@ -22137,6 +21461,19 @@ export const radioSchedules = [
    power: "100",
    azimuth: "180",
    remarks: "WTWW b24"
+ },
+ {
+   frequency: 5920,
+   time: "0800-0400",
+   days: "1234567",
+   stationName: "Voice of Freedom",
+   language: "Korean",
+   itu: "KOR",
+   txLocation: "Hwaseong",
+   coordinates: "371250N1264640E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "_VOF a25 May12"
  },
  {
    frequency: 5925,
@@ -22202,32 +21539,6 @@ export const radioSchedules = [
    power: "50",
    azimuth: "ND",
    remarks: "VOV 2"
- },
- {
-   frequency: 5925,
-   time: "0300-0400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5925,
-   time: "0400-0500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 5930,
@@ -22374,71 +21685,6 @@ export const radioSchedules = [
  },
  {
    frequency: 5935,
-   time: "1600-1630",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5935,
-   time: "1600-1700",
-   days: "1......",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5935,
-   time: "1600-1700",
-   days: "..3.5..",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5935,
-   time: "1600-1700",
-   days: "...4...",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "English",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5935,
-   time: "1630-1700",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 5935,
    time: "1300-1400",
    days: "1......",
    stationName: "Welle 370",
@@ -22501,6 +21747,71 @@ export const radioSchedules = [
    power: "100",
    azimuth: "85",
    remarks: "WWCR2(WUN) b21=7490"
+ },
+ {
+   frequency: 5935,
+   time: "1555-1625",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5935,
+   time: "1555-1655",
+   days: "1......",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5935,
+   time: "1555-1655",
+   days: "..3.5..",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
+   frequency: 5935,
+   time: "1555-1655",
+   days: "...4...",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "English",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5935,
+   time: "1625-1655",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
  },
  {
    frequency: 5940,
@@ -22566,58 +21877,6 @@ export const radioSchedules = [
    power: "0.2",
    azimuth: "ND",
    remarks: "PIE a24"
- },
- {
-   frequency: 5940,
-   time: "1400-1600",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5940,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5940,
-   time: "1630-1700",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 5940,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 5945,
@@ -22751,7 +22010,7 @@ export const radioSchedules = [
  },
  {
    frequency: 5950,
-   time: "0100-0300",
+   time: "0000-0200",
    days: "1......",
    stationName: "WRMI The Mighty KBC",
    language: "English",
@@ -22760,7 +22019,7 @@ export const radioSchedules = [
    coordinates: "272726N0805559W",
    power: "100",
    azimuth: "355",
-   remarks: "RMI a24"
+   remarks: "RMI a25"
  },
  {
    frequency: 5950,
@@ -22894,8 +22153,8 @@ export const radioSchedules = [
  },
  {
    frequency: 5950,
-   time: "2200-2400",
-   days: "1......",
+   time: "2300-2400",
+   days: "23",
    stationName: "WRMI The Mighty KBC",
    language: "English",
    itu: "USA",
@@ -22903,7 +22162,7 @@ export const radioSchedules = [
    coordinates: "272726N0805559W",
    power: "100",
    azimuth: "355",
-   remarks: "RMI a24"
+   remarks: "RMI a25"
  },
  {
    frequency: 5950,
@@ -22930,19 +22189,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "355",
    remarks: "RMI VORW a24"
- },
- {
-   frequency: 5950,
-   time: "2300-2400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 5952,
@@ -22972,16 +22218,16 @@ export const radioSchedules = [
  },
  {
    frequency: 5955,
-   time: "2200-1830",
+   time: "2100-1830",
    days: "1234567",
    stationName: "Radio Veronica",
    language: "Dutch/English",
    itu: "HOL",
    txLocation: "Overslag",
    coordinates: "5112N00353E",
-   power: "1",
+   power: "0.02",
    azimuth: "90",
-   remarks: "ICN a24"
+   remarks: "ICN a25"
  },
  {
    frequency: 5960,
@@ -22998,7 +22244,20 @@ export const radioSchedules = [
  },
  {
    frequency: 5960,
-   time: "0030-0800",
+   time: "1830-2055",
+   days: "1234567",
+   stationName: "VOICE OF TURKEY",
+   language: "Turkish",
+   itu: "TUR",
+   txLocation: "Emirler",
+   coordinates: "392406N0325121E",
+   power: "500",
+   azimuth: "150",
+   remarks: "TRT a25"
+ },
+ {
+   frequency: 5960,
+   time: "2300-2400",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Chinese",
@@ -23007,59 +22266,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5960,
-   time: "0800-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5960,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24=5960"
- },
- {
-   frequency: 5960,
-   time: "1230-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 5960,
-   time: "2310-2400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 5960,
@@ -23072,7 +22279,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 5960,
+   time: "0030-0257",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25=9835"
  },
  {
    frequency: 5960,
@@ -23085,20 +22305,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 5960,
-   time: "1830-2055",
+   time: "1230-1800",
    days: "1234567",
-   stationName: "VOICE OF TURKEY",
-   language: "Turkish",
-   itu: "TUR",
-   txLocation: "Emirler",
-   coordinates: "392406N0325121E",
-   power: "500",
-   azimuth: "150",
-   remarks: "TRT a25"
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 5965,
@@ -23141,16 +22361,68 @@ export const radioSchedules = [
  },
  {
    frequency: 5965,
-   time: "2200-2230",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Khmer",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
+   time: "1950-2020",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5965,
+   time: "1950-2050",
+   days: "1......",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5965,
+   time: "1950-2050",
+   days: "..3.5..",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
+   frequency: 5965,
+   time: "1950-2050",
+   days: "...4...",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "English",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 5965,
+   time: "2020-2050",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
  },
  {
    frequency: 5970,
@@ -23216,19 +22488,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "35",
    remarks: "BBC a25"
- },
- {
-   frequency: 5970,
-   time: "0000-1400",
-   days: "1234567",
-   stationName: "EWTN 3",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Vandiver",
-   coordinates: "333013N0862827W",
-   power: "100",
-   azimuth: "160",
-   remarks: "EWTN3 a23"
  },
  {
    frequency: 5970,
@@ -23450,6 +22709,19 @@ export const radioSchedules = [
    power: "0.1",
    azimuth: "ND",
    remarks: "SWR a23 1st each month"
+ },
+ {
+   frequency: 5980,
+   time: "1705-1805",
+   days: "1234567",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese/Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
  },
  {
    frequency: 5985,
@@ -23817,7 +23089,7 @@ export const radioSchedules = [
  },
  {
    frequency: 5995,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -23826,7 +23098,7 @@ export const radioSchedules = [
    coordinates: "371249N1264640E",
    power: "100",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 5995,
@@ -24272,6 +23544,19 @@ export const radioSchedules = [
  },
  {
    frequency: 6015,
+   time: "2307-0348",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS=9470 a25"
+ },
+ {
+   frequency: 6015,
    time: "1153-1400",
    days: "1234567",
    stationName: "PBS Xinjiang",
@@ -24281,37 +23566,11 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 6015,
-   time: "1430-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 6015,
-   time: "2345-0348",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS=9470 b24"
- },
- {
-   frequency: 6015,
-   time: "1400-1430",
+   time: "1400-1500",
    days: "1234567",
    stationName: "PBS Xinjiang (CNR17)",
    language: "Kazakh",
@@ -24320,7 +23579,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 6015,
+   time: "1500-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 6020,
@@ -24597,16 +23869,16 @@ export const radioSchedules = [
  },
  {
    frequency: 6030,
-   time: "0000-1200",
+   time: "2025-1805",
    days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "125",
-   azimuth: "205",
-   remarks: "OCB/AGM a24"
+   stationName: "CNR 1 (DRM) 3EA",
+   language: "Chinese(Digital)",
+   itu: "CHN",
+   txLocation: "Beijing 572",
+   coordinates: "394454N1164841E",
+   power: "30",
+   azimuth: "ND",
+   remarks: "CNR1 DRM a25 Apr.24-May5"
  },
  {
    frequency: 6035,
@@ -24714,6 +23986,71 @@ export const radioSchedules = [
  },
  {
    frequency: 6040,
+   time: "1300-1330",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6040,
+   time: "1300-1400",
+   days: "1......",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6040,
+   time: "1300-1400",
+   days: "..3.5..",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
+   frequency: 6040,
+   time: "1300-1400",
+   days: "...4...",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "English",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6040,
+   time: "1330-1400",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6040,
    time: "1400-1457",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
@@ -24818,71 +24155,6 @@ export const radioSchedules = [
  },
  {
    frequency: 6040,
-   time: "1300-1330",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6040,
-   time: "1300-1400",
-   days: "1......",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6040,
-   time: "1300-1400",
-   days: "..3.5..",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6040,
-   time: "1300-1400",
-   days: "...4...",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "English",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6040,
-   time: "1330-1400",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6040,
    time: "0400-0555",
    days: "1234567",
    stationName: "VOICE OF TURKEY",
@@ -24919,58 +24191,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "233",
    remarks: "RSZ a25 MBR"
- },
- {
-   frequency: 6045,
-   time: "0800-0400",
-   days: "1234567",
-   stationName: "Voice of Freedom",
-   language: "Korean",
-   itu: "KOR",
-   txLocation: "Hwaseong",
-   coordinates: "371250N1264640E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "_VOF a25 Apr.4"
- },
- {
-   frequency: 6045,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6045,
-   time: "1800-1900",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6045,
-   time: "1930-2000",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 6050,
@@ -25511,7 +24731,7 @@ export const radioSchedules = [
    days: "...4...",
    stationName: "RADIO NIKKEI 1",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -25524,7 +24744,7 @@ export const radioSchedules = [
    days: ".2345..",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -25537,7 +24757,7 @@ export const radioSchedules = [
    days: ".....6.",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -25550,7 +24770,7 @@ export const radioSchedules = [
    days: "......7",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -25563,7 +24783,7 @@ export const radioSchedules = [
    days: "1......",
    stationName: "RADIO NIKKEI 1",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -26014,19 +25234,6 @@ export const radioSchedules = [
  },
  {
    frequency: 6070,
-   time: "1705-1805",
-   days: "1234567",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese/Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6070,
    time: "0800-0900",
    days: "1......",
    stationName: "SuperClan Radio",
@@ -26143,6 +25350,19 @@ export const radioSchedules = [
    remarks: "R48/FNA VORW a24"
  },
  {
+   frequency: 6070,
+   time: "1705-1805",
+   days: "1234567",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese/Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
    frequency: 6075,
    time: "0000-0057",
    days: "1234567",
@@ -26196,7 +25416,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6075,
-   time: "1400-1700",
+   time: "1400-1711",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -26206,19 +25426,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "310",
    remarks: "CBSM a25//6145"
- },
- {
-   frequency: 6075,
-   time: "2200-2400",
-   days: "1234567",
-   stationName: "R.TAIWAN INT.",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kouhu",
-   coordinates: "233214N1201028E",
-   power: "100",
-   azimuth: "310",
-   remarks: "CBSC a25"
  },
  {
    frequency: 6080,
@@ -26323,58 +25530,6 @@ export const radioSchedules = [
    power: "10",
    azimuth: "226",
    remarks: "ZYE726"
- },
- {
-   frequency: 6080,
-   time: "0300-0400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6080,
-   time: "0400-0600",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6080,
-   time: "0600-0700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6080,
-   time: "1800-2000",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 6085,
@@ -26518,32 +25673,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "ND",
    remarks: "DRO"
- },
- {
-   frequency: 6090,
-   time: "1405-1435",
-   days: "1234567",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6090,
-   time: "1705-1805",
-   days: "1234567",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese/Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
  },
  {
    frequency: 6095,
@@ -26807,19 +25936,6 @@ export const radioSchedules = [
  },
  {
    frequency: 6105,
-   time: "1000-1200",
-   days: "1234567",
-   stationName: "R.TAIWAN INT.",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kouhu",
-   coordinates: "233214N1201028E",
-   power: "100",
-   azimuth: "267",
-   remarks: "CBSC a25"
- },
- {
-   frequency: 6105,
    time: "1200-1230",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
@@ -26846,20 +25962,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6105,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.TAIWAN INT.",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kouhu",
-   coordinates: "233214N1201028E",
-   power: "100",
-   azimuth: "267",
-   remarks: "CBSC a25"
- },
- {
-   frequency: 6105,
-   time: "2200-2400",
+   time: "2300-2330",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -26868,7 +25971,7 @@ export const radioSchedules = [
    coordinates: "233214N1201028E",
    power: "100",
    azimuth: "310",
-   remarks: "CBSC a25"
+   remarks: "CBSC a25 May1"
  },
  {
    frequency: 6110,
@@ -27201,7 +26304,7 @@ export const radioSchedules = [
    days: "17",
    stationName: "RADIO NIKKEI 2",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -27214,7 +26317,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "RADIO NIKKEI 2",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Chiba-Nagara",
    coordinates: "352753N1401221E",
    power: "50",
@@ -27327,7 +26430,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6120,
-   time: "1200-1400",
+   time: "2300-0303",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Uyghur",
@@ -27336,11 +26439,11 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS=9560 a25"
  },
  {
    frequency: 6120,
-   time: "1430-1800",
+   time: "1203-1400",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Uyghur",
@@ -27349,20 +26452,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 6120,
-   time: "2310-0252",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS=9560 b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 6120,
@@ -27375,7 +26465,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 6120,
+   time: "1430-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 6125,
@@ -27599,6 +26702,32 @@ export const radioSchedules = [
    remarks: "Santa"
  },
  {
+   frequency: 6135,
+   time: "1651-1755",
+   days: "123456.",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "325",
+   remarks: "RNZ a25 Jun.1"
+ },
+ {
+   frequency: 6135,
+   time: "1659-1755",
+   days: "7",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "35",
+   remarks: "RNZ a25"
+ },
+ {
    frequency: 6140,
    time: "1700-1800",
    days: "1234567",
@@ -27662,6 +26791,19 @@ export const radioSchedules = [
    power: "1",
    azimuth: "ND",
    remarks: "RON a24"
+ },
+ {
+   frequency: 6145,
+   time: "1405-1435",
+   days: "1234567",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
  },
  {
    frequency: 6145,
@@ -27730,7 +26872,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6145,
-   time: "1400-1700",
+   time: "1400-1711",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -27740,19 +26882,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "310",
    remarks: "CBSM a25//6075"
- },
- {
-   frequency: 6145,
-   time: "1405-1435",
-   days: "1234567",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
  },
  {
    frequency: 6150,
@@ -27870,19 +26999,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "ND",
    remarks: "KBS a25"
- },
- {
-   frequency: 6155,
-   time: "0330-0430",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "500",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 6160,
@@ -28159,6 +27275,71 @@ export const radioSchedules = [
  },
  {
    frequency: 6165,
+   time: "1555-1625",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6165,
+   time: "1555-1655",
+   days: "1......",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6165,
+   time: "1555-1655",
+   days: "..3.5..",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
+   frequency: 6165,
+   time: "1555-1655",
+   days: "...4...",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "English",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6165,
+   time: "1625-1655",
+   days: ".2...67",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Korean",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25"
+ },
+ {
+   frequency: 6165,
    time: "1600-1657",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
@@ -28247,71 +27428,6 @@ export const radioSchedules = [
    power: "125",
    azimuth: "85",
    remarks: "NHK MBR a25"
- },
- {
-   frequency: 6165,
-   time: "1300-1330",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6165,
-   time: "1300-1400",
-   days: "1......",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Japanese",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6165,
-   time: "1300-1400",
-   days: "..3.5..",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6165,
-   time: "1300-1400",
-   days: "...4...",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "English",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
- },
- {
-   frequency: 6165,
-   time: "1330-1400",
-   days: ".2...67",
-   stationName: "Shiokaze (Sea-breeze)",
-   language: "Korean",
-   itu: "JAP",
-   txLocation: "Ibaragi-Koga-Yamata",
-   coordinates: "361024N1394923E",
-   power: "300",
-   azimuth: "290",
-   remarks: "_JSR a25"
  },
  {
    frequency: 6165,
@@ -28588,19 +27704,6 @@ export const radioSchedules = [
  },
  {
    frequency: 6180,
-   time: "0950-1600",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3EA",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Beijing 572",
-   coordinates: "394454N1164841E",
-   power: "30",
-   azimuth: "ND",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 6180,
    time: "1000-1600",
    days: "1234567",
    stationName: "CNR 1 Jamming",
@@ -28610,7 +27713,7 @@ export const radioSchedules = [
    coordinates: "252753N1190958E",
    power: "150",
    azimuth: "358",
-   remarks: "CNR1 Jam.a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 6180,
@@ -28666,7 +27769,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6180,
-   time: "1100-1600",
+   time: "1000-1100",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -28675,7 +27778,7 @@ export const radioSchedules = [
    coordinates: "251108N1212458E",
    power: "300",
    azimuth: "325",
-   remarks: "CBSC/SM a25"
+   remarks: "CBSC/SM a25 May1"
  },
  {
    frequency: 6180,
@@ -28689,32 +27792,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "344",
    remarks: "ZYE365"
- },
- {
-   frequency: 6180,
-   time: "1830-1900",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 6180,
-   time: "1900-1930",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "ASC",
-   txLocation: "Ascension",
-   coordinates: "075354S0142239W",
-   power: "250",
-   azimuth: "85",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 6185,
@@ -28770,7 +27847,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6190,
-   time: "1207-1800",
+   time: "1210-1800",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Mongolian",
@@ -28779,11 +27856,11 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 6190,
-   time: "2315-0330",
+   time: "2310-2330",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Mongolian",
@@ -28792,11 +27869,11 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS=9510 b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 6190,
-   time: "0000-0030",
+   time: "2330-0030",
    days: "1234567",
    stationName: "PBS Xinjiang (CNR8)",
    language: "Mongolian",
@@ -28805,7 +27882,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 6190,
+   time: "0030-0330",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS=9510 a25"
  },
  {
    frequency: 6195,
@@ -28858,19 +27948,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "152",
    remarks: "AID/ENC b24"
- },
- {
-   frequency: 6195,
-   time: "2000-2200",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 6200,
@@ -29039,7 +28116,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6229.948,
@@ -29052,7 +28129,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6229.948,
@@ -29065,11 +28142,11 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6250,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -29078,7 +28155,7 @@ export const radioSchedules = [
    coordinates: "373811N1270629E",
    power: "10",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 6250,
@@ -29099,7 +28176,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -29117,7 +28194,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6280,
@@ -29169,11 +28246,11 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6350,
-   time: "1100-0700",
+   time: "0700-0300",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -29182,7 +28259,7 @@ export const radioSchedules = [
    coordinates: "371249N1264640E",
    power: "100",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 6350,
@@ -29208,7 +28285,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6370.11,
@@ -29221,7 +28298,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6418,
@@ -29229,7 +28306,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -29242,7 +28319,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -29264,7 +28341,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6520,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -29273,7 +28350,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 6600,
@@ -29290,7 +28367,7 @@ export const radioSchedules = [
  },
  {
    frequency: 6600,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "VOICE OF THE PEOPLE",
    language: "Korean",
@@ -29299,7 +28376,7 @@ export const radioSchedules = [
    coordinates: "373542N1265038E",
    power: "50",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\VOP a25 July7 off"
  },
  {
    frequency: 6730,
@@ -29312,7 +28389,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6850.12,
@@ -29325,7 +28402,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6865.119,
@@ -29338,7 +28415,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6899.991,
@@ -29351,7 +28428,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6899.991,
@@ -29364,7 +28441,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6969.902,
@@ -29377,7 +28454,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 6980,
@@ -29433,7 +28510,7 @@ export const radioSchedules = [
  },
  {
    frequency: 7205,
-   time: "1225-1400",
+   time: "2300-0200",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Uyghur",
@@ -29442,33 +28519,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7205,
-   time: "1430-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7205,
-   time: "2310-0257",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24=13670"
+   remarks: "XJBS a25=13670"
  },
  {
    frequency: 7205,
@@ -29481,7 +28532,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7205,
+   time: "1430-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "230",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7209.911,
@@ -29494,7 +28558,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7209.911,
@@ -29507,7 +28571,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7210,
@@ -29897,7 +28961,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29910,7 +28974,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29923,7 +28987,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29936,7 +29000,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29949,7 +29013,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "290",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29962,7 +29026,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "290",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29975,7 +29039,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "290",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -29988,7 +29052,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "290",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -30001,7 +29065,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "290",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7220,
@@ -30014,7 +29078,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7225,
@@ -30160,19 +29224,6 @@ export const radioSchedules = [
    remarks: "SCBS2"
  },
  {
-   frequency: 7225,
-   time: "0330-0430",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 7230,
    time: "1200-1400",
    days: "1234567",
@@ -30239,7 +29290,7 @@ export const radioSchedules = [
  },
  {
    frequency: 7230,
-   time: "0500-1030",
+   time: "2310-2330",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Mongolian",
@@ -30248,7 +29299,46 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7230,
+   time: "2330-0030",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR8)",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7230,
+   time: "0030-0330",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7230,
+   time: "0510-0700",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7230,
@@ -30261,7 +29351,33 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7230,
+   time: "0800-1030",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7230,
+   time: "1150-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7235,
@@ -30915,45 +30031,6 @@ export const radioSchedules = [
  },
  {
    frequency: 7260,
-   time: "0258-0800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7260,
-   time: "0800-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7260,
-   time: "1100-1205",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7260,
    time: "0050-0155",
    days: "1234567",
    stationName: "VOICE OF TURKEY",
@@ -30967,16 +30044,94 @@ export const radioSchedules = [
  },
  {
    frequency: 7260,
-   time: "0330-0400",
+   time: "2300-2400",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "146",
-   remarks: "VOA/AGM a24"
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "0000-0030",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR1)",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "0030-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "0800-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "1100-1200",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "1200-1230",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR1)",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7260,
+   time: "1230-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7265,
@@ -31292,84 +30447,6 @@ export const radioSchedules = [
  },
  {
    frequency: 7275,
-   time: "0300-0600",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7275,
-   time: "0630-0800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7275,
-   time: "0800-0900",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7275,
-   time: "0900-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7275,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24=3990"
- },
- {
-   frequency: 7275,
-   time: "0600-0630",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7275,
    time: "0255-0355",
    days: "1234567",
    stationName: "VOICE OF TURKEY",
@@ -31382,6 +30459,110 @@ export const radioSchedules = [
    remarks: "TRT a25"
  },
  {
+   frequency: 7275,
+   time: "2300-0600",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "0600-0700",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "0700-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "0800-0900",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "0900-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "1100-1400",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "1400-1430",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7275,
+   time: "1430-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
    frequency: 7280.065,
    time: "0000-2359",
    days: "1234567",
@@ -31392,7 +30573,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7280.095,
@@ -31405,7 +30586,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7285,
@@ -31457,7 +30638,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "50",
    azimuth: "216",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7285,
@@ -31470,7 +30651,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "50",
    azimuth: "216",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7285,
@@ -31483,7 +30664,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "50",
    azimuth: "216",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7285,
@@ -31496,7 +30677,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "50",
    azimuth: "216",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7285,
@@ -31509,7 +30690,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "50",
    azimuth: "216",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 7290,
@@ -31617,6 +30798,19 @@ export const radioSchedules = [
  },
  {
    frequency: 7295,
+   time: "1405-1435",
+   days: "1234567",
+   stationName: "Shiokaze (Sea-breeze)",
+   language: "Japanese",
+   itu: "J",
+   txLocation: "Ibaragi-Koga-Yamata",
+   coordinates: "361024N1394923E",
+   power: "300",
+   azimuth: "290",
+   remarks: "_JSR a25 Jun.19"
+ },
+ {
+   frequency: 7295,
    time: "0030-0100",
    days: "1234567",
    stationName: "BBC",
@@ -31640,32 +30834,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "269",
    remarks: "CRI a25"
- },
- {
-   frequency: 7295,
-   time: "0310-0530",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kyrgyz",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "247",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7295,
-   time: "1010-1230",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kyrgyz",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "247",
-   remarks: "XJBS b24//9705"
  },
  {
    frequency: 7300,
@@ -31838,20 +31006,20 @@ export const radioSchedules = [
  },
  {
    frequency: 7310,
-   time: "0030-0305",
+   time: "0000-2359",
    days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24=9600"
+   stationName: "SOH Xi Wang Zhi Sheng",
+   language: "Chinese/Cantonese",
+   itu: "TWN",
+   txLocation: "Miaoli",
+   coordinates: "242320N1204250E",
+   power: "1",
+   azimuth: "ND",
+   remarks: "SOH a25"
  },
  {
    frequency: 7310,
-   time: "1230-1400",
+   time: "2300-2400",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Chinese",
@@ -31860,33 +31028,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7310,
-   time: "1400-1800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 7310,
-   time: "2310-2400",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7310,
@@ -31899,33 +31041,33 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7310,
-   time: "1200-1230",
+   time: "0030-0308",
    days: "1234567",
-   stationName: "PBS Xinjiang (CNR1)",
+   stationName: "PBS Xinjiang",
    language: "Chinese",
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25=9600"
  },
  {
    frequency: 7310,
-   time: "0000-2359",
+   time: "1400-1800",
    days: "1234567",
-   stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese/Cantonese",
-   itu: "TWN",
-   txLocation: "Miaoli",
-   coordinates: "242320N1204250E",
-   power: "1",
-   azimuth: "ND",
-   remarks: "SOH b24"
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "230",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7315,
@@ -31972,25 +31114,25 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JRC Radio Dabanga",
    language: "Darfur Arabic",
-   itu: "F",
-   txLocation: "Issoudun",
-   coordinates: "465755N0015146E",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 1",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "138",
-   remarks: "JRC/MGB a24"
+   azimuth: "335",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 7315,
-   time: "0315-0430",
+   time: "0315-0400",
    days: "1234567",
    stationName: "JRC Radio Tamazui",
    language: "Juba Arabic",
-   itu: "F",
-   txLocation: "Issoudun",
-   coordinates: "465755N0015146E",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 1",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "138",
-   remarks: "JRC/MGB a24"
+   azimuth: "335",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 7325,
@@ -32108,19 +31250,6 @@ export const radioSchedules = [
    power: "150",
    azimuth: "191",
    remarks: "CRI a25"
- },
- {
-   frequency: 7325,
-   time: "2030-2100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 7330,
@@ -32241,7 +31370,7 @@ export const radioSchedules = [
  },
  {
    frequency: 7340,
-   time: "0328-0800",
+   time: "2307-0500",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Kazakh",
@@ -32250,24 +31379,24 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7340,
-   time: "0900-1100",
-   days: "12.4567",
+   time: "0500-0600",
+   days: "1234567",
    stationName: "PBS Xinjiang",
-   language: "Kazakh",
+   language: "Chinese",
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7340,
-   time: "1130-1155",
+   time: "0600-0800",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Kazakh",
@@ -32276,33 +31405,59 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24=4850"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7340,
-   time: "0800-0900",
+   time: "0800-1100",
    days: "12.4567",
-   stationName: "PBS Xinjiang (CNR17)",
+   stationName: "PBS Xinjiang",
    language: "Kazakh",
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 7340,
-   time: "1100-1130",
-   days: ".23456.",
-   stationName: "PBS Xinjiang (CNR17)",
+   time: "1100-1400",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
    language: "Kazakh",
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7340,
+   time: "1400-1500",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 7340,
+   time: "1500-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 7345,
@@ -32439,7 +31594,7 @@ export const radioSchedules = [
    time: "1400-1500",
    days: "1234567",
    stationName: "CNR 11",
-   language: "Tibetan(Amdo dialect",
+   language: "Tibetan(Amdo dialect)",
    itu: "CHN",
    txLocation: "Baoji-Sifangshan 724",
    coordinates: "342702N1074130E",
@@ -32523,7 +31678,7 @@ export const radioSchedules = [
    coordinates: "152244N1203733E",
    power: "250",
    azimuth: "21",
-   remarks: "_BBC a25"
+   remarks: "_BBC a25-Apr.14"
  },
  {
    frequency: 7355,
@@ -32536,7 +31691,7 @@ export const radioSchedules = [
    coordinates: "152244N1203733E",
    power: "250",
    azimuth: "21",
-   remarks: "_BBC a25"
+   remarks: "_BBC a25-Apr.14"
  },
  {
    frequency: 7355,
@@ -32549,7 +31704,7 @@ export const radioSchedules = [
    coordinates: "152244N1203733E",
    power: "250",
    azimuth: "21",
-   remarks: "_BBC a25"
+   remarks: "_BBC a25-Apr.14"
  },
  {
    frequency: 7355,
@@ -32708,45 +31863,6 @@ export const radioSchedules = [
    remarks: "HCJ/FNA a24"
  },
  {
-   frequency: 7365,
-   time: "0000-0300",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "184",
-   remarks: "OCB/AGM a24"
- },
- {
-   frequency: 7365,
-   time: "1200-1400",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "205",
-   remarks: "OCB/AGM a24"
- },
- {
-   frequency: 7365,
-   time: "1900-2100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "38",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 7370,
    time: "1100-1157",
    days: "1234567",
@@ -32804,7 +31920,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Russian",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -32817,7 +31933,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -32830,7 +31946,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Russian",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -32843,38 +31959,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
    azimuth: "270",
    remarks: "NHK a25"
- },
- {
-   frequency: 7375,
-   time: "0400-0500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 7375,
-   time: "2200-2230",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Khmer",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 7380,
@@ -33178,7 +32268,7 @@ export const radioSchedules = [
  {
    frequency: 7410,
    time: "1850-1905",
-   days: "123456",
+   days: "123456.",
    stationName: "TWR Africa",
    language: "Umbundu",
    itu: "SWZ",
@@ -33527,6 +32617,45 @@ export const radioSchedules = [
    remarks: "NHK a25"
  },
  {
+   frequency: 7425,
+   time: "1651-1755",
+   days: "123456.",
+   stationName: "R.NEW ZEALAND INT.(DRM)",
+   language: "English(Digital)",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "35",
+   azimuth: "325",
+   remarks: "RNZ a25"
+ },
+ {
+   frequency: 7425,
+   time: "0759-1058",
+   days: "1234567",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "35",
+   remarks: "RNZ a25"
+ },
+ {
+   frequency: 7425,
+   time: "1059-1258",
+   days: "123456.",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "325",
+   remarks: "RNZ a25"
+ },
+ {
    frequency: 7430,
    time: "0900-0957",
    days: "1234567",
@@ -33683,45 +32812,6 @@ export const radioSchedules = [
    remarks: "VOV 1"
  },
  {
-   frequency: 7435,
-   time: "1100-1400",
-   days: "1234567",
-   stationName: "R.FARDA",
-   language: "Persian",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "30",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 7435,
-   time: "2100-2200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Chinese",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA1/AGM a24"
- },
- {
-   frequency: 7435,
-   time: "0300-1000",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "184",
-   remarks: "OCB/AGM a24"
- },
- {
    frequency: 7440,
    time: "1200-1400",
    days: "1234567",
@@ -33737,7 +32827,7 @@ export const radioSchedules = [
  {
    frequency: 7440,
    time: "1259-1650",
-   days: "23456",
+   days: "123456",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
    itu: "NZL",
@@ -33750,7 +32840,7 @@ export const radioSchedules = [
  {
    frequency: 7440,
    time: "1259-1658",
-   days: "17",
+   days: "7",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
    itu: "NZL",
@@ -33956,19 +33046,6 @@ export const radioSchedules = [
    remarks: "Jamming a23"
  },
  {
-   frequency: 7460,
-   time: "0330-0430",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 7460.009,
    time: "2136-1700",
    days: "1234567",
@@ -33979,72 +33056,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 7465,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "332",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 7465,
-   time: "1900-2100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 7470,
-   time: "1100-1300",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "30",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 7475,
-   time: "1800-1930",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "313",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 7485,
-   time: "2200-2300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFA4/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7490,
@@ -34387,7 +33399,7 @@ export const radioSchedules = [
  {
    frequency: 7490,
    time: "1400-1500",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -34411,97 +33423,6 @@ export const radioSchedules = [
    remarks: "WWCR2 TOM a24"
  },
  {
-   frequency: 7495,
-   time: "0030-0100",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "80",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1430-1500",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1500-1530",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1530-1600",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1630-1700",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 7495,
-   time: "1700-1730",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
    frequency: 7505,
    time: "2200-1600",
    days: "1234567",
@@ -34513,19 +33434,6 @@ export const radioSchedules = [
    power: "50",
    azimuth: "20",
    remarks: "WRNO a25"
- },
- {
-   frequency: 7510,
-   time: "1900-2000",
-   days: "1234567",
-   stationName: "KTWR GUAM",
-   language: "Korean",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "320",
-   remarks: "KTWR b24"
  },
  {
    frequency: 7510,
@@ -34567,19 +33475,6 @@ export const radioSchedules = [
    remarks: "TOM WWCR4 a24"
  },
  {
-   frequency: 7525,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kurdish",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "105",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 7530,
    time: "1530-1600",
    days: "1234567",
@@ -34603,7 +33498,7 @@ export const radioSchedules = [
    coordinates: "152244N1203733E",
    power: "250",
    azimuth: "21",
-   remarks: "_BBC a25"
+   remarks: "_BBC a25-Apr.14"
  },
  {
    frequency: 7540,
@@ -34619,19 +33514,6 @@ export const radioSchedules = [
    remarks: "_VOMK a25 ENC"
  },
  {
-   frequency: 7540,
-   time: "1700-1900",
-   days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "311",
-   remarks: "VOA/AGM Deewa R a24"
- },
- {
    frequency: 7553,
    time: "0830-0945",
    days: "1234567",
@@ -34643,6 +33525,19 @@ export const radioSchedules = [
    power: "",
    azimuth: "",
    remarks: "USB mode cf.7345"
+ },
+ {
+   frequency: 7570,
+   time: "0200-0300",
+   days: "......7",
+   stationName: "WRMI The Mighty KBC",
+   language: "Spanish",
+   itu: "USA",
+   txLocation: "Okeechobee12",
+   coordinates: "272726N0805559W",
+   power: "100",
+   azimuth: "315",
+   remarks: "RMI a25"
  },
  {
    frequency: 7570,
@@ -34772,7 +33667,7 @@ export const radioSchedules = [
    coordinates: "411313N0690902E",
    power: "100",
    azimuth: "76",
-   remarks: "_NKRR a25"
+   remarks: "_NKRR a25 Jun.2"
  },
  {
    frequency: 7590,
@@ -34798,20 +33693,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 7605,
-   time: "2000-2100",
-   days: "1234567",
-   stationName: "Radio Free North Korea",
-   language: "Korean",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
-   power: "100",
-   azimuth: "76",
-   remarks: "_FNK a25 ENC"
+   remarks: "SOH a25"
  },
  {
    frequency: 7610,
@@ -34827,6 +33709,19 @@ export const radioSchedules = [
    remarks: "LGBT a24 ENC"
  },
  {
+   frequency: 7615,
+   time: "2000-2100",
+   days: "1234567",
+   stationName: "Radio Free North Korea",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_FNK a25 ENC"
+ },
+ {
    frequency: 7625,
    time: "1500-1530",
    days: "1234567",
@@ -34837,7 +33732,7 @@ export const radioSchedules = [
    coordinates: "411313N0690902E",
    power: "100",
    azimuth: "76",
-   remarks: "_VOMK b24 ENC"
+   remarks: "_VOMK a25 ENC"
  },
  {
    frequency: 7625,
@@ -34850,7 +33745,7 @@ export const radioSchedules = [
    coordinates: "411313N0690902E",
    power: "100",
    azimuth: "76",
-   remarks: "_VOMK b24 ENC"
+   remarks: "_VOMK a25 ENC"
  },
  {
    frequency: 7644.981,
@@ -34863,11 +33758,11 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7720,
-   time: "0700-0300",
+   time: "1100-0700",
    days: "1234567",
    stationName: "ECHO OF HOPE-VOH",
    language: "Korean",
@@ -34876,7 +33771,7 @@ export const radioSchedules = [
    coordinates: "373811N1270629E",
    power: "10",
    azimuth: "ND",
-   remarks: "\\VOP b24 Mar.3"
+   remarks: "\\EOH a25 July7 off"
  },
  {
    frequency: 7730,
@@ -34889,7 +33784,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7730,
@@ -34902,7 +33797,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7730,
@@ -35037,7 +33932,7 @@ export const radioSchedules = [
  {
    frequency: 7730,
    time: "0330-0400",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Soteriah International Ministry",
    language: "French",
    itu: "USA",
@@ -35305,7 +34200,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7780,
@@ -35648,7 +34543,7 @@ export const radioSchedules = [
  {
    frequency: 7780,
    time: "0800-0900",
-   days: "123456",
+   days: "123456.",
    stationName: "WRMI Voice of Indonesia",
    language: "English",
    itu: "USA",
@@ -35677,7 +34572,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JMH",
    language: "F3C",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "311922N1303138E",
    power: "5",
@@ -35695,7 +34590,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7810,
@@ -35708,7 +34603,7 @@ export const radioSchedules = [
    coordinates: "242320N1204250E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 7850,
@@ -35729,7 +34624,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "HFD Radio Station",
    language: "H3A",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Tokyo-Chofu",
    coordinates: "3539N13932E",
    power: "0.2",
@@ -35745,7 +34640,7 @@ export const radioSchedules = [
    itu: "TWN",
    txLocation: "Tainan",
    coordinates: "",
-   power: "0.25",
+   power: ".25",
    azimuth: "",
    remarks: "CWB //5170"
  },
@@ -35885,7 +34780,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -35898,7 +34793,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -35911,7 +34806,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "Slot Machine",
    language: "QPSK 1500bd",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ichihara",
    coordinates: "3527N14011E",
    power: "",
@@ -35927,8 +34822,8 @@ export const radioSchedules = [
    itu: "CUB",
    txLocation: "Bejucal",
    coordinates: "225157N0821858W",
-   power: "5",
-   azimuth: "0 ND",
+   power: "50",
+   azimuth: "ND",
    remarks: "HM01 Random numbers"
  },
  {
@@ -35940,8 +34835,8 @@ export const radioSchedules = [
    itu: "CUB",
    txLocation: "Bejucal",
    coordinates: "225157N0821858W",
-   power: "5",
-   azimuth: "0 ND",
+   power: "50",
+   azimuth: "ND",
    remarks: "HM01 Random numbers"
  },
  {
@@ -35955,7 +34850,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9153,
@@ -35979,8 +34874,8 @@ export const radioSchedules = [
    itu: "CUB",
    txLocation: "Bejucal",
    coordinates: "225157N0821858W",
-   power: "5",
-   azimuth: "0 ND",
+   power: "50",
+   azimuth: "ND",
    remarks: "HM01 Random numbers"
  },
  {
@@ -35994,7 +34889,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9180.017,
@@ -36007,7 +34902,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9180.017,
@@ -36020,7 +34915,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9200.025,
@@ -36033,7 +34928,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9214.93,
@@ -36046,20 +34941,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9229.963,
    time: "2100-1610",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese",
+   language: "Chinese/",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9254.923,
@@ -36072,7 +34967,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9265,
@@ -36259,7 +35154,7 @@ export const radioSchedules = [
  {
    frequency: 9265,
    time: "0500-0700",
-   days: "123456",
+   days: "123456.",
    stationName: "WINB The Overcomer Ministry",
    language: "English",
    itu: "USA",
@@ -36397,33 +35292,33 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9299.958,
    time: "2130-1630",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese",
+   language: "Chinese.",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
-   frequency: 9310,
-   time: "1300-1900",
+   frequency: 9320,
+   time: "1900-2000",
    days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM Deewa R a24"
+   stationName: "KTWR GUAM",
+   language: "Korean",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "345",
+   remarks: "KTWR a25"
  },
  {
    frequency: 9320,
@@ -36436,7 +35331,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "345",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9320,
@@ -36449,59 +35344,33 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "345",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 9320,
-   time: "2200-2230",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Khmer",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9320.018,
    time: "1400-1500",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9320.018,
    time: "2357-1646",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 9325,
-   time: "1600-1700",
-   days: "..3..6.",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9330,
@@ -36515,32 +35384,6 @@ export const radioSchedules = [
    power: "50",
    azimuth: "ND",
    remarks: "HM01 Random numbers"
- },
- {
-   frequency: 9330,
-   time: "1400-1500",
-   days: "234567",
-   stationName: "Voice of Wilderness",
-   language: "Korean",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
-   power: "100",
-   azimuth: "76",
-   remarks: "_CMI a25 ENC"
- },
- {
-   frequency: 9330,
-   time: "1400-1530",
-   days: "1",
-   stationName: "Voice of Wilderness",
-   language: "Korean",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
-   power: "100",
-   azimuth: "76",
-   remarks: "_CMI a25 ENC"
  },
  {
    frequency: 9330,
@@ -36582,30 +35425,30 @@ export const radioSchedules = [
    remarks: "WLC b24"
  },
  {
-   frequency: 9330,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Khmer",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "87",
-   remarks: "RFA3/AGM a24"
+   frequency: 9335,
+   time: "1400-1500",
+   days: "234567",
+   stationName: "Voice of Wilderness",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_CMI a25 ENC"
  },
  {
    frequency: 9335,
-   time: "1600-1700",
-   days: "...4..7",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   time: "1400-1530",
+   days: "1",
+   stationName: "Voice of Wilderness",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_CMI a25 ENC"
  },
  {
    frequency: 9339.836,
@@ -36618,20 +35461,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 9340,
-   time: "1600-1700",
-   days: ".2..5..",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9345,
@@ -36738,22 +35568,9 @@ export const radioSchedules = [
    remarks: "BVBN a25 MBR"
  },
  {
-   frequency: 9345,
-   time: "1130-1200",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "297",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 9350,
    time: "1900-2358",
-   days: "123456",
+   days: "123456.",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -36790,110 +35607,6 @@ export const radioSchedules = [
    remarks: "TOM WWCR2 a24"
  },
  {
-   frequency: 9350,
-   time: "0100-0200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "60",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 9350,
-   time: "1200-1400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9355,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "60",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 9370,
-   time: "0300-1230",
-   days: "1234567",
-   stationName: "R.FARDA",
-   language: "Persian",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "58",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 9370,
-   time: "1630-2000",
-   days: "1234567",
-   stationName: "R.FARDA",
-   language: "Persian",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "58",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 9370,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Burmese",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "87",
-   remarks: "RFA2/AGM a24"
- },
- {
-   frequency: 9370,
-   time: "1430-1530",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9370,
-   time: "1530-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 9380,
    time: "1745-1800",
    days: "......7",
@@ -36907,134 +35620,17 @@ export const radioSchedules = [
    remarks: "TWR b24"
  },
  {
-   frequency: 9380,
-   time: "2200-2300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
+   frequency: 9390,
+   time: "1430-1500",
+   days: ".23456.",
+   stationName: "BBC",
+   language: "Korean",
+   itu: "TJK",
+   txLocation: "Dushanbe-Orzu",
+   coordinates: "373216N0684738E",
    power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 9380,
-   time: "1430-1530",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9380,
-   time: "1530-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Burmese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "0000-0900",
-   days: "1234567",
-   stationName: "EWTN 1",
-   language: "English",
-   itu: "USA",
-   txLocation: "Vandiver",
-   coordinates: "333013N0862827W",
-   power: "250",
-   azimuth: "85",
-   remarks: "EWTN1 a23"
- },
- {
-   frequency: 9385,
-   time: "1200-1230",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "132",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "1230-1245",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "Chinese",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "154",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "1245-1300",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "Malaysian",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "30",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "1300-1315",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "Japanese",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "54",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "1315-1330",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "Malaysian",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "154",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 9385,
-   time: "1330-1400",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "Thai",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "54",
-   remarks: "NBT/AGM a24"
+   azimuth: "72",
+   remarks: "_BBC a25"
  },
  {
    frequency: 9390,
@@ -37364,7 +35960,7 @@ export const radioSchedules = [
  {
    frequency: 9395,
    time: "0400-0500",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI The Overcomer Ministry",
    language: "English",
    itu: "USA",
@@ -37648,19 +36244,6 @@ export const radioSchedules = [
    remarks: "RTI a25"
  },
  {
-   frequency: 9405,
-   time: "1400-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 9410,
    time: "0200-0230",
    days: "1234567",
@@ -37753,7 +36336,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9410,
-   time: "0700-0900",
+   time: "0600-1100",
    days: "1234567",
    stationName: "Fu Hsing BS",
    language: "Chinese",
@@ -37762,20 +36345,7 @@ export const radioSchedules = [
    coordinates: "250209N1210549E",
    power: "10",
    azimuth: "ND",
-   remarks: "FHBS b24"
- },
- {
-   frequency: 9410,
-   time: "1000-1300",
-   days: "1234567",
-   stationName: "Fu Hsing BS",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "FHBS b24"
+   remarks: "FHBS a25 Jul.1"
  },
  {
    frequency: 9410,
@@ -37986,6 +36556,32 @@ export const radioSchedules = [
    remarks: "VOK a25"
  },
  {
+   frequency: 9430,
+   time: "0030-0100",
+   days: "1234567",
+   stationName: "Mizzima Media",
+   language: "Burmese",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241012N0541459E",
+   power: "250",
+   azimuth: "85",
+   remarks: "RDR a25 Apr.1-"
+ },
+ {
+   frequency: 9430,
+   time: "0100-0130",
+   days: "1234567",
+   stationName: "Democratic Voice of Burma",
+   language: "Burmese",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241012N0541459E",
+   power: "250",
+   azimuth: "85",
+   remarks: "DVB a25 Apr.25-"
+ },
+ {
    frequency: 9435,
    time: "1300-1357",
    days: "1234567",
@@ -38160,7 +36756,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Urdu",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -38311,17 +36907,17 @@ export const radioSchedules = [
    remarks: "VOK a25"
  },
  {
-   frequency: 9445,
-   time: "1400-1500",
+   frequency: 9450,
+   time: "1700-1900",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241343N0542456E",
    power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM a24"
+   azimuth: "35",
+   remarks: "RFE/ENC a25 Jun.20-"
  },
  {
    frequency: 9450,
@@ -38430,7 +37026,7 @@ export const radioSchedules = [
  {
    frequency: 9455,
    time: "0200-0300",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Legends",
    language: "English",
    itu: "USA",
@@ -38443,7 +37039,7 @@ export const radioSchedules = [
  {
    frequency: 9455,
    time: "0300-0400",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Truth2Ponder",
    language: "English",
    itu: "USA",
@@ -38456,7 +37052,7 @@ export const radioSchedules = [
  {
    frequency: 9455,
    time: "0400-0600",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Legends",
    language: "English",
    itu: "USA",
@@ -38521,7 +37117,7 @@ export const radioSchedules = [
  {
    frequency: 9455,
    time: "0900-0930",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI WRN Israel Radio",
    language: "English",
    itu: "USA",
@@ -38547,7 +37143,7 @@ export const radioSchedules = [
  {
    frequency: 9455,
    time: "0930-1000",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI WRN Radio Prague",
    language: "English",
    itu: "USA",
@@ -38688,32 +37284,6 @@ export const radioSchedules = [
    remarks: "TRT a25"
  },
  {
-   frequency: 9460,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "315",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9465,
-   time: "1530-1600",
-   days: ".23456.",
-   stationName: "BBC",
-   language: "Korean",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "250",
-   azimuth: "63",
-   remarks: "_BBC a25"
- },
- {
    frequency: 9465,
    time: "0200-0255",
    days: "1234567",
@@ -38754,97 +37324,6 @@ export const radioSchedules = [
  },
  {
    frequency: 9470,
-   time: "0900-1300",
-   days: "1234567",
-   stationName: "EWTN 1",
-   language: "English",
-   itu: "USA",
-   txLocation: "Vandiver",
-   coordinates: "333013N0862827W",
-   power: "250",
-   azimuth: "335",
-   remarks: "EWTN1 a23"
- },
- {
-   frequency: 9470,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "Furusato no kaze",
-   language: "Japanese",
-   itu: "TWN",
-   txLocation: "Paochung",
-   coordinates: "234334N1201802E",
-   power: "300",
-   azimuth: "2",
-   remarks: "_JCI a25 ENC"
- },
- {
-   frequency: 9470,
-   time: "0348-0800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9470,
-   time: "0900-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9470,
-   time: "1130-1152",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS=6015 b24"
- },
- {
-   frequency: 9470,
-   time: "0800-0900",
-   days: "12.4567",
-   stationName: "PBS Xinjiang (CNR17)",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9470,
-   time: "1100-1130",
-   days: ".23456.",
-   stationName: "PBS Xinjiang (CNR17)",
-   language: "Kazakh",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9470,
    time: "1800-1900",
    days: "1234567",
    stationName: "R.CAIRO",
@@ -38858,29 +37337,81 @@ export const radioSchedules = [
  },
  {
    frequency: 9470,
-   time: "1930-2000",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "500",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
+   time: "0348-0500",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
  },
  {
    frequency: 9470,
-   time: "2030-2100",
+   time: "0500-0600",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9470,
+   time: "0600-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9470,
+   time: "0800-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9470,
+   time: "1100-1152",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kazakh",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS=6015 a25"
+ },
+ {
+   frequency: 9470,
+   time: "1400-1428",
+   days: "36",
+   stationName: "RBS  Voice of the Rivival of Korea",
+   language: "Korean",
+   itu: "TWN",
+   txLocation: "Paochung",
+   coordinates: "234334N1201802E",
+   power: "300",
+   azimuth: "2",
+   remarks: "_RAB a25 Jun.3"
  },
  {
    frequency: 9475,
@@ -39005,77 +37536,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
    azimuth: "175",
    remarks: "NHK a25"
- },
- {
-   frequency: 9480,
-   time: "0230-0300",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "88",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 9480,
-   time: "0300-0330",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "88",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 9480,
-   time: "0330-0430",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "88",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 9480,
-   time: "1600-1700",
-   days: "1......",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 9480,
-   time: "0030-0100",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM(R.Ashna) a24"
  },
  {
    frequency: 9490,
@@ -39218,7 +37684,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9490,
@@ -39258,97 +37724,6 @@ export const radioSchedules = [
    power: "150",
    azimuth: "285",
    remarks: "RMI a24"
- },
- {
-   frequency: 9490,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "38",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "1830-1930",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "1930-2000",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "235",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "2030-2100",
-   days: "1......",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "2030-2100",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "2030-2100",
-   days: "......7",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9490,
-   time: "2130-2200",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Bambara",
-   itu: "ASC",
-   txLocation: "Ascension",
-   coordinates: "075354S0142239W",
-   power: "250",
-   azimuth: "27",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 9500,
@@ -39426,7 +37801,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9500,
@@ -39439,7 +37814,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9500,
@@ -39547,7 +37922,20 @@ export const radioSchedules = [
  },
  {
    frequency: 9510,
-   time: "0500-1030",
+   time: "0430-0457",
+   days: "1234567",
+   stationName: "R.ROMANIA INT.",
+   language: "Russian",
+   itu: "ROU",
+   txLocation: "Tiganesti",
+   coordinates: "444457N0260610E",
+   power: "300",
+   azimuth: "37",
+   remarks: "RRO a25"
+ },
+ {
+   frequency: 9510,
+   time: "0510-0700",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Mongolian",
@@ -39556,7 +37944,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS=6190 b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 9510,
@@ -39569,20 +37957,20 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "50",
    azimuth: "ND",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 9510,
-   time: "0430-0457",
+   time: "0800-1030",
    days: "1234567",
-   stationName: "R.ROMANIA INT.",
-   language: "Russian",
-   itu: "ROU",
-   txLocation: "Tiganesti",
-   coordinates: "444457N0260610E",
-   power: "300",
-   azimuth: "37",
-   remarks: "ROR a25"
+   stationName: "PBS Xinjiang",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "ND",
+   remarks: "XJBS=6190 a25"
  },
  {
    frequency: 9515,
@@ -39725,7 +38113,7 @@ export const radioSchedules = [
    coordinates: "443817N0260433E",
    power: "100",
    azimuth: "270",
-   remarks: "ROR a23"
+   remarks: "RRO a23"
  },
  {
    frequency: 9525,
@@ -39817,19 +38205,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "225",
    remarks: "RTI a25"
- },
- {
-   frequency: 9525,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "RFE/R.LIBERTY",
-   language: "Turkmen",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFE/AGM a24"
  },
  {
    frequency: 9530,
@@ -39946,7 +38321,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9535,
@@ -40089,7 +38464,7 @@ export const radioSchedules = [
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9540,
@@ -40175,6 +38550,19 @@ export const radioSchedules = [
    days: ".234...",
    stationName: "FEBA Radio Pakistan",
    language: "Balichi",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241012N0541459E",
+   power: "250",
+   azimuth: "60",
+   remarks: "FEBC a25 ENC"
+ },
+ {
+   frequency: 9540,
+   time: "0215-0230",
+   days: "1",
+   stationName: "FEBA Radio Pakistan",
+   language: "Urdu",
    itu: "UAE",
    txLocation: "Al-Dhabbiya",
    coordinates: "241012N0541459E",
@@ -40287,19 +38675,6 @@ export const radioSchedules = [
    remarks: "TRT a25"
  },
  {
-   frequency: 9540,
-   time: "2100-2200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "RFA2/AGM a24"
- },
- {
    frequency: 9545,
    time: "2200-0500",
    days: "1234567",
@@ -40307,10 +38682,10 @@ export const radioSchedules = [
    language: "English",
    itu: "SLM",
    txLocation: "Honiara",
-   coordinates: "0925S16003E",
+   coordinates: "092617S1600328E",
    power: "10",
    azimuth: "ND",
-   remarks: "SIBC"
+   remarks: "SIBC a25"
  },
  {
    frequency: 9545,
@@ -40324,19 +38699,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "300",
    remarks: "WCB KNLS a25"
- },
- {
-   frequency: 9545,
-   time: "2300-2400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 9550,
@@ -40383,7 +38745,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -40414,7 +38776,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9550,
@@ -40427,7 +38789,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9555,
@@ -40454,19 +38816,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "267",
    remarks: "CBSM a25//9885"
- },
- {
-   frequency: 9555,
-   time: "2130-2200",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Bambara",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 9560,
@@ -40526,7 +38875,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -40539,7 +38888,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -40552,90 +38901,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
    azimuth: "290",
    remarks: "NHK a25"
- },
- {
-   frequency: 9560,
-   time: "0252-0600",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9560,
-   time: "0630-0800",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9560,
-   time: "0800-0900",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9560,
-   time: "0900-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9560,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24=6120"
- },
- {
-   frequency: 9560,
-   time: "0600-0630",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "ND",
-   remarks: "XJBS b24"
  },
  {
    frequency: 9560,
@@ -40648,20 +38919,85 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "300",
    azimuth: "2",
-   remarks: "RFA3/AGM a25"
+   remarks: "RFA3/AGM a25-May9"
  },
  {
-   frequency: 9565,
-   time: "2100-2400",
+   frequency: 9560,
+   time: "0245-0600",
    days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "184",
-   remarks: "OCB/AGM a24"
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9560,
+   time: "0600-0700",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9560,
+   time: "0700-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9560,
+   time: "0800-0900",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9560,
+   time: "0900-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9560,
+   time: "1100-1203",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25=6120"
  },
  {
    frequency: 9570,
@@ -40856,7 +39192,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9575,
@@ -40882,7 +39218,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9580,
@@ -41028,19 +39364,6 @@ export const radioSchedules = [
    remarks: "WCB KNLS a25"
  },
  {
-   frequency: 9580,
-   time: "0030-0130",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Burmese",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "500",
-   azimuth: "90",
-   remarks: "RFA1/AGM a24"
- },
- {
    frequency: 9585,
    time: "1458-1600",
    days: "1234567",
@@ -41078,19 +39401,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "298",
    remarks: "CRI a25"
- },
- {
-   frequency: 9585,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "Dimtse Radio Erena",
-   language: "Tigrinya",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "255",
-   remarks: "WRN a25"
  },
  {
    frequency: 9585,
@@ -41341,7 +39651,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9600,
-   time: "0305-0800",
+   time: "0308-0800",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Chinese",
@@ -41350,7 +39660,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 9600,
@@ -41363,7 +39673,7 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 9600,
@@ -41376,7 +39686,33 @@ export const radioSchedules = [
    coordinates: "440934N0865357E",
    power: "100",
    azimuth: "230",
-   remarks: "XJBS b24=7310"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9600,
+   time: "1200-1230",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR1)",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9600,
+   time: "1230-1400",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "230",
+   remarks: "XJBS a25=7310"
  },
  {
    frequency: 9605,
@@ -41458,6 +39794,32 @@ export const radioSchedules = [
  },
  {
    frequency: 9610,
+   time: "2055-2100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Beijing 491",
+   coordinates: "395309N1163437E",
+   power: "100",
+   azimuth: "286",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 9610,
+   time: "2100-0100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "CHN",
+   txLocation: "Beijing 491",
+   coordinates: "395309N1163437E",
+   power: "100",
+   azimuth: "286",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 9610,
    time: "0100-0200",
    days: "1234567",
    stationName: "CNR 8",
@@ -41488,32 +39850,6 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "CNR 8",
    language: "Chinese",
-   itu: "CHN",
-   txLocation: "Beijing 491",
-   coordinates: "395309N1163437E",
-   power: "100",
-   azimuth: "286",
-   remarks: "CNR8 a25"
- },
- {
-   frequency: 9610,
-   time: "2055-2100",
-   days: "1234567",
-   stationName: "CNR 8",
-   language: "Chinese",
-   itu: "CHN",
-   txLocation: "Beijing 491",
-   coordinates: "395309N1163437E",
-   power: "100",
-   azimuth: "286",
-   remarks: "CNR8 a25"
- },
- {
-   frequency: 9610,
-   time: "2100-0100",
-   days: "1234567",
-   stationName: "CNR 8",
-   language: "Mongolian",
    itu: "CHN",
    txLocation: "Beijing 491",
    coordinates: "395309N1163437E",
@@ -41601,16 +39937,29 @@ export const radioSchedules = [
  },
  {
    frequency: 9615,
-   time: "1330-1430",
+   time: "1300-1400",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Khmer",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
+   stationName: "World Christian Broadc.KNLS",
+   language: "Chinese",
+   itu: "ALS",
+   txLocation: "Anchor Point tx2",
+   coordinates: "594454N1514409W",
+   power: "100",
+   azimuth: "315",
+   remarks: "WCB KNLS a25"
+ },
+ {
+   frequency: 9620,
+   time: "2300-0400",
+   days: "1234567",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "G",
+   txLocation: "Woofferton",
+   coordinates: "521625N0024942W",
    power: "250",
-   azimuth: "332",
-   remarks: "VOA/AGM a24"
+   azimuth: "92",
+   remarks: "RFE/ENC a25 Jun.20-"
  },
  {
    frequency: 9620,
@@ -41818,7 +40167,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9635,
@@ -42329,7 +40678,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9660,
-   time: "1100-1600",
+   time: "1000-1100",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -42338,7 +40687,7 @@ export const radioSchedules = [
    coordinates: "233214N1201028E",
    power: "100",
    azimuth: "267",
-   remarks: "CBSC/SM a25"
+   remarks: "CBSC/SM a25 May1"
  },
  {
    frequency: 9665,
@@ -42887,19 +41236,6 @@ export const radioSchedules = [
    remarks: "WCB KNLS a25"
  },
  {
-   frequency: 9685,
-   time: "2100-2200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Chinese",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA1/AGM a24"
- },
- {
    frequency: 9690,
    time: "1500-1557",
    days: "1234567",
@@ -42911,123 +41247,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "174",
    remarks: "CRI a25"
- },
- {
-   frequency: 9690,
-   time: "0000-0030",
-   days: "..34567",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Portuguese",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "0030-0300",
-   days: "..34567",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "1500-2230",
-   days: "1......",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "1500-2300",
-   days: "......7",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "1900-2230",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "2230-2300",
-   days: "1......",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "2300-2330",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "English",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "2300-2330",
-   days: "..3....",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
- },
- {
-   frequency: 9690,
-   time: "2330-2400",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "French",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "290",
-   remarks: "REE b24"
  },
  {
    frequency: 9695,
@@ -43135,8 +41354,21 @@ export const radioSchedules = [
  },
  {
    frequency: 9700,
-   time: "1651-1758",
-   days: "123456",
+   time: "0759-1058",
+   days: "1234567",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "35",
+   remarks: "RNZ a25"
+ },
+ {
+   frequency: 9700,
+   time: "1059-1258",
+   days: "1234567",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
    itu: "NZL",
@@ -43148,7 +41380,20 @@ export const radioSchedules = [
  },
  {
    frequency: 9700,
-   time: "1659-1758",
+   time: "1756-1958",
+   days: "123456.",
+   stationName: "R.NEW ZEALAND INT.",
+   language: "English",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "50",
+   azimuth: "325",
+   remarks: "RNZ a25"
+ },
+ {
+   frequency: 9700,
+   time: "1759-1958",
    days: "7",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
@@ -43170,7 +41415,20 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
+ },
+ {
+   frequency: 9700,
+   time: "1500-1600",
+   days: "1234567",
+   stationName: "World Christian Broadc.KNLS",
+   language: "Chinese",
+   itu: "ALS",
+   txLocation: "Anchor Point tx2",
+   coordinates: "594454N1514409W",
+   power: "100",
+   azimuth: "315",
+   remarks: "WCB KNLS a25"
  },
  {
    frequency: 9705,
@@ -43200,32 +41458,6 @@ export const radioSchedules = [
  },
  {
    frequency: 9705,
-   time: "0310-0530",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kyrgyz",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "247",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 9705,
-   time: "1010-1230",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Kyrgyz",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "247",
-   remarks: "XJBS b24//7295"
- },
- {
-   frequency: 9705,
    time: "2000-2030",
    days: "1234567",
    stationName: "VATICAN RADIO",
@@ -43249,6 +41481,32 @@ export const radioSchedules = [
    power: "250",
    azimuth: "182",
    remarks: "VAT a25"
+ },
+ {
+   frequency: 9705,
+   time: "0305-0530",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kyrgyz",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "247",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9705,
+   time: "1005-1230",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kyrgyz",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "247",
+   remarks: "XJBS a25//11975"
  },
  {
    frequency: 9710,
@@ -43429,7 +41687,7 @@ export const radioSchedules = [
    txLocation: "Paochung",
    coordinates: "234334N1201802E",
    power: "300",
-   azimuth: "45",
+   azimuth: "2",
    remarks: "RTI a25"
  },
  {
@@ -43729,7 +41987,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "310",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9730,
@@ -43781,7 +42039,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43794,7 +42052,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43807,7 +42065,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43820,7 +42078,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43833,7 +42091,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43846,7 +42104,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43859,7 +42117,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43872,7 +42130,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43885,7 +42143,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43898,7 +42156,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43911,7 +42169,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730,
@@ -43924,33 +42182,20 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
- },
- {
-   frequency: 9730,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "World Christian Broadc.KNLS",
-   language: "Korean",
-   itu: "ALS",
-   txLocation: "Anchor Point tx1",
-   coordinates: "594454N1514409W",
-   power: "100",
-   azimuth: "300",
-   remarks: "WCB KNLS a25"
+   remarks: "VOV a25"
  },
  {
    frequency: 9730.126,
    time: "2105-1705",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9735,
@@ -44041,7 +42286,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "310",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9740,
@@ -44054,7 +42299,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "320",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9740,
@@ -44067,7 +42312,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9740,
@@ -44080,7 +42325,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9740,
@@ -44094,19 +42339,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "45",
    remarks: "RTI a25"
- },
- {
-   frequency: 9740,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "World Christian Broadc.KNLS",
-   language: "Chinese",
-   itu: "ALS",
-   txLocation: "Anchor Point tx2",
-   coordinates: "594454N1514409W",
-   power: "100",
-   azimuth: "315",
-   remarks: "WCB KNLS a25"
  },
  {
    frequency: 9745,
@@ -44133,19 +42365,6 @@ export const radioSchedules = [
    power: "450",
    azimuth: "106",
    remarks: "CNR7/GBA a25=13770"
- },
- {
-   frequency: 9745,
-   time: "0100-0130",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Rohingya",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 9750,
@@ -44179,7 +42398,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -44275,7 +42494,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 9750,
@@ -44356,32 +42575,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 9760,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "World Christian Broadc.KNLS",
-   language: "Chinese",
-   itu: "ALS",
-   txLocation: "Anchor Point tx2",
-   coordinates: "594454N1514409W",
-   power: "100",
-   azimuth: "315",
-   remarks: "WCB KNLS a25"
- },
- {
-   frequency: 9760,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "75",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 9765,
    time: "0430-0600",
    days: "1234567",
@@ -44435,7 +42628,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9765,
-   time: "1800-1857",
+   time: "1758-1857",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
    language: "Russian",
@@ -44526,7 +42719,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9770,
-   time: "1700-1757",
+   time: "1700-1800",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
    language: "Cantonese",
@@ -44747,8 +42940,8 @@ export const radioSchedules = [
  },
  {
    frequency: 9780,
-   time: "1651-1758",
-   days: "123456",
+   time: "1756-1958",
+   days: "123456.",
    stationName: "R.NEW ZEALAND INT.(DRM)",
    language: "English(Digital)",
    itu: "NZL",
@@ -44757,19 +42950,6 @@ export const radioSchedules = [
    power: "35",
    azimuth: "325",
    remarks: "RNZ a25"
- },
- {
-   frequency: 9780,
-   time: "0100-0200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
  },
  {
    frequency: 9785,
@@ -45084,32 +43264,6 @@ export const radioSchedules = [
    remarks: "WCB KNLS a25"
  },
  {
-   frequency: 9800,
-   time: "0100-0200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "60",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 9805,
-   time: "1000-1300",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "183",
-   remarks: "OCB/AGM a24"
- },
- {
    frequency: 9810,
    time: "1700-1715",
    days: ".....6.",
@@ -45396,19 +43550,6 @@ export const radioSchedules = [
    remarks: "BBR b24"
  },
  {
-   frequency: 9820,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kurdish",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 9825,
    time: "0200-0257",
    days: "1234567",
@@ -45513,6 +43654,45 @@ export const radioSchedules = [
    remarks: "IRIB a25"
  },
  {
+   frequency: 9835,
+   time: "0257-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25 May13"
+ },
+ {
+   frequency: 9835,
+   time: "0800-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 9835,
+   time: "1100-1200",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "ND",
+   remarks: "XJBS a25=5960"
+ },
+ {
    frequency: 9840,
    time: "1430-1730",
    days: "1234567",
@@ -45549,7 +43729,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45562,7 +43742,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45575,7 +43755,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45588,7 +43768,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45601,7 +43781,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45614,7 +43794,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45627,7 +43807,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45640,7 +43820,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45653,7 +43833,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45666,7 +43846,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45679,7 +43859,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45692,7 +43872,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9840,
@@ -45705,7 +43885,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 9845,
@@ -45751,13 +43931,13 @@ export const radioSchedules = [
    time: "2100-1700",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese/Cantonese",
+   language: "Chinese/",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9850,
@@ -45956,6 +44136,19 @@ export const radioSchedules = [
  },
  {
    frequency: 9870,
+   time: "1100-1200",
+   days: "1234567",
+   stationName: "World Christian Broadc.KNLS",
+   language: "Korean",
+   itu: "ALS",
+   txLocation: "Anchor Point tx1",
+   coordinates: "594454N1514409W",
+   power: "100",
+   azimuth: "300",
+   remarks: "WCB KNLS a25 Apr.20"
+ },
+ {
+   frequency: 9870,
    time: "1300-1600",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
@@ -45991,7 +44184,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "345",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9870,
@@ -46398,19 +44591,6 @@ export const radioSchedules = [
  },
  {
    frequency: 9885,
-   time: "0100-0130",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Rohingya",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 9885,
    time: "1000-1300",
    days: "1234567",
    stationName: "CNR 1 Jamming",
@@ -46419,7 +44599,7 @@ export const radioSchedules = [
    txLocation: "Dongfang Hainan 871",
    coordinates: "185333N1083920E",
    power: "500",
-   azimuth: "18",
+   azimuth: "16",
    remarks: "CNR1 Jam.a25"
  },
  {
@@ -46637,10 +44817,10 @@ export const radioSchedules = [
    stationName: "CNR 1 Jamming",
    language: "Chinese",
    itu: "CHN",
-   txLocation: "Qiqihar 2021",
-   coordinates: "472128N1241458E",
-   power: "100",
-   azimuth: "203",
+   txLocation: "Dongfang Hainan 871",
+   coordinates: "185333N1083920E",
+   power: "500",
+   azimuth: "16",
    remarks: "CNR1 Jam.a25"
  },
  {
@@ -46654,7 +44834,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "335",
-   remarks: "KTWR/BRB b24"
+   remarks: "KTWR/BRB a25"
  },
  {
    frequency: 9900,
@@ -46697,7 +44877,7 @@ export const radioSchedules = [
  },
  {
    frequency: 9900,
-   time: "2200-2400",
+   time: "2300-2330",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -46706,98 +44886,33 @@ export const radioSchedules = [
    coordinates: "251108N1212458E",
    power: "300",
    azimuth: "352",
-   remarks: "CBSC a25"
- },
- {
-   frequency: 9900,
-   time: "1200-1258",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TWN",
-   txLocation: "Paochung",
-   coordinates: "234334N1201802E",
-   power: "300",
-   azimuth: "2",
-   remarks: "RFA2/AGM a25"
- },
- {
-   frequency: 9900,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TWN",
-   txLocation: "Paochung",
-   coordinates: "234334N1201802E",
-   power: "300",
-   azimuth: "2",
-   remarks: "RFA2/AGM a25"
+   remarks: "CBSC a25 May1"
  },
  {
    frequency: 9910,
    time: "1100-1130",
-   days: "1",
+   days: "12",
    stationName: "KTWR GUAM",
    language: "Korean",
    itu: "GUM",
    txLocation: "Merizo",
    coordinates: "131641N1444024E",
    power: "200",
-   azimuth: "320",
-   remarks: "KTWR b24"
+   azimuth: "305",
+   remarks: "KTWR a25"
  },
  {
    frequency: 9910,
    time: "1100-1200",
-   days: "23456",
+   days: "3456",
    stationName: "KTWR GUAM",
    language: "Korean",
    itu: "GUM",
    txLocation: "Merizo",
    coordinates: "131641N1444024E",
    power: "200",
-   azimuth: "320",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 9910,
-   time: "1200-1215",
-   days: "1",
-   stationName: "KTWR GUAM",
-   language: "Chinese",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 9910,
-   time: "1200-1215",
-   days: ".23456.",
-   stationName: "KTWR GUAM",
-   language: "Yunnanese",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "305",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 9910,
-   time: "1245-1300",
-   days: "1234567",
-   stationName: "KTWR GUAM",
-   language: "Hui zu",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9910,
@@ -46810,7 +44925,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9910,
@@ -46823,20 +44938,46 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9910,
-   time: "1500-1700",
+   time: "1200-1215",
+   days: "1",
+   stationName: "KTWR GUAM",
+   language: "Chinese",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "305",
+   remarks: "KTWR a25"
+ },
+ {
+   frequency: 9910,
+   time: "1200-1215",
+   days: ".23456.",
+   stationName: "KTWR GUAM Do You Know",
+   language: "Yunnanese",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "305",
+   remarks: "KTWR a25"
+ },
+ {
+   frequency: 9910,
+   time: "1245-1300",
    days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "60",
-   remarks: "RFA2/AGM a24"
+   stationName: "KTWR GUAM",
+   language: "Hui zu",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "305",
+   remarks: "KTWR a25"
  },
  {
    frequency: 9915,
@@ -46862,7 +45003,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9920,
@@ -46954,19 +45095,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "323",
    remarks: "FEBC a25"
- },
- {
-   frequency: 9920,
-   time: "2200-2300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 9930,
@@ -47188,32 +45316,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "40",
    remarks: "WTWW1 b21"
- },
- {
-   frequency: 9940,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Chinese",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA1/AGM a24"
- },
- {
-   frequency: 9950,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 9955,
@@ -48399,19 +46501,6 @@ export const radioSchedules = [
    remarks: "VBTC b24"
  },
  {
-   frequency: 9960,
-   time: "1730-1930",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "Filipino",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "AGM/PBS a24"
- },
- {
    frequency: 9965,
    time: "0830-0845",
    days: "..3....",
@@ -48721,7 +46810,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 9975,
@@ -48734,7 +46823,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "345",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
@@ -48747,7 +46836,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
@@ -48760,7 +46849,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "290",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
@@ -48773,7 +46862,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
@@ -48786,7 +46875,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
@@ -48799,12 +46888,12 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "345",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 9975,
    time: "0000-0200",
-   days: "0.234567",
+   days: ".234567",
    stationName: "KVOH Voice of Hope",
    language: "Spanish",
    itu: "USA",
@@ -48817,7 +46906,7 @@ export const radioSchedules = [
  {
    frequency: 9975,
    time: "0200-0700",
-   days: "0.234567",
+   days: ".234567",
    stationName: "KVOH Voice of Hope",
    language: "English",
    itu: "USA",
@@ -48877,46 +46966,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 9990,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Burmese",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "125",
-   remarks: "RFA2/AGM a24"
- },
- {
-   frequency: 9990,
-   time: "1500-1700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "95",
-   remarks: "RFA2/AGM a24"
- },
- {
-   frequency: 9990,
-   time: "1700-1900",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "95",
-   remarks: "RFA2/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10000,
@@ -48955,7 +47005,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10345,
@@ -48994,7 +47044,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10860,
@@ -49020,7 +47070,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10920.1,
@@ -49033,33 +47083,33 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10939.914,
    time: "2200-1600",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese/Cantonese",
+   language: "Chinese/",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 10959.705,
    time: "2130-1705",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11069.947,
@@ -49072,20 +47122,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11100.007,
    time: "2200-1610",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese",
+   language: "Chinese.",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11120.004,
@@ -49098,7 +47148,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11149.895,
@@ -49111,7 +47161,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11170.092,
@@ -49124,7 +47174,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11300,
@@ -49137,7 +47187,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11409.957,
@@ -49150,7 +47200,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11430,
@@ -49202,7 +47252,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11460.095,
@@ -49215,7 +47265,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11462,
@@ -49254,7 +47304,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11510,
@@ -49280,7 +47330,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11525,
@@ -49332,7 +47382,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11540,
@@ -49358,7 +47408,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11550,
@@ -49371,7 +47421,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "293",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11550,
@@ -49387,6 +47437,19 @@ export const radioSchedules = [
    remarks: "CME a24"
  },
  {
+   frequency: 11560,
+   time: "1400-1500",
+   days: "1234567",
+   stationName: "North Korea Reform Radio",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_NKRR a25"
+ },
+ {
    frequency: 11570,
    time: "2000-2100",
    days: "1234567",
@@ -49400,84 +47463,6 @@ export const radioSchedules = [
    remarks: "_NKRR a25"
  },
  {
-   frequency: 11575,
-   time: "1430-1500",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 11575,
-   time: "1500-1530",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 11575,
-   time: "1530-1600",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 11575,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 11575,
-   time: "1630-1700",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 11575,
-   time: "1700-1730",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
    frequency: 11580.155,
    time: "1500-1600",
    days: "1234567",
@@ -49488,20 +47473,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11580.155,
    time: "2100-1500",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese",
+   language: "Chinese.",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11590,
@@ -49524,19 +47509,6 @@ export const radioSchedules = [
    language: "English",
    itu: "GUM",
    txLocation: "Merizo TX6",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "285",
-   remarks: "TWR/FEBA a24"
- },
- {
-   frequency: 11590,
-   time: "1300-1315",
-   days: ".23456.",
-   stationName: "FEBA Radio India",
-   language: "Hindi",
-   itu: "GUM",
-   txLocation: "Merizo",
    coordinates: "131641N1444024E",
    power: "200",
    azimuth: "285",
@@ -49592,7 +47564,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11590,
@@ -49605,7 +47577,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "305",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11600,
@@ -49670,7 +47642,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11600.019,
@@ -49683,7 +47655,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11605,
@@ -49697,6 +47669,19 @@ export const radioSchedules = [
    power: "100",
    azimuth: "310",
    remarks: "CBSC a25"
+ },
+ {
+   frequency: 11605,
+   time: "1100-1200",
+   days: "1234567",
+   stationName: "CNR 1 Jamming",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Dongfang Hainan 871",
+   coordinates: "185333N1083920E",
+   power: "500",
+   azimuth: "16",
+   remarks: "CNR1 Jam.a25"
  },
  {
    frequency: 11610,
@@ -49723,19 +47708,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "269",
    remarks: "CRI a25"
- },
- {
-   frequency: 11610,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "CNR 1 Jamming",
-   language: "Chinese",
-   itu: "CHN",
-   txLocation: "Qiqihar 2021",
-   coordinates: "472128N1241458E",
-   power: "100",
-   azimuth: "203",
-   remarks: "CNR1 Jam.a25"
  },
  {
    frequency: 11610,
@@ -49782,7 +47754,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -49814,58 +47786,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "325",
    remarks: "MWV KNLS a25"
- },
- {
-   frequency: 11610,
-   time: "1700-1730",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Amharic",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "126",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11610,
-   time: "1730-1800",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Oromo",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "126",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11610,
-   time: "1800-1900",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Amharic",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "126",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11610,
-   time: "1900-1930",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Tigrinya",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "126",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 11615,
@@ -49956,7 +47876,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11620,
@@ -49969,7 +47889,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11620,
@@ -49982,7 +47902,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "337",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11620,
@@ -49995,20 +47915,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
- },
- {
-   frequency: 11620,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kurdish",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "105",
-   remarks: "VOA/AGM a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 11625,
@@ -50016,7 +47923,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50372,7 +48279,7 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "335",
-   remarks: "JRC/MGB a24"
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 11640,
@@ -50412,19 +48319,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "90",
    remarks: "IRIB a25"
- },
- {
-   frequency: 11640,
-   time: "0100-0200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "54",
-   remarks: "RFA3/AGM a24"
  },
  {
    frequency: 11645,
@@ -50593,7 +48487,20 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "335",
-   remarks: "JRC/MGB a24"
+   remarks: "JRC/MGB a25"
+ },
+ {
+   frequency: 11650,
+   time: "0355-0430",
+   days: "1234567",
+   stationName: "JRC Radio Dabanga",
+   language: "Darfur Arabic",
+   itu: "CVA",
+   txLocation: "Santa Maria di Galeria",
+   coordinates: "420239N0121922E",
+   power: "250",
+   azimuth: "144",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 11650,
@@ -50606,7 +48513,7 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "335",
-   remarks: "JRC/MGB a24"
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 11650,
@@ -50632,7 +48539,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "52",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11655,
@@ -50679,7 +48586,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Bengali",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50692,7 +48599,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Hindi",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50822,7 +48729,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50835,7 +48742,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50848,7 +48755,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50861,7 +48768,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50874,7 +48781,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50887,7 +48794,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50900,7 +48807,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50913,7 +48820,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -50926,7 +48833,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -51116,32 +49023,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 11675,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Chinese",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA1/AGM a24"
- },
- {
-   frequency: 11675,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "MRA",
-   txLocation: "Tinian Island",
-   coordinates: "150252N1453621E",
-   power: "250",
-   azimuth: "305",
-   remarks: "RFA3/AGM a24"
- },
- {
    frequency: 11680,
    time: "1200-1257",
    days: "1234567",
@@ -51298,6 +49179,32 @@ export const radioSchedules = [
    remarks: "CNR11 a25"
  },
  {
+   frequency: 11685,
+   time: "2055-2100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25 May20-"
+ },
+ {
+   frequency: 11685,
+   time: "2100-2300",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25"
+ },
+ {
    frequency: 11690,
    time: "2300-2357",
    days: "1234567",
@@ -51309,19 +49216,6 @@ export const radioSchedules = [
    power: "150",
    azimuth: "95",
    remarks: "CRI a25"
- },
- {
-   frequency: 11690,
-   time: "1759-1858",
-   days: "123456",
-   stationName: "R.NEW ZEALAND INT.(DRM)",
-   language: "English(Digital)",
-   itu: "NZL",
-   txLocation: "Rangitaiki",
-   coordinates: "385002S1762501E",
-   power: "35",
-   azimuth: "325",
-   remarks: "RNZ a25"
  },
  {
    frequency: 11690,
@@ -51361,6 +49255,19 @@ export const radioSchedules = [
    power: "0.1",
    azimuth: "ND",
    remarks: "SWR a23 1st each month"
+ },
+ {
+   frequency: 11690,
+   time: "1955-2058",
+   days: "123456.",
+   stationName: "R.NEW ZEALAND INT.(DRM)",
+   language: "English(Digital)",
+   itu: "NZL",
+   txLocation: "Rangitaiki",
+   coordinates: "385002S1762501E",
+   power: "35",
+   azimuth: "35",
+   remarks: "RNZ a25"
  },
  {
    frequency: 11695,
@@ -51416,16 +49323,16 @@ export const radioSchedules = [
  },
  {
    frequency: 11695,
-   time: "1330-1430",
+   time: "0055-0900",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Khmer",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "VOA/AGM a24"
+   stationName: "CNR 1 (DRM) 3E8",
+   language: "Chinese(Digital)",
+   itu: "CHN",
+   txLocation: "Dongfang Hainan 871",
+   coordinates: "185220N1084049E",
+   power: "30",
+   azimuth: "41",
+   remarks: "CNR1 DRM a25"
  },
  {
    frequency: 11700,
@@ -51516,46 +49423,7 @@ export const radioSchedules = [
    coordinates: "444455N0260610E",
    power: "300",
    azimuth: "140",
-   remarks: "ROR a25"
- },
- {
-   frequency: 11700,
-   time: "1130-1200",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11700,
-   time: "2300-2400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "60",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 11705,
-   time: "0030-0130",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Burmese",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "500",
-   azimuth: "85",
-   remarks: "RFA4/AGM a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 11710,
@@ -51711,7 +49579,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11720,
@@ -51845,8 +49713,8 @@ export const radioSchedules = [
  },
  {
    frequency: 11725,
-   time: "0959-1258",
-   days: "23456",
+   time: "0559-0758",
+   days: "1234567",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
    itu: "NZL",
@@ -51854,19 +49722,6 @@ export const radioSchedules = [
    coordinates: "385002S1762501E",
    power: "50",
    azimuth: "35",
-   remarks: "RNZ a25"
- },
- {
-   frequency: 11725,
-   time: "1759-1858",
-   days: "123456",
-   stationName: "R.NEW ZEALAND INT.",
-   language: "English",
-   itu: "NZL",
-   txLocation: "Rangitaiki",
-   coordinates: "385002S1762501E",
-   power: "50",
-   azimuth: "325",
    remarks: "RNZ a25"
  },
  {
@@ -51906,7 +49761,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11730,
@@ -52140,7 +49995,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11740,
@@ -52153,7 +50008,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11745,
@@ -52270,7 +50125,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11750,
@@ -52297,19 +50152,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "120",
    remarks: "TRT a25"
- },
- {
-   frequency: 11750,
-   time: "1530-1600",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 11760,
@@ -52455,32 +50297,6 @@ export const radioSchedules = [
    remarks: "RHC a24"
  },
  {
-   frequency: 11760,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "World Christian Broadc.KNLS",
-   language: "Chinese",
-   itu: "ALS",
-   txLocation: "Anchor Point tx1",
-   coordinates: "594454N1514409W",
-   power: "100",
-   azimuth: "315",
-   remarks: "WCB KNLS a25"
- },
- {
-   frequency: 11760,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "World Christian Broadc.KNLS",
-   language: "Chinese",
-   itu: "ALS",
-   txLocation: "Anchor Point tx2",
-   coordinates: "594454N1514409W",
-   power: "100",
-   azimuth: "315",
-   remarks: "WCB KNLS a25"
- },
- {
    frequency: 11764.92,
    time: "2130-1500",
    days: "1234567",
@@ -52491,7 +50307,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11765,
@@ -52586,16 +50402,42 @@ export const radioSchedules = [
  },
  {
    frequency: 11770,
-   time: "0250-0800",
+   time: "2300-2400",
    days: "1234567",
    stationName: "PBS Xinjiang",
    language: "Chinese",
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
-   power: "100",
+   power: "50",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11770,
+   time: "0000-0030",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR1)",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11770,
+   time: "0030-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
  },
  {
    frequency: 11770,
@@ -52606,9 +50448,9 @@ export const radioSchedules = [
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
-   power: "100",
+   power: "50",
    azimuth: "230",
-   remarks: "XJBS b24"
+   remarks: "XJBS a25"
  },
  {
    frequency: 11770,
@@ -52619,9 +50461,35 @@ export const radioSchedules = [
    itu: "TKS",
    txLocation: "Urumqi",
    coordinates: "440934N0865357E",
-   power: "100",
+   power: "50",
    azimuth: "230",
-   remarks: "XJBS b24=5060"
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11770,
+   time: "1200-1230",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR1)",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11770,
+   time: "1230-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
  },
  {
    frequency: 11774.822,
@@ -52634,7 +50502,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11775,
@@ -52690,6 +50558,32 @@ export const radioSchedules = [
  },
  {
    frequency: 11780,
+   time: "1600-1700",
+   days: "1234567",
+   stationName: "World Christian Broadc.KNLS",
+   language: "Chinese",
+   itu: "ALS",
+   txLocation: "Anchor Point tx1",
+   coordinates: "594454N1514409W",
+   power: "100",
+   azimuth: "315",
+   remarks: "WCB KNLS a25"
+ },
+ {
+   frequency: 11780,
+   time: "1700-1800",
+   days: "1234567",
+   stationName: "World Christian Broadc.KNLS",
+   language: "Chinese",
+   itu: "ALS",
+   txLocation: "Anchor Point tx2",
+   coordinates: "594454N1514409W",
+   power: "100",
+   azimuth: "315",
+   remarks: "WCB KNLS a25"
+ },
+ {
+   frequency: 11780,
    time: "1300-1357",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
@@ -52738,7 +50632,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11780,
@@ -52804,19 +50698,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "325",
    remarks: "TRT a25"
- },
- {
-   frequency: 11785,
-   time: "1100-1300",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "349",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 11790,
@@ -52907,7 +50788,7 @@ export const radioSchedules = [
    coordinates: "444455N0260610E",
    power: "300",
    azimuth: "140",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11795,
@@ -52998,7 +50879,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "37",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11800,
@@ -53011,7 +50892,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11805,
@@ -53063,7 +50944,7 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "300",
    azimuth: "2",
-   remarks: "RFA3/AGM a25"
+   remarks: "RFA3/AGM a25-May9"
  },
  {
    frequency: 11810,
@@ -53077,6 +50958,32 @@ export const radioSchedules = [
    power: "250",
    azimuth: "325",
    remarks: "AIR b24"
+ },
+ {
+   frequency: 11810,
+   time: "2055-2100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Beijing 491",
+   coordinates: "395309N1163437E",
+   power: "100",
+   azimuth: "15",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 11810,
+   time: "2100-0100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "CHN",
+   txLocation: "Beijing 491",
+   coordinates: "395309N1163437E",
+   power: "100",
+   azimuth: "15",
+   remarks: "CNR8 a25"
  },
  {
    frequency: 11810,
@@ -53110,32 +51017,6 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "CNR 8",
    language: "Chinese",
-   itu: "CHN",
-   txLocation: "Beijing 491",
-   coordinates: "395309N1163437E",
-   power: "100",
-   azimuth: "15",
-   remarks: "CNR8 a25"
- },
- {
-   frequency: 11810,
-   time: "2055-2100",
-   days: "1234567",
-   stationName: "CNR 8",
-   language: "Chinese",
-   itu: "CHN",
-   txLocation: "Beijing 491",
-   coordinates: "395309N1163437E",
-   power: "100",
-   azimuth: "15",
-   remarks: "CNR8 a25"
- },
- {
-   frequency: 11810,
-   time: "2100-0100",
-   days: "1234567",
-   stationName: "CNR 8",
-   language: "Mongolian",
    itu: "CHN",
    txLocation: "Beijing 491",
    coordinates: "395309N1163437E",
@@ -53206,7 +51087,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "37",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11815,
@@ -53253,7 +51134,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53266,7 +51147,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53279,7 +51160,7 @@ export const radioSchedules = [
    days: "17",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "English",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53292,7 +51173,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Burmese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53305,7 +51186,7 @@ export const radioSchedules = [
    days: "17",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Burmese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53318,7 +51199,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53340,7 +51221,7 @@ export const radioSchedules = [
  },
  {
    frequency: 11815,
-   time: "0400-0600",
+   time: "0700-0800",
    days: "1234567",
    stationName: "R.TAIWAN INT.",
    language: "Chinese",
@@ -53349,7 +51230,7 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "100",
    azimuth: "310",
-   remarks: "CBSC a25"
+   remarks: "CBSC a25 May1"
  },
  {
    frequency: 11815,
@@ -53474,7 +51355,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -53493,58 +51374,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "295",
    remarks: "MWV KNLS a25"
- },
- {
-   frequency: 11825,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "332",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11825,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "6",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11825,
-   time: "1830-1900",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "225",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11825,
-   time: "1930-2000",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 11830,
@@ -53596,7 +51425,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "245",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11830,
@@ -53609,7 +51438,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "245",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11830,
@@ -53622,7 +51451,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11850,
@@ -53739,12 +51568,12 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "140",
-   remarks: "ROR a23"
+   remarks: "RRO a23"
  },
  {
    frequency: 11860,
    time: "1600-1657",
-   days: "0.234567",
+   days: ".234567",
    stationName: "R.ROMANIA INT.",
    language: "Romanian",
    itu: "ROU",
@@ -53752,20 +51581,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "140",
-   remarks: "ROR a25"
- },
- {
-   frequency: 11860,
-   time: "1400-2200",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "183",
-   remarks: "OCB/AGM a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 11865,
@@ -53922,19 +51738,6 @@ export const radioSchedules = [
    power: "200",
    azimuth: "109",
    remarks: "VOK a25"
- },
- {
-   frequency: 11870,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "BBC",
-   language: "English",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "250",
-   azimuth: "60",
-   remarks: "BBC a25"
  },
  {
    frequency: 11870,
@@ -54259,7 +52062,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11880,
@@ -54306,90 +52109,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
    azimuth: "290",
    remarks: "NHK a25"
- },
- {
-   frequency: 11885,
-   time: "0245-0600",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 11885,
-   time: "0630-0800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 11885,
-   time: "0800-0900",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 11885,
-   time: "0900-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 11885,
-   time: "1100-1210",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 11885,
-   time: "0600-0630",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
  },
  {
    frequency: 11885,
@@ -54415,7 +52140,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "27",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54428,7 +52153,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54441,7 +52166,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54454,7 +52179,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54467,7 +52192,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54480,7 +52205,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54493,7 +52218,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54506,7 +52231,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54519,7 +52244,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54532,7 +52257,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54545,7 +52270,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54558,7 +52283,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "320",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 11885,
@@ -54571,33 +52296,98 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "250",
    azimuth: "205",
-   remarks: "RFA3/AGM a25"
+   remarks: "RFA3/AGM a25-May9"
  },
  {
-   frequency: 11890,
-   time: "1600-1700",
-   days: "1.3.5.7",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "315",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11890,
-   time: "1400-1500",
+   frequency: 11885,
+   time: "2300-0600",
    days: "1234567",
-   stationName: "RFE/R.LIBERTY",
-   language: "Turkmen",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "63",
-   remarks: "RFE/AGM a24"
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25 May13"
+ },
+ {
+   frequency: 11885,
+   time: "0600-0700",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11885,
+   time: "0700-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11885,
+   time: "0800-0900",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11885,
+   time: "1100-1400",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11885,
+   time: "1400-1430",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11885,
+   time: "1430-1800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
  },
  {
    frequency: 11895,
@@ -54810,7 +52600,7 @@ export const radioSchedules = [
  {
    frequency: 11900,
    time: "1245-1300",
-   days: "0.234567",
+   days: ".234567",
    stationName: "Reach Beyond Australia (HCJB)",
    language: "Hindi",
    itu: "AUS",
@@ -54990,19 +52780,6 @@ export const radioSchedules = [
    remarks: "HCA a25"
  },
  {
-   frequency: 11900,
-   time: "2130-2200",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Bambara",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "184",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 11905,
    time: "0900-1100",
    days: "1234567",
@@ -55099,7 +52876,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -55112,7 +52889,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -55157,19 +52934,6 @@ export const radioSchedules = [
    power: "200",
    azimuth: "271",
    remarks: "VOK a25"
- },
- {
-   frequency: 11910,
-   time: "1630-1700",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "SudaneseEnglish",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 11915,
@@ -55315,32 +53079,6 @@ export const radioSchedules = [
    remarks: "VORW a24"
  },
  {
-   frequency: 11930,
-   time: "1400-2100",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "172",
-   remarks: "OCB/AGM a24"
- },
- {
-   frequency: 11930,
-   time: "2100-2400",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "184",
-   remarks: "OCB/AGM a24"
- },
- {
    frequency: 11935,
    time: "1000-1300",
    days: "1234567",
@@ -55481,7 +53219,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "310",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11945,
@@ -55508,19 +53246,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "90",
    remarks: "IRIB a25"
- },
- {
-   frequency: 11945,
-   time: "2100-2200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "RFA2/AGM a24"
  },
  {
    frequency: 11950,
@@ -55573,19 +53298,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "340",
    remarks: "RHC a24"
- },
- {
-   frequency: 11955,
-   time: "0200-0300",
-   days: "1234567",
-   stationName: "BBC DRM 11",
-   language: "English(Digital)",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "100",
-   azimuth: "63",
-   remarks: "BBC a25"
  },
  {
    frequency: 11955,
@@ -55663,7 +53375,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11965,
@@ -55680,7 +53392,7 @@ export const radioSchedules = [
  },
  {
    frequency: 11965,
-   time: "0945-1000",
+   time: "1000-1015",
    days: "7",
    stationName: "KTWR GUAM",
    language: "Indonesian",
@@ -55689,20 +53401,20 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "248",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
    time: "1000-1015",
    days: "1",
    stationName: "KTWR GUAM",
-   language: "Indonesian",
+   language: "Balinese",
    itu: "GUM",
    txLocation: "Merizo",
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "248",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55715,7 +53427,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "248",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55728,7 +53440,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "248",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55741,7 +53453,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "248",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55754,7 +53466,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "263",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55767,7 +53479,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "263",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55780,7 +53492,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "263",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55793,33 +53505,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "263",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 11965,
-   time: "1128-1200",
-   days: "......7",
-   stationName: "KTWR GUAM (DRM)",
-   language: "Japanese(Digital)",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "50",
-   azimuth: "350",
-   remarks: "KTWR a25 DRM"
- },
- {
-   frequency: 11965,
-   time: "1200-1230",
-   days: "......7",
-   stationName: "KTWR GUAM (DRM)",
-   language: "English(Digital)",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "50",
-   azimuth: "350",
-   remarks: "KTWR a25 DRM"
+   remarks: "KTWR a25"
  },
  {
    frequency: 11965,
@@ -55827,7 +53513,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -55871,7 +53557,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11974.975,
@@ -55884,7 +53570,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11975,
@@ -55923,7 +53609,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11975,
@@ -55936,7 +53622,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "90",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 11975,
@@ -55949,7 +53635,33 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "90",
    azimuth: "300",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
+ },
+ {
+   frequency: 11975,
+   time: "0305-0530",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kyrgyz",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "247",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 11975,
+   time: "1005-1230",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Kyrgyz",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "100",
+   azimuth: "247",
+   remarks: "XJBS a25//9705"
  },
  {
    frequency: 11980,
@@ -56004,69 +53716,17 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 11985,
-   time: "1400-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kurdish",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "105",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 11985,
-   time: "1500-1700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "60",
-   remarks: "RFA2/AGM a24"
- },
- {
-   frequency: 11985,
-   time: "1700-1900",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "60",
-   remarks: "RFA2/AGM a24"
- },
- {
-   frequency: 11985,
-   time: "2100-2200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "RFA2/AGM a24"
- },
- {
    frequency: 11989.942,
    time: "2100-1600",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Cantonese",
+   language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 11990,
@@ -56160,32 +53820,6 @@ export const radioSchedules = [
    remarks: "RFI a25"
  },
  {
-   frequency: 11995,
-   time: "0100-0200",
-   days: "1......",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 11995,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
- },
- {
    frequency: 12000,
    time: "0300-0357",
    days: "1234567",
@@ -56199,17 +53833,17 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 12000,
-   time: "0100-0200",
-   days: "....5..",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   frequency: 12005,
+   time: "1430-1500",
+   days: ".23456.",
+   stationName: "BBC",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_BBC a25 Apr.15-"
  },
  {
    frequency: 12005,
@@ -56239,16 +53873,42 @@ export const radioSchedules = [
  },
  {
    frequency: 12005,
-   time: "0100-0200",
-   days: ".2.....",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   time: "1530-1600",
+   days: ".23456.",
+   stationName: "BBC",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_BBC a25 Apr.15-"
+ },
+ {
+   frequency: 12005,
+   time: "1630-1700",
+   days: ".23456.",
+   stationName: "BBC",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_BBC a25 Apr.15-"
+ },
+ {
+   frequency: 12005,
+   time: "1730-1800",
+   days: ".23456.",
+   stationName: "BBC",
+   language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_BBC a25 Apr.15-"
  },
  {
    frequency: 12010,
@@ -56327,19 +53987,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "335",
    remarks: "HCA a25"
- },
- {
-   frequency: 12010,
-   time: "0200-0330",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "English",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "AGM/PBS a24"
  },
  {
    frequency: 12015,
@@ -56456,7 +54103,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "116",
-   remarks: "VOM b24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12015,
@@ -56469,7 +54116,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "116",
-   remarks: "VOM b24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12015,
@@ -56482,7 +54129,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "178",
-   remarks: "VOM b24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12015,
@@ -56495,20 +54142,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "178",
-   remarks: "VOM b24"
- },
- {
-   frequency: 12015,
-   time: "0100-0200",
-   days: "..3..6.",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12020,
@@ -56521,7 +54155,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56534,7 +54168,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56547,7 +54181,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56560,7 +54194,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56573,20 +54207,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
- },
- {
-   frequency: 12020,
-   time: "1230-1300",
-   days: "1234567",
-   stationName: "VOICE OF VIETNAM",
-   language: "English",
-   itu: "VTN",
-   txLocation: "Hanoi-Sontay",
-   coordinates: "210812N1052506E",
-   power: "100",
-   azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56599,7 +54220,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56612,7 +54233,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56625,7 +54246,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "57",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56638,7 +54259,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56651,7 +54272,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56664,7 +54285,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12020,
@@ -56677,7 +54298,7 @@ export const radioSchedules = [
    coordinates: "210812N1052506E",
    power: "100",
    azimuth: "177",
-   remarks: "VOV b24"
+   remarks: "VOV a25"
  },
  {
    frequency: 12025,
@@ -56706,162 +54327,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 12025,
-   time: "0100-0200",
-   days: "...4..7",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "46",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 12030,
-   time: "1500-2300",
-   days: "1.....7",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "1600-1900",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "1730-1800",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Arabic",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "1800-1830",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Russian",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "1800-1830",
-   days: "..3....",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "1930-2330",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "2230-2300",
-   days: "1......",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "2230-2300",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Arabic",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "2300-2330",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "English",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "2300-2330",
-   days: "..3....",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
-   frequency: 12030,
-   time: "2330-2400",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "French",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "110",
-   remarks: "REE b24"
- },
- {
    frequency: 12030,
    time: "0700-1200",
    days: "17",
@@ -56875,43 +54340,43 @@ export const radioSchedules = [
    remarks: "RDI b24"
  },
  {
-   frequency: 12030,
-   time: "1130-1200",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
+   frequency: 12035,
+   time: "0400-0700",
+   days: "1234567",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241343N0542456E",
    power: "250",
-   azimuth: "300",
-   remarks: "VOA/AGM a24"
+   azimuth: "35",
+   remarks: "RFE/ENC a25 Jun.21-"
  },
  {
    frequency: 12035,
    time: "1300-1700",
    days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241343N0542456E",
    power: "250",
-   azimuth: "305",
-   remarks: "VOA/AGM Deewa R a24"
+   azimuth: "35",
+   remarks: "RFE/ENC a25 Jun.20-"
  },
  {
    frequency: 12035,
-   time: "1700-1900",
+   time: "1900-2300",
    days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "92",
-   remarks: "VOA/AGM Deewa R a24"
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "G",
+   txLocation: "Woofferton",
+   coordinates: "521625N0024942W",
+   power: "250",
+   azimuth: "90",
+   remarks: "RFE/ENC a25 Jun.20-"
  },
  {
    frequency: 12040,
@@ -56942,7 +54407,7 @@ export const radioSchedules = [
  {
    frequency: 12040,
    time: "1230-1245",
-   days: "1......",
+   days: "1",
    stationName: "KTWR GUAM",
    language: "Sgaw Karen",
    itu: "GUM",
@@ -56950,7 +54415,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "100",
    azimuth: "293",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25 DRM"
  },
  {
    frequency: 12045,
@@ -56992,17 +54457,17 @@ export const radioSchedules = [
    remarks: "CNR1 a25"
  },
  {
-   frequency: 12045,
-   time: "1300-1500",
+   frequency: 12050,
+   time: "0000-0600",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "38",
-   remarks: "VOA/AGM a24"
+   stationName: "EWTN 3",
+   language: "Spanish",
+   itu: "USA",
+   txLocation: "Vandiver",
+   coordinates: "333013N0862827W",
+   power: "100",
+   azimuth: "155",
+   remarks: "EWTN3 a25"
  },
  {
    frequency: 12050,
@@ -57015,7 +54480,7 @@ export const radioSchedules = [
    coordinates: "333013N0862827W",
    power: "100",
    azimuth: "155",
-   remarks: "EWTN3 a23"
+   remarks: "EWTN3 a25"
  },
  {
    frequency: 12050,
@@ -57174,32 +54639,6 @@ export const radioSchedules = [
    remarks: "FEBC a25"
  },
  {
-   frequency: 12055,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 12055,
-   time: "1600-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "276",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 12060,
    time: "1700-2100",
    days: "17",
@@ -57304,84 +54743,6 @@ export const radioSchedules = [
    remarks: "FEBC a25"
  },
  {
-   frequency: 12070,
-   time: "1430-1500",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 12070,
-   time: "1500-1530",
-   days: "1234567",
-   stationName: "VOA RADIO ASHNA",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "VOA/AGM(R.Ashna) a24"
- },
- {
-   frequency: 12070,
-   time: "1730-1800",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Oromo",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 12070,
-   time: "1800-1900",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Amharic",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "185",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 12070,
-   time: "1900-1930",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Tigrinya",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "185",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 12070,
-   time: "2030-2100",
-   days: "0.234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "235",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 12075,
    time: "0700-0900",
    days: ".23456.",
@@ -57447,45 +54808,6 @@ export const radioSchedules = [
    remarks: "CNR2=9755 a25"
  },
  {
-   frequency: 12080,
-   time: "1200-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Korean",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "21",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 12080,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Portuguese",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 12080,
-   time: "1800-1830",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Portuguese",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 12085,
    time: "2300-2357",
    days: "1234567",
@@ -57522,7 +54844,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "178",
-   remarks: "VOM a24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12085,
@@ -57535,7 +54857,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "116",
-   remarks: "VOM a24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12085,
@@ -57548,7 +54870,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "116",
-   remarks: "VOM a24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12085,
@@ -57561,7 +54883,7 @@ export const radioSchedules = [
    coordinates: "474759N1071035E",
    power: "250",
    azimuth: "116",
-   remarks: "VOM a24"
+   remarks: "VOM a25"
  },
  {
    frequency: 12095,
@@ -57967,71 +55289,6 @@ export const radioSchedules = [
    remarks: "FEBC a25"
  },
  {
-   frequency: 12120,
-   time: "1057-1127",
-   days: "......7",
-   stationName: "KTWR GUAM (DRM)",
-   language: "English(Digital)",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "90",
-   azimuth: "305",
-   remarks: "KTWR a25 DRM"
- },
- {
-   frequency: 12120,
-   time: "1730-1930",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "Filipino",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "AGM/PBS a24"
- },
- {
-   frequency: 12130,
-   time: "0400-1300",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 12140,
-   time: "2230-2330",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Khmer",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "110",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 12150,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Khmer",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "94",
-   remarks: "RFA3/AGM a24"
- },
- {
    frequency: 12150.06,
    time: "2130-1700",
    days: "1234567",
@@ -58042,7 +55299,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12159.926,
@@ -58055,7 +55312,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12160,
@@ -58099,7 +55356,7 @@ export const radioSchedules = [
  {
    frequency: 12160,
    time: "1215-1230",
-   days: "0.234567",
+   days: ".234567",
    stationName: "KTWR GUAM Do You Know",
    language: "Nosu Yi",
    itu: "GUM",
@@ -58138,7 +55395,7 @@ export const radioSchedules = [
  {
    frequency: 12160,
    time: "1700-1800",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -58151,7 +55408,7 @@ export const radioSchedules = [
  {
    frequency: 12160,
    time: "1800-1900",
-   days: "123456",
+   days: "123456.",
    stationName: "WWCR NASHVILLE",
    language: "English",
    itu: "USA",
@@ -58211,7 +55468,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12209.933,
@@ -58224,7 +55481,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12229.967,
@@ -58237,7 +55494,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12255,
@@ -58263,7 +55520,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12344.935,
@@ -58276,7 +55533,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12364.888,
@@ -58289,7 +55546,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12429.93,
@@ -58302,7 +55559,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12499.918,
@@ -58315,20 +55572,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12549.56,
    time: "2100-1700",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Cantonese",
+   language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12775,
@@ -58341,7 +55598,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12794.975,
@@ -58354,7 +55611,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12819.912,
@@ -58367,7 +55624,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12835.022,
@@ -58380,7 +55637,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12864.986,
@@ -58393,7 +55650,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12870,
@@ -58406,7 +55663,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12879.971,
@@ -58419,20 +55676,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12920.083,
    time: "2152-1700",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 12950,
@@ -58445,7 +55702,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13019.719,
@@ -58458,7 +55715,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13070.152,
@@ -58471,20 +55728,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13159.884,
    time: "2200-1700",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese/Cantonese",
+   language: "Chinese/",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13435,
@@ -58510,7 +55767,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13494.975,
@@ -58523,7 +55780,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13530.222,
@@ -58536,7 +55793,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13549.964,
@@ -58549,7 +55806,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13575,
@@ -58601,7 +55858,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "187",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13580,
@@ -58640,7 +55897,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13590,
@@ -58667,19 +55924,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "193",
    remarks: "CRI a25"
- },
- {
-   frequency: 13590,
-   time: "1630-1700",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "SudaneseEnglish",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "255",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 13600,
@@ -58752,7 +55996,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Indonesian",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58765,7 +56009,7 @@ export const radioSchedules = [
    days: "..34567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Burmese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58778,7 +56022,7 @@ export const radioSchedules = [
    days: "12.....",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Burmese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58791,7 +56035,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Thai",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58804,7 +56048,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Vietnamese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58817,7 +56061,7 @@ export const radioSchedules = [
    days: "17",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Vietnamese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -58836,19 +56080,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "239",
    remarks: "RFI TDF DRM a25"
- },
- {
-   frequency: 13605,
-   time: "1300-2100",
-   days: "1234567",
-   stationName: "R.MARTI",
-   language: "Spanish",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "184",
-   remarks: "OCB/AGM a24"
  },
  {
    frequency: 13610,
@@ -58926,7 +56157,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "52",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13629.981,
@@ -58939,7 +56170,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13630,
@@ -59115,13 +56346,13 @@ export const radioSchedules = [
    time: "2200-1600",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese/Cantonese",
+   language: "Chinese.",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13645,
@@ -59199,7 +56430,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13650,
@@ -59463,19 +56694,6 @@ export const radioSchedules = [
  },
  {
    frequency: 13660,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "125",
-   remarks: "RFA4/AGM a25"
- },
- {
-   frequency: 13660,
    time: "0700-0800",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
@@ -59550,20 +56768,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "37",
-   remarks: "ROR a25"
- },
- {
-   frequency: 13660,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "125",
-   remarks: "RFA4/AGM a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13670,
@@ -59671,84 +56876,6 @@ export const radioSchedules = [
  },
  {
    frequency: 13670,
-   time: "0257-0600",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 13670,
-   time: "0630-0800",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 13670,
-   time: "0800-0900",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Chinese",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 13670,
-   time: "0900-1100",
-   days: "12.4567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 13670,
-   time: "1100-1225",
-   days: "1234567",
-   stationName: "PBS Xinjiang",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24=7205"
- },
- {
-   frequency: 13670,
-   time: "0600-0630",
-   days: "1234567",
-   stationName: "PBS Xinjiang (CNR13)",
-   language: "Uyghur",
-   itu: "TKS",
-   txLocation: "Urumqi",
-   coordinates: "440934N0865357E",
-   power: "100",
-   azimuth: "230",
-   remarks: "XJBS b24"
- },
- {
-   frequency: 13670,
    time: "1900-2000",
    days: "1234567",
    stationName: "World Christian Broadc. R.Feda",
@@ -59775,16 +56902,81 @@ export const radioSchedules = [
  },
  {
    frequency: 13670,
-   time: "1600-1630",
+   time: "0200-0600",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "500",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25 May13"
+ },
+ {
+   frequency: 13670,
+   time: "0600-0700",
+   days: "1234567",
+   stationName: "PBS Xinjiang (CNR13)",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 13670,
+   time: "0700-0800",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 13670,
+   time: "0800-0900",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 13670,
+   time: "0900-1100",
+   days: "12.4567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25"
+ },
+ {
+   frequency: 13670,
+   time: "1100-1400",
+   days: "1234567",
+   stationName: "PBS Xinjiang",
+   language: "Uyghur",
+   itu: "TKS",
+   txLocation: "Urumqi",
+   coordinates: "440934N0865357E",
+   power: "50",
+   azimuth: "230",
+   remarks: "XJBS a25=7205"
  },
  {
    frequency: 13670.042,
@@ -59797,20 +56989,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 13680,
-   time: "0330-0400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "205",
-   remarks: "VOA/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13680.051,
@@ -59823,7 +57002,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13685,
@@ -59905,19 +57084,6 @@ export const radioSchedules = [
  },
  {
    frequency: 13690,
-   time: "0558-0958",
-   days: "1234567",
-   stationName: "R.NEW ZEALAND INT.",
-   language: "English",
-   itu: "NZL",
-   txLocation: "Rangitaiki",
-   coordinates: "385002S1762501E",
-   power: "50",
-   azimuth: "35",
-   remarks: "RNZ a25"
- },
- {
-   frequency: 13690,
    time: "1600-1657",
    days: "1234567",
    stationName: "R.ROMANIA INT. DRM xHE E1E101",
@@ -59927,7 +57093,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "292",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13695,
@@ -60032,6 +57198,19 @@ export const radioSchedules = [
    power: "100",
    azimuth: "286",
    remarks: "CNR13 a25"
+ },
+ {
+   frequency: 13710,
+   time: "0700-1000",
+   days: "1234567",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241343N0542456E",
+   power: "250",
+   azimuth: "35",
+   remarks: "RFE/ENC a25 Jun.21-"
  },
  {
    frequency: 13710,
@@ -60190,19 +57369,6 @@ export const radioSchedules = [
    remarks: "BSKSA a24"
  },
  {
-   frequency: 13720,
-   time: "1500-1600",
-   days: "357",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "500",
-   azimuth: "60",
-   remarks: "RFA4/AGM a24"
- },
- {
    frequency: 13725,
    time: "1630-1725",
    days: "1234567",
@@ -60227,19 +57393,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "120",
    remarks: "BVBN a25 MBR"
- },
- {
-   frequency: 13730,
-   time: "0057-0157",
-   days: "1234567",
-   stationName: "CHINA R.INT. (DRM) 3F2 xHE AAC",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Kunming-Anning 501",
-   coordinates: "245235N1022917E",
-   power: "150",
-   azimuth: "135",
-   remarks: "DRM CRI a25"
  },
  {
    frequency: 13730,
@@ -60304,7 +57457,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13740,
@@ -60395,7 +57548,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13740,
@@ -60473,20 +57626,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "307",
-   remarks: "ROR a25"
- },
- {
-   frequency: 13750,
-   time: "0000-0029",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "6",
-   remarks: "NBT/AGM a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 13755,
@@ -60802,7 +57942,7 @@ export const radioSchedules = [
  },
  {
    frequency: 13770,
-   time: "2300-2357",
+   time: "2258-2357",
    days: "1234567",
    stationName: "CHINA RADIO INTERNATIONAL",
    language: "Vietnamese",
@@ -60863,7 +58003,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13775,
@@ -60877,19 +58017,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "70",
    remarks: "BSKSA a24"
- },
- {
-   frequency: 13775,
-   time: "1530-1600",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "260",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 13780,
@@ -60928,7 +58055,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13790,
@@ -60997,16 +58124,16 @@ export const radioSchedules = [
  },
  {
    frequency: 13790,
-   time: "1500-1600",
-   days: "1246",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "500",
-   azimuth: "60",
-   remarks: "RFA4/AGM a24"
+   time: "0000-1000",
+   days: "1234567",
+   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   language: "Chinese(Digital)",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472047N1241607E",
+   power: "30",
+   azimuth: "203",
+   remarks: "CNR1 DRM a25"
  },
  {
    frequency: 13795,
@@ -61071,7 +58198,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13810,
@@ -61126,19 +58253,6 @@ export const radioSchedules = [
    remarks: "CNR1 DRM a25"
  },
  {
-   frequency: 13810,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Chinese",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "95",
-   remarks: "RFA4/AGM a24"
- },
- {
    frequency: 13820,
    time: "0700-0730",
    days: "......7",
@@ -61150,19 +58264,6 @@ export const radioSchedules = [
    power: "15",
    azimuth: "62",
    remarks: "WINB a23"
- },
- {
-   frequency: 13820,
-   time: "1300-1700",
-   days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "VOA/AGM Deewa R a24"
  },
  {
    frequency: 13825,
@@ -61258,7 +58359,7 @@ export const radioSchedules = [
  {
    frequency: 13830,
    time: "1600-1630",
-   days: "123456",
+   days: "123456.",
    stationName: "VATICAN RADIO",
    language: "Swahili",
    itu: "CVA",
@@ -61348,32 +58449,6 @@ export const radioSchedules = [
  },
  {
    frequency: 13840,
-   time: "1859-1958",
-   days: "123456",
-   stationName: "R.NEW ZEALAND INT.(DRM)",
-   language: "English(Digital)",
-   itu: "NZL",
-   txLocation: "Rangitaiki",
-   coordinates: "385002S1762501E",
-   power: "35",
-   azimuth: "35",
-   remarks: "RNZ a25"
- },
- {
-   frequency: 13840,
-   time: "1959-2058",
-   days: "123456",
-   stationName: "R.NEW ZEALAND INT.(DRM)",
-   language: "English(Digital)",
-   itu: "NZL",
-   txLocation: "Rangitaiki",
-   coordinates: "385002S1762501E",
-   power: "35",
-   azimuth: "325",
-   remarks: "RNZ a25"
- },
- {
-   frequency: 13840,
    time: "2120-1400",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
@@ -61383,7 +58458,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13845,
@@ -61479,7 +58554,7 @@ export const radioSchedules = [
  {
    frequency: 13845,
    time: "1900-2400",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WWCR University Network",
    language: "English",
    itu: "USA",
@@ -61547,7 +58622,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -61565,7 +58640,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "262",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 13869.948,
@@ -61578,7 +58653,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13870,
@@ -61656,7 +58731,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13919.903,
@@ -61669,7 +58744,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13960.001,
@@ -61682,7 +58757,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13974,
@@ -61760,7 +58835,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 13989,
@@ -61768,7 +58843,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JMH",
    language: "F3C",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Kagoshima",
    coordinates: "311922N1303138E",
    power: "5",
@@ -61786,7 +58861,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14375,
@@ -61818,14 +58893,14 @@ export const radioSchedules = [
    frequency: 14429.864,
    time: "2110-1700",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14559.809,
@@ -61838,7 +58913,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14580.16,
@@ -61851,7 +58926,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14634.904,
@@ -61864,7 +58939,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14690.054,
@@ -61877,7 +58952,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14725,
@@ -61890,7 +58965,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14774.714,
@@ -61903,7 +58978,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14800,
@@ -61916,7 +58991,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14820,
@@ -61929,7 +59004,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14850,
@@ -61942,7 +59017,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14870,
@@ -61955,33 +59030,33 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14900.03,
    time: "0100-1600",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14900.03,
    time: "1400-1500",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14920,
@@ -61994,7 +59069,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14939.919,
@@ -62007,7 +59082,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 14944,
@@ -62046,7 +59121,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15000,
@@ -62073,162 +59148,6 @@ export const radioSchedules = [
    power: "2.5",
    azimuth: "ND",
    remarks: "WWVH"
- },
- {
-   frequency: 15090,
-   time: "0230-0300",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0300-0330",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0430-0530",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0530-0630",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0630-0730",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0730-0830",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0830-0930",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "0930-1030",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "1030-1130",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "1130-1230",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 15090,
-   time: "1330-1400",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFAF/AGM a24"
  },
  {
    frequency: 15100,
@@ -62475,7 +59394,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "262",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15120,
@@ -62518,16 +59437,29 @@ export const radioSchedules = [
  },
  {
    frequency: 15120,
-   time: "2130-2200",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Bambara",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "94",
-   remarks: "VOA/AGM a24"
+   time: "1045-1100",
+   days: ".234567",
+   stationName: "KTWR GUAM Do You Know",
+   language: "Mongolian-Halh",
+   itu: "GUM",
+   txLocation: "Merizo TX7",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "315",
+   remarks: "KTWR a25"
+ },
+ {
+   frequency: 15120,
+   time: "1100-1115",
+   days: "1234567",
+   stationName: "KTWR GUAM Do You Know",
+   language: "Mongolian/Peripheral",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "315",
+   remarks: "KTWR a25"
  },
  {
    frequency: 15125,
@@ -62579,7 +59511,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15130,
@@ -62592,7 +59524,7 @@ export const radioSchedules = [
    coordinates: "444455N0260610E",
    power: "300",
    azimuth: "245",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15130,
@@ -62605,7 +59537,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15130,
@@ -62618,7 +59550,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15130,
@@ -62631,7 +59563,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15130,
@@ -62644,7 +59576,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "245",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15135,
@@ -62701,7 +59633,7 @@ export const radioSchedules = [
  {
    frequency: 15140,
    time: "1500-1530",
-   days: "0.234567",
+   days: ".234567",
    stationName: "R.HABANA CUBA",
    language: "Spanish",
    itu: "CUB",
@@ -62740,7 +59672,7 @@ export const radioSchedules = [
  {
    frequency: 15140,
    time: "1800-1830",
-   days: "0.234567",
+   days: ".234567",
    stationName: "R.HABANA CUBA",
    language: "French",
    itu: "CUB",
@@ -62803,32 +59735,6 @@ export const radioSchedules = [
    remarks: "RHC a24"
  },
  {
-   frequency: 15140,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Uyghur",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "72",
-   remarks: "RFA3/AGM a24"
- },
- {
-   frequency: 15140,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 15145,
    time: "0600-0700",
    days: "1234567",
@@ -62857,7 +59763,7 @@ export const radioSchedules = [
  {
    frequency: 15150,
    time: "0400-0900",
-   days: "123456",
+   days: "123456.",
    stationName: "Assemblies of Yahweh(WMLK)",
    language: "English",
    itu: "USA",
@@ -62878,7 +59784,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15150,
@@ -62891,7 +59797,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15150,
@@ -63008,7 +59914,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "67",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15160,
@@ -63021,7 +59927,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15160,
@@ -63034,12 +59940,12 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a23"
+   remarks: "RRO a23"
  },
  {
    frequency: 15160,
    time: "1600-1657",
-   days: "0.234567",
+   days: ".234567",
    stationName: "R.ROMANIA INT.",
    language: "Romanian",
    itu: "ROU",
@@ -63047,7 +59953,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15170,
@@ -63060,7 +59966,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15170,
@@ -63073,7 +59979,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "52",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15170,
@@ -63086,7 +59992,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15180,
@@ -63118,7 +60024,7 @@ export const radioSchedules = [
    frequency: 15180,
    time: "0053-0400",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 2",
+   stationName: "CNR 1 (DRM) xHE AAC 3EB",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Kunming-Anning 501",
@@ -63138,7 +60044,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15180,
@@ -63258,25 +60164,12 @@ export const radioSchedules = [
    remarks: "ZYE522"
  },
  {
-   frequency: 15190,
-   time: "1730-1930",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "Filipino",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "AGM/PBS a24"
- },
- {
    frequency: 15195,
    time: "0155-0500",
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -63289,7 +60182,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -63302,7 +60195,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Chinese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -63315,25 +60208,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Korean",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
    azimuth: "290",
    remarks: "NHK a25"
- },
- {
-   frequency: 15195,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Lao",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "94",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 15200,
@@ -63346,7 +60226,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15200,
@@ -63359,7 +60239,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "165",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15200,
@@ -63372,33 +60252,20 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15205,
    time: "1200-1400",
-   days: "1234567",
+   days: "7",
    stationName: "Radio 60!",
    language: "English/German",
-   itu: "ARM",
-   txLocation: "Yerevan-Gavar",
-   coordinates: "402419N0451117E",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
    power: "100",
-   azimuth: "305",
-   remarks: "RSZ MBR a23"
- },
- {
-   frequency: 15210,
-   time: "0000-0100",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Lao",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "94",
-   remarks: "RFA4/AGM a24"
+   azimuth: "66",
+   remarks: "RSZ MBR a25"
  },
  {
    frequency: 15215,
@@ -63479,17 +60346,43 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 15225,
-   time: "0100-0130",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Rohingya",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "283",
-   remarks: "VOA/AGM a24"
+   frequency: 15230,
+   time: "1100-1130",
+   days: "......7",
+   stationName: "KTWR GUAM (DRM)",
+   language: "Chinese(Digital)",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "50",
+   azimuth: "76",
+   remarks: "KTWR a25 DRM May17"
+ },
+ {
+   frequency: 15230,
+   time: "1130-1200",
+   days: "......7",
+   stationName: "KTWR GUAM (DRM)Women of Hope",
+   language: "Japanese(Digital)",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "50",
+   azimuth: "76",
+   remarks: "KTWR a25 DRM May17"
+ },
+ {
+   frequency: 15230,
+   time: "1200-1230",
+   days: "......7",
+   stationName: "KTWR GUAM (DRM)",
+   language: "English(Digital)",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "50",
+   azimuth: "76",
+   remarks: "KTWR a25 DRM May17"
  },
  {
    frequency: 15230,
@@ -63853,7 +60746,7 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "250",
    azimuth: "205",
-   remarks: "RFA2/AGM a25"
+   remarks: "RFA2/AGM a25-May9"
  },
  {
    frequency: 15245,
@@ -63866,7 +60759,7 @@ export const radioSchedules = [
    coordinates: "234334N1201802E",
    power: "250",
    azimuth: "205",
-   remarks: "RFA2/AGM a25"
+   remarks: "RFA2/AGM a25-May9"
  },
  {
    frequency: 15250,
@@ -63893,32 +60786,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "270",
    remarks: "CRI a25"
- },
- {
-   frequency: 15250,
-   time: "1100-1300",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Chinese",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "315",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15255,
-   time: "1400-1600",
-   days: "1234567",
-   stationName: "RFE/R.LIBERTY",
-   language: "Turkmen",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "308",
-   remarks: "RFE/AGM a24"
  },
  {
    frequency: 15260,
@@ -63984,19 +60851,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "114",
    remarks: "IBRA a25 ENC"
- },
- {
-   frequency: 15260,
-   time: "1630-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Swahili",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 15265,
@@ -64116,19 +60970,6 @@ export const radioSchedules = [
    remarks: "DW a25"
  },
  {
-   frequency: 15275,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
- },
- {
    frequency: 15279.995,
    time: "2100-1700",
    days: "1234567",
@@ -64139,7 +60980,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15280,
@@ -64186,7 +61027,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -64256,7 +61097,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15295,
@@ -64399,7 +61240,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "280",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15300,
@@ -64659,12 +61500,12 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "245",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15320,
    time: "0400-0430",
-   days: "123456",
+   days: "123456.",
    stationName: "R.TAIWAN INT.",
    language: "Cantonese",
    itu: "TWN",
@@ -64789,7 +61630,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "112",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15335,
@@ -64828,20 +61669,20 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15340.015,
    time: "2130-1703",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15350,
@@ -64906,7 +61747,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15360,
@@ -64933,45 +61774,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "300",
    remarks: "AWR a25"
- },
- {
-   frequency: 15365,
-   time: "0400-0700",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "45",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 15365,
-   time: "0700-1000",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 15365,
-   time: "1000-1300",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFE/AGM a24"
  },
  {
    frequency: 15370,
@@ -65014,7 +61816,7 @@ export const radioSchedules = [
  },
  {
    frequency: 15375,
-   time: "0700-0900",
+   time: "0600-1100",
    days: "1234567",
    stationName: "Fu Hsing BS",
    language: "Chinese",
@@ -65023,20 +61825,7 @@ export const radioSchedules = [
    coordinates: "250209N1210549E",
    power: "10",
    azimuth: "ND",
-   remarks: "FHBS b24"
- },
- {
-   frequency: 15375,
-   time: "1000-1300",
-   days: "1234567",
-   stationName: "Fu Hsing BS",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "FHBS b24"
+   remarks: "FHBS a25 Jul.1"
  },
  {
    frequency: 15380,
@@ -65223,7 +62012,7 @@ export const radioSchedules = [
  {
    frequency: 15390,
    time: "1600-1645",
-   days: "1",
+   days: "7",
    stationName: "KTWR GUAM (DRM)",
    language: "English(Digital)",
    itu: "GUM",
@@ -65232,6 +62021,188 @@ export const radioSchedules = [
    power: "90",
    azimuth: "290",
    remarks: "KTWR a25 DRM"
+ },
+ {
+   frequency: 15390,
+   time: "1400-2130",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "1400-2200",
+   days: "......7",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "1500-1630",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "1630-1700",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Arabic",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "1700-1730",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Portuguese",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "1730-2130",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2130-2200",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Arabic",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2130-2200",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2200-2230",
+   days: "1...5..",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2200-2230",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2200-2230",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "English",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2230-2300",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15390,
+   time: "2230-2300",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "French",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "161",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15400,
+   time: "1301-1303",
+   days: "23456",
+   stationName: "KTWR GUAM",
+   language: "Hindi",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "200",
+   azimuth: "285",
+   remarks: "KTWR a25"
  },
  {
    frequency: 15400,
@@ -65301,7 +62272,7 @@ export const radioSchedules = [
  {
    frequency: 15400,
    time: "1245-1300",
-   days: "234",
+   days: "23",
    stationName: "KTWR GUAM",
    language: "English",
    itu: "GUM",
@@ -65309,7 +62280,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "285",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 15400,
@@ -65322,12 +62293,12 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "285",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 15400,
-   time: "1300-1310",
-   days: ".23456.",
+   time: "1303-1308",
+   days: "456",
    stationName: "KTWR GUAM",
    language: "Hindi",
    itu: "GUM",
@@ -65335,12 +62306,12 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "285",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 15400,
    time: "1300-1315",
-   days: "......7",
+   days: "7",
    stationName: "KTWR GUAM",
    language: "Desiya",
    itu: "GUM",
@@ -65348,7 +62319,7 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "285",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
  },
  {
    frequency: 15400,
@@ -65361,7 +62332,33 @@ export const radioSchedules = [
    coordinates: "131641N1444024E",
    power: "250",
    azimuth: "285",
-   remarks: "KTWR b24"
+   remarks: "KTWR a25"
+ },
+ {
+   frequency: 15400,
+   time: "1215-1230",
+   days: "6",
+   stationName: "KTWR GUAM",
+   language: "Bengali",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "250",
+   azimuth: "290",
+   remarks: "KTWR a25"
+ },
+ {
+   frequency: 15400,
+   time: "1300-1315",
+   days: "5",
+   stationName: "KTWR GUAM",
+   language: "Dzongkha",
+   itu: "GUM",
+   txLocation: "Merizo",
+   coordinates: "131641N1444024E",
+   power: "250",
+   azimuth: "290",
+   remarks: "KTWR a25"
  },
  {
    frequency: 15410,
@@ -65508,97 +62505,6 @@ export const radioSchedules = [
  },
  {
    frequency: 15410,
-   time: "1400-1415",
-   days: "......7",
-   stationName: "KTWR GUAM",
-   language: "Bengali",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: ".....6.",
-   stationName: "KTWR GUAM",
-   language: "Dzongkha",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: "....5..",
-   stationName: "KTWR GUAM",
-   language: "Santhali",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: "...4...",
-   stationName: "KTWR GUAM",
-   language: "Kui",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: "..3....",
-   stationName: "KTWR GUAM",
-   language: "Kurukh",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: ".2.....",
-   stationName: "KTWR GUAM",
-   language: "Bondo",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
-   time: "1400-1415",
-   days: "1......",
-   stationName: "KTWR GUAM",
-   language: "Ho",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "250",
-   azimuth: "290",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15410,
    time: "2300-1400",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
@@ -65608,7 +62514,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15420,
@@ -65894,7 +62800,7 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "35",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 15445,
@@ -65908,19 +62814,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "308",
    remarks: "CRI a25"
- },
- {
-   frequency: 15445,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "R.SAWA",
-   language: "Arabic",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "230",
-   remarks: "RFE/AGM a24"
  },
  {
    frequency: 15450,
@@ -66274,71 +63167,6 @@ export const radioSchedules = [
    remarks: "HCA a25"
  },
  {
-   frequency: 15460,
-   time: "1530-1600",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "500",
-   azimuth: "276",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15460,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "230",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15460,
-   time: "1630-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Swahili",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15460,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "ASC",
-   txLocation: "Ascension",
-   coordinates: "075354S0142239W",
-   power: "250",
-   azimuth: "115",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15460,
-   time: "1800-1900",
-   days: "23456",
-   stationName: "VOICE OF AMERICA",
-   language: "Shona",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "280",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 15465,
    time: "0500-0900",
    days: "1234567",
@@ -66353,36 +63181,23 @@ export const radioSchedules = [
  },
  {
    frequency: 15475,
-   time: "1330-1400",
-   days: "1234567",
-   stationName: "Furusato no kaze",
-   language: "Japanese",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
-   power: "100",
-   azimuth: "76",
-   remarks: "_JCI a25 ENC"
- },
- {
-   frequency: 15475,
-   time: "1430-1500",
-   days: "1234567",
-   stationName: "Furusato no kaze",
-   language: "Japanese",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
-   power: "100",
-   azimuth: "76",
-   remarks: "_JCI a25 ENC"
- },
- {
-   frequency: 15475,
    time: "1300-1330",
    days: "1234567",
    stationName: "Nippon no Kaze\"il bon ue baram\"",
    language: "Korean",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "76",
+   remarks: "_JCI a25 ENC"
+ },
+ {
+   frequency: 15475,
+   time: "1330-1400",
+   days: "1234567",
+   stationName: "Furusato no kaze",
+   language: "Japanese",
    itu: "UZB",
    txLocation: "Tashkent",
    coordinates: "411313N0690902E",
@@ -66547,32 +63362,6 @@ export const radioSchedules = [
    remarks: "VAT a25"
  },
  {
-   frequency: 15490,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 15490,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "200",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
- },
- {
    frequency: 15500,
    time: "1100-1130",
    days: "1234567",
@@ -66662,6 +63451,227 @@ export const radioSchedules = [
    power: "100",
    azimuth: "345",
    remarks: "FEBC a25"
+ },
+ {
+   frequency: 15520,
+   time: "1400-2130",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1400-2200",
+   days: "......7",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1500-1630",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1630-1700",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Arabic",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1700-1730",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Russian",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1700-1730",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1700-1730",
+   days: "....5..",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "1730-2130",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2130-2200",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2130-2200",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Russian",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2130-2200",
+   days: "..3.5..",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Arabic",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2200-2230",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2200-2230",
+   days: "1...5..",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2200-2230",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "English",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2230-2300",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2230-2300",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 15520,
+   time: "2230-2300",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "French",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "110",
+   remarks: "REE a25"
  },
  {
    frequency: 15525,
@@ -66804,7 +63814,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "52",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15540,
@@ -66903,12 +63913,12 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JRC Radio Dabanga",
    language: "Darfur Arabic",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 1",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "148",
-   remarks: "JRC/MGB a24"
+   azimuth: "335",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 15550,
@@ -66916,16 +63926,16 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "JRC Radio Dabanga",
    language: "Darfur Arabic",
-   itu: "F",
-   txLocation: "Issoudun",
-   coordinates: "465755N0015146E",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 1",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "135",
-   remarks: "JRC/MGB a24"
+   azimuth: "335",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 15550,
-   time: "1445-1600",
+   time: "1500-1530",
    days: "1234567",
    stationName: "JRC Radio Tamazui",
    language: "Juba Arabic",
@@ -66934,7 +63944,7 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "335",
-   remarks: "JRC/MGB a24"
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 15550,
@@ -67030,7 +64040,7 @@ export const radioSchedules = [
  {
    frequency: 15565,
    time: "1600-1630",
-   days: "123456",
+   days: "123456.",
    stationName: "VATICAN RADIO",
    language: "Swahili",
    itu: "CVA",
@@ -67082,7 +64092,7 @@ export const radioSchedules = [
  {
    frequency: 15565,
    time: "1730-1800",
-   days: "123456",
+   days: "123456.",
    stationName: "VATICAN RADIO",
    language: "Tigrigna",
    itu: "CVA",
@@ -67324,59 +64334,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
-   frequency: 15580,
-   time: "0500-0700",
+   frequency: 15590,
+   time: "0057-0157",
    days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15580,
-   time: "1400-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15580,
-   time: "1630-1700",
-   days: "17",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15580,
-   time: "1730-2200",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "350",
-   remarks: "VOA/AGM a24"
+   stationName: "CHINA R.INT. (DRM) 3F2 xHE AAC",
+   language: "Chinese(Digital)",
+   itu: "CHN",
+   txLocation: "Kunming-Anning 501",
+   coordinates: "245235N1022917E",
+   power: "150",
+   azimuth: "135",
+   remarks: "DRM CRI a25"
  },
  {
    frequency: 15590,
@@ -67405,19 +64376,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 15590,
-   time: "0200-0230",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "6",
-   remarks: "NBT/AGM a24"
- },
- {
    frequency: 15595,
    time: "0500-0600",
    days: "1234567",
@@ -67433,7 +64391,7 @@ export const radioSchedules = [
  {
    frequency: 15595,
    time: "0600-0610",
-   days: "0.234567",
+   days: ".234567",
    stationName: "VATICAN RADIO",
    language: "Italian",
    itu: "CVA",
@@ -67446,7 +64404,7 @@ export const radioSchedules = [
  {
    frequency: 15595,
    time: "0610-0630",
-   days: "0.234567",
+   days: ".234567",
    stationName: "VATICAN RADIO",
    language: "Arabic",
    itu: "CVA",
@@ -67459,7 +64417,7 @@ export const radioSchedules = [
  {
    frequency: 15595,
    time: "0630-0645",
-   days: "0.234567",
+   days: ".234567",
    stationName: "VATICAN RADIO",
    language: "French",
    itu: "CVA",
@@ -67627,6 +64585,19 @@ export const radioSchedules = [
  },
  {
    frequency: 15610,
+   time: "0000-0600",
+   days: "1234567",
+   stationName: "EWTN 1",
+   language: "English",
+   itu: "USA",
+   txLocation: "Vandiver",
+   coordinates: "333013N0862827W",
+   power: "250",
+   azimuth: "85",
+   remarks: "EWTN3 a25"
+ },
+ {
+   frequency: 15610,
    time: "1900-2400",
    days: "1234567",
    stationName: "EWTN 1",
@@ -67636,59 +64607,7 @@ export const radioSchedules = [
    coordinates: "333013N0862827W",
    power: "250",
    azimuth: "85",
-   remarks: "EWTN1 a23"
- },
- {
-   frequency: 15610,
-   time: "1045-1100",
-   days: "0.234567",
-   stationName: "KTWR GUAM Do You Know",
-   language: "Mongolian",
-   itu: "GUM",
-   txLocation: "Merizo TX7",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "315",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15610,
-   time: "1100-1115",
-   days: "1234567",
-   stationName: "KTWR GUAM Do You Know",
-   language: "Mongolian",
-   itu: "GUM",
-   txLocation: "Merizo",
-   coordinates: "131641N1444024E",
-   power: "200",
-   azimuth: "315",
-   remarks: "KTWR b24"
- },
- {
-   frequency: 15610,
-   time: "0600-0700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
-   power: "250",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 15610,
-   time: "1400-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kurdish",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "98",
-   remarks: "VOA/AGM a24"
+   remarks: "EWTN3 a25"
  },
  {
    frequency: 15610.255,
@@ -67701,7 +64620,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15620,
@@ -67795,32 +64714,6 @@ export const radioSchedules = [
    remarks: "DRM CRI a25"
  },
  {
-   frequency: 15640,
-   time: "0200-0330",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "English",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "270",
-   remarks: "AGM/PBS a24"
- },
- {
-   frequency: 15640,
-   time: "1300-1700",
-   days: "1234567",
-   stationName: "VOA DEEWA RADIO",
-   language: "Pashto",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "92",
-   remarks: "VOA/AGM Deewa R a24"
- },
- {
    frequency: 15660,
    time: "1100-1300",
    days: "1234567",
@@ -67832,71 +64725,6 @@ export const radioSchedules = [
    power: "100",
    azimuth: "173",
    remarks: "CRI a25"
- },
- {
-   frequency: 15660,
-   time: "1630-1700",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "SudaneseEnglish",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15660,
-   time: "1700-1730",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Amharic",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15660,
-   time: "1730-1800",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Oromo",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15660,
-   time: "1800-1900",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Amharic",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "122",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15660,
-   time: "1900-1930",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Tigrinya",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "132",
-   remarks: "VOA/AGM a24"
  },
  {
    frequency: 15665,
@@ -68169,7 +64997,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 15685,
@@ -68277,6 +65105,19 @@ export const radioSchedules = [
  },
  {
    frequency: 15720,
+   time: "1000-1300",
+   days: "1234567",
+   stationName: "R.FARDA",
+   language: "Persian",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241343N0542456E",
+   power: "250",
+   azimuth: "35",
+   remarks: "RFE/ENC a25 Jun.21-"
+ },
+ {
+   frequency: 15720,
    time: "0458-0557",
    days: "1234567",
    stationName: "CHINA R.INT. (DRM) 3F2 xHE AAC",
@@ -68303,8 +65144,8 @@ export const radioSchedules = [
  },
  {
    frequency: 15720,
-   time: "1859-1958",
-   days: "123456",
+   time: "1959-2058",
+   days: "7",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
    itu: "NZL",
@@ -68316,7 +65157,7 @@ export const radioSchedules = [
  },
  {
    frequency: 15720,
-   time: "1959-2058",
+   time: "1955-2058",
    days: "123456",
    stationName: "R.NEW ZEALAND INT.",
    language: "English",
@@ -68364,98 +65205,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 15730,
-   time: "0330-0400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "276",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "1030-1100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "139",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "1600-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "185",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "2030-2100",
-   days: "1......",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "94",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 15730,
-   time: "2030-2100",
-   days: "......7",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "94",
-   remarks: "VOA/AGM a24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15735,
@@ -68481,7 +65231,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15750,
@@ -68510,58 +65260,6 @@ export const radioSchedules = [
    remarks: "WINB a23"
  },
  {
-   frequency: 15750,
-   time: "0400-0700",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 15750,
-   time: "0700-1100",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "78",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 15750,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFE/AGM a24"
- },
- {
-   frequency: 15750,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "RADIO MASHAAL",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "304",
-   remarks: "RFE/AGM a24"
- },
- {
    frequency: 15759.988,
    time: "2130-1500",
    days: "1234567",
@@ -68572,228 +65270,228 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15760,
    time: "0002-0100",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
-   language: "Chinese(Digital)",
+   stationName: "CNR 1 ",
+   language: "Chinese",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0102-0200",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0203-0300",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0302-0400",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0402-0500",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0502-0600",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0602-0700",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0702-0800",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0802-0900",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "0902-1000",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "1002-1100",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "1102-1200",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "1203-1300",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "1302-1400",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "1403-1500",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "2200-2300",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25 Jammer"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15760,
    time: "2303-0000",
    days: "1234567",
-   stationName: "CNR 1 (DRM) 1 xHE AAC",
+   stationName: "CNR 1 ",
    language: "Chinese(Digital)",
    itu: "CHN",
    txLocation: "Qiqihar 2021",
    coordinates: "472047N1241607E",
    power: "30",
    azimuth: "225",
-   remarks: "CNR1 DRM a25"
+   remarks: "CNR1 a25 Jamming"
  },
  {
    frequency: 15770,
@@ -68837,7 +65535,7 @@ export const radioSchedules = [
  {
    frequency: 15770,
    time: "0400-0500",
-   days: "0.234567",
+   days: ".234567",
    stationName: "WRMI Radio Liberty",
    language: "Russian",
    itu: "USA",
@@ -69066,7 +65764,7 @@ export const radioSchedules = [
    coordinates: "272726N0805559W",
    power: "100",
    azimuth: "44",
-   remarks: "RMI a24"
+   remarks: "RMI a25"
  },
  {
    frequency: 15770,
@@ -69690,7 +66388,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15785,
@@ -69742,7 +66440,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15810,
@@ -69768,7 +66466,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15825,
@@ -69846,7 +66544,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15870.031,
@@ -69859,7 +66557,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15889.99,
@@ -69872,7 +66570,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15890,
@@ -69911,7 +66609,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15940.279,
@@ -69924,7 +66622,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 15969.768,
@@ -69937,7 +66635,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16099.987,
@@ -69950,7 +66648,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16160.09,
@@ -69963,7 +66661,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16180,
@@ -69989,20 +66687,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16299.64,
    time: "2204-1602",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese/Cantonese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16600,
@@ -70015,7 +66713,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16680.31,
@@ -70028,7 +66726,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16789.834,
@@ -70041,7 +66739,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 16979.959,
@@ -70054,7 +66752,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17149.877,
@@ -70067,7 +66765,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17170,
@@ -70080,7 +66778,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17400.233,
@@ -70093,20 +66791,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17440.257,
    time: "2128-1300",
    days: "1234567",
-   stationName: "SOH rely RFA",
+   stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese",
    itu: "TWN",
    txLocation: "Pingtung",
    coordinates: "222305N1203752E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17480,
@@ -70187,19 +66885,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 17490,
-   time: "1400-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "D",
-   txLocation: "Biblis",
-   coordinates: "494118N0082932E",
-   power: "100",
-   azimuth: "85",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 17490.124,
    time: "2200-1350",
    days: "1234567",
@@ -70210,7 +66895,33 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
+ },
+ {
+   frequency: 17500,
+   time: "1230-1300",
+   days: "1234567",
+   stationName: "Mizzima Media",
+   language: "Burmese",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241012N0541459E",
+   power: "250",
+   azimuth: "90",
+   remarks: "RDR a25 Apr.1-"
+ },
+ {
+   frequency: 17500,
+   time: "1300-1330",
+   days: "1234567",
+   stationName: "Democratic Voice of Burma",
+   language: "Burmese",
+   itu: "UAE",
+   txLocation: "Al-Dhabbiya",
+   coordinates: "241012N0541459E",
+   power: "250",
+   azimuth: "90",
+   remarks: "DVB a25 Apr.24-"
  },
  {
    frequency: 17510,
@@ -70343,97 +67054,6 @@ export const radioSchedules = [
    remarks: "MWV KNLS a25"
  },
  {
-   frequency: 17530,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "139",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1500-1600",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "BOT",
-   txLocation: "Selebi-Phikwe",
-   coordinates: "215724S0273818E",
-   power: "100",
-   azimuth: "10",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1600-1630",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "ASC",
-   txLocation: "Ascension",
-   coordinates: "075354S0142239W",
-   power: "250",
-   azimuth: "85",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1630-1700",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Swahili",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "250",
-   azimuth: "135",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1700-1830",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "English",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "94",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1830-1900",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Kirundi",
-   itu: "ASC",
-   txLocation: "Ascension",
-   coordinates: "075354S0142239W",
-   power: "250",
-   azimuth: "85",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17530,
-   time: "1930-2000",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "French",
-   itu: "USA",
-   txLocation: "Greenville B",
-   coordinates: "352803N0771157W",
-   power: "250",
-   azimuth: "94",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 17535,
    time: "1200-1230",
    days: "1234567",
@@ -70551,19 +67171,6 @@ export const radioSchedules = [
    remarks: "VAT a25"
  },
  {
-   frequency: 17540,
-   time: "1030-1100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "205",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 17550,
    time: "0000-0600",
    days: "1234567",
@@ -70604,16 +67211,16 @@ export const radioSchedules = [
  },
  {
    frequency: 17555,
-   time: "1600-1700",
+   time: "1500-1530",
    days: "1234567",
    stationName: "JRC Radio Dabanga",
    language: "Darfur Arabic",
-   itu: "F",
-   txLocation: "Issoudun",
-   coordinates: "465755N0015146E",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 1",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "135",
-   remarks: "JRC/MGB a24"
+   azimuth: "335",
+   remarks: "JRC/MGB a25"
  },
  {
    frequency: 17555,
@@ -70673,7 +67280,7 @@ export const radioSchedules = [
    days: ".23456.",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Russian",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -70747,29 +67354,42 @@ export const radioSchedules = [
  },
  {
    frequency: 17575,
-   time: "1600-1630",
-   days: ".2.4.6.",
-   stationName: "Oromia PM",
-   language: "Amharic",
+   time: "1300-2030",
+   days: "1234567",
+   stationName: "R.FRANCE INT.",
+   language: "French(Digital)",
    itu: "F",
    txLocation: "Issoudun",
    coordinates: "465755N0015146E",
    power: "100",
-   azimuth: "125",
-   remarks: "RMI a24"
+   azimuth: "327",
+   remarks: "RFI a25"
  },
  {
    frequency: 17575,
-   time: "1600-1630",
+   time: "1300-2030",
    days: "1234567",
-   stationName: "Raadiyyoni Dirree Shaggar",
-   language: "Oromo",
+   stationName: "R.FRANCE INT.",
+   language: "French(Digital)",
    itu: "F",
    txLocation: "Issoudun",
    coordinates: "465633N0015357E",
-   power: "250",
-   azimuth: "127",
-   remarks: "RMI/OPM b24"
+   power: "100",
+   azimuth: "232",
+   remarks: "RFI a25"
+ },
+ {
+   frequency: 17575,
+   time: "1300-2030",
+   days: "1234567",
+   stationName: "R.FRANCE INT.",
+   language: "French(Digital)",
+   itu: "F",
+   txLocation: "Issoudun",
+   coordinates: "465633N0015357E",
+   power: "100",
+   azimuth: "120",
+   remarks: "RFI a25"
  },
  {
    frequency: 17580,
@@ -70821,7 +67441,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17580,
@@ -71094,7 +67714,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17630,
@@ -71107,7 +67727,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "112",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17630,
@@ -71120,7 +67740,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17630,
@@ -71133,7 +67753,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17630,
@@ -71146,7 +67766,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17640,
@@ -71225,32 +67845,6 @@ export const radioSchedules = [
    power: "500",
    azimuth: "292",
    remarks: "CRI a25"
- },
- {
-   frequency: 17640,
-   time: "0500-0530",
-   days: "1234567",
-   stationName: "R.THAILAND",
-   language: "English",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "6",
-   remarks: "NBT/AGM a24"
- },
- {
-   frequency: 17640,
-   time: "0600-0700",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 17650,
@@ -71409,32 +68003,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 17655,
-   time: "1700-1800",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Portuguese",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "170",
-   remarks: "VOA/AGM a24"
- },
- {
-   frequency: 17655,
-   time: "1800-1830",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Portuguese",
-   itu: "STP",
-   txLocation: "Pinheira",
-   coordinates: "001734N0064507E",
-   power: "100",
-   azimuth: "124",
-   remarks: "VOA/AGM a24"
- },
- {
    frequency: 17660,
    time: "0700-0730",
    days: "1234567",
@@ -71500,30 +68068,69 @@ export const radioSchedules = [
    remarks: "RFI a25"
  },
  {
-   frequency: 17670,
-   time: "1300-1400",
-   days: "..3.5..",
-   stationName: "Music 4 Joy DRM",
-   language: "Music",
-   itu: "D",
-   txLocation: "Nauen",
-   coordinates: "523855N0125433E",
+   frequency: 17665,
+   time: "2055-2100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi Hutubi 201",
+   coordinates: "440853N0865345E",
    power: "100",
-   azimuth: "62",
-   remarks: "M4J MBR a25"
+   azimuth: "80",
+   remarks: "CNR8 a25 May20-"
  },
  {
-   frequency: 17670,
-   time: "1230-1245",
-   days: "1......",
-   stationName: "BIBLE VOICE BCN",
-   language: "Indonesian",
-   itu: "UZB",
-   txLocation: "Tashkent",
-   coordinates: "411313N0690902E",
+   frequency: 17665,
+   time: "2100-0100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi Hutubi 201",
+   coordinates: "440853N0865345E",
    power: "100",
-   azimuth: "131",
-   remarks: "BVBN a25 MBR"
+   azimuth: "80",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 17665,
+   time: "0100-0200",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi Hutubi 201",
+   coordinates: "440853N0865345E",
+   power: "100",
+   azimuth: "80",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 17665,
+   time: "0200-0500",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "TKS",
+   txLocation: "Urumqi Hutubi 201",
+   coordinates: "440853N0865345E",
+   power: "100",
+   azimuth: "80",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 17665,
+   time: "0500-0600",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "TKS",
+   txLocation: "Urumqi Hutubi 201",
+   coordinates: "440853N0865345E",
+   power: "100",
+   azimuth: "80",
+   remarks: "CNR8 a25"
  },
  {
    frequency: 17670,
@@ -71540,6 +68147,45 @@ export const radioSchedules = [
  },
  {
    frequency: 17670,
+   time: "1230-1245",
+   days: "1......",
+   stationName: "BIBLE VOICE BCN",
+   language: "Indonesian",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "121",
+   remarks: "BVBN a25 MBR"
+ },
+ {
+   frequency: 17670,
+   time: "1230-1245",
+   days: "7",
+   stationName: "BIBLE VOICE BCN",
+   language: "Chinese",
+   itu: "UZB",
+   txLocation: "Tashkent",
+   coordinates: "411313N0690902E",
+   power: "100",
+   azimuth: "90",
+   remarks: "BVBN a25 MBR"
+ },
+ {
+   frequency: 17670,
+   time: "1300-1400",
+   days: "..3.5..",
+   stationName: "Music 4 Joy DRM",
+   language: "Music",
+   itu: "D",
+   txLocation: "Nauen",
+   coordinates: "523855N0125433E",
+   power: "100",
+   azimuth: "62",
+   remarks: "M4J MBR a25"
+ },
+ {
+   frequency: 17670,
    time: "1730-1900",
    days: "1234567",
    stationName: "IBRA MEDIA/Radio Sama",
@@ -71550,19 +68196,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "137",
    remarks: "IBRA a25 ENC"
- },
- {
-   frequency: 17670,
-   time: "0600-0700",
-   days: "246",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
  },
  {
    frequency: 17675,
@@ -71679,7 +68312,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17690,
@@ -71708,30 +68341,69 @@ export const radioSchedules = [
    remarks: "TRT a25"
  },
  {
-   frequency: 17690,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "TJK",
-   txLocation: "Dushanbe-Yangiyul",
-   coordinates: "382852N0684830E",
+   frequency: 17700,
+   time: "1400-1415",
+   days: "6",
+   stationName: "KTWR GUAM",
+   language: "Santhali",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 3",
+   coordinates: "184509S0473654E",
    power: "250",
-   azimuth: "110",
-   remarks: "RFA4/AGM a24"
+   azimuth: "45",
+   remarks: "TWR a25"
  },
  {
-   frequency: 17690,
-   time: "1400-1500",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Tibetan",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "77",
-   remarks: "VOA/AGM a24"
+   frequency: 17700,
+   time: "1400-1415",
+   days: "5",
+   stationName: "KTWR GUAM",
+   language: "Kui",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 3",
+   coordinates: "184509S0473654E",
+   power: "250",
+   azimuth: "45",
+   remarks: "TWR a25"
+ },
+ {
+   frequency: 17700,
+   time: "1400-1415",
+   days: "4",
+   stationName: "KTWR GUAM",
+   language: "Kurukh",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 3",
+   coordinates: "184509S0473654E",
+   power: "250",
+   azimuth: "45",
+   remarks: "TWR a25"
+ },
+ {
+   frequency: 17700,
+   time: "1400-1415",
+   days: "3",
+   stationName: "KTWR GUAM",
+   language: "Bondo",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 3",
+   coordinates: "184509S0473654E",
+   power: "250",
+   azimuth: "45",
+   remarks: "TWR a25"
+ },
+ {
+   frequency: 17700,
+   time: "1400-1415",
+   days: "2",
+   stationName: "KTWR GUAM",
+   language: "Ho",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry 3",
+   coordinates: "184509S0473654E",
+   power: "250",
+   azimuth: "45",
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
@@ -71749,7 +68421,7 @@ export const radioSchedules = [
  {
    frequency: 17700,
    time: "1400-1415",
-   days: "......7",
+   days: "7",
    stationName: "TWR Asia",
    language: "Bundeli",
    itu: "MDG",
@@ -71757,12 +68429,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
-   time: "1400-1415",
-   days: ".23456.",
+   time: "1415-1430",
+   days: "7",
    stationName: "TWR Asia",
    language: "Hindi",
    itu: "MDG",
@@ -71770,12 +68442,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1400-1415",
-   days: "1......",
+   days: "1",
    stationName: "TWR Asia",
    language: "Haryanvi",
    itu: "MDG",
@@ -71783,12 +68455,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1415-1430",
-   days: ".....6.",
+   days: "6",
    stationName: "TWR Asia",
    language: "English",
    itu: "MDG",
@@ -71796,12 +68468,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1415-1430",
-   days: "...4...",
+   days: "4.",
    stationName: "TWR Asia",
    language: "Marwari",
    itu: "MDG",
@@ -71809,12 +68481,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1415-1430",
-   days: "..3.5..",
+   days: "35",
    stationName: "TWR Asia",
    language: "Hindi",
    itu: "MDG",
@@ -71822,12 +68494,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1415-1430",
-   days: ".2.....",
+   days: "2",
    stationName: "TWR Asia",
    language: "Awadhi",
    itu: "MDG",
@@ -71835,12 +68507,12 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17700,
    time: "1415-1430",
-   days: "1......",
+   days: "1",
    stationName: "TWR Asia",
    language: "Braj Bhasha",
    itu: "MDG",
@@ -71848,20 +68520,7 @@ export const radioSchedules = [
    coordinates: "184509S0473654E",
    power: "250",
    azimuth: "45",
-   remarks: "TWR b24"
- },
- {
-   frequency: 17700,
-   time: "1530-1600",
-   days: ".23456.",
-   stationName: "VOICE OF AMERICA",
-   language: "Hausa",
-   itu: "G",
-   txLocation: "Woofferton",
-   coordinates: "521625N0024942W",
-   power: "300",
-   azimuth: "165",
-   remarks: "VOA/AGM a24"
+   remarks: "TWR a25"
  },
  {
    frequency: 17710,
@@ -71904,34 +68563,21 @@ export const radioSchedules = [
  },
  {
    frequency: 17715,
-   time: "0000-0030",
-   days: "..34567",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Portuguese",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "230",
-   remarks: "REE b24"
+   time: "0700-0930",
+   days: "1234567",
+   stationName: "VATICAN RADIO",
+   language: "Arabic",
+   itu: "CVA",
+   txLocation: "Santa Maria di Galeria",
+   coordinates: "420239N0121922E",
+   power: "250",
+   azimuth: "98",
+   remarks: "VAT a25"
  },
  {
    frequency: 17715,
-   time: "0030-0300",
-   days: "..34567",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "230",
-   remarks: "REE b24"
- },
- {
-   frequency: 17715,
-   time: "1500-2300",
-   days: "1.....7",
+   time: "1400-2130",
+   days: "1......",
    stationName: "R.EXTERIOR DE ESPANA",
    language: "Spanish",
    itu: "E",
@@ -71939,11 +68585,24 @@ export const radioSchedules = [
    coordinates: "395729N0032550W",
    power: "200",
    azimuth: "230",
-   remarks: "REE b24"
+   remarks: "REE a25"
  },
  {
    frequency: 17715,
-   time: "1900-2130",
+   time: "1400-2200",
+   days: "......7",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "1800-2200",
    days: ".23456.",
    stationName: "R.EXTERIOR DE ESPANA",
    language: "Spanish",
@@ -71952,7 +68611,72 @@ export const radioSchedules = [
    coordinates: "395729N0032550W",
    power: "200",
    azimuth: "230",
-   remarks: "REE b24"
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2130-2200",
+   days: "1......",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2200-2230",
+   days: "1...5..",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2200-2230",
+   days: ".2.4.6.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "English",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2200-2230",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Ladino",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2230-2300",
+   days: "..3....",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
  },
  {
    frequency: 17715,
@@ -71965,37 +68689,11 @@ export const radioSchedules = [
    coordinates: "395729N0032550W",
    power: "200",
    azimuth: "230",
-   remarks: "REE b24"
+   remarks: "REE a25"
  },
  {
    frequency: 17715,
-   time: "2300-2330",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "English",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "230",
-   remarks: "REE b24"
- },
- {
-   frequency: 17715,
-   time: "2300-2330",
-   days: "..3....",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "230",
-   remarks: "REE b24"
- },
- {
-   frequency: 17715,
-   time: "2330-2400",
+   time: "2230-2300",
    days: ".2.4.6.",
    stationName: "R.EXTERIOR DE ESPANA",
    language: "French",
@@ -72004,20 +68702,33 @@ export const radioSchedules = [
    coordinates: "395729N0032550W",
    power: "200",
    azimuth: "230",
-   remarks: "REE b24"
+   remarks: "REE a25"
  },
  {
    frequency: 17715,
-   time: "0700-0930",
-   days: "1234567",
-   stationName: "VATICAN RADIO",
-   language: "Arabic",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "98",
-   remarks: "VAT a25"
+   time: "2300-2330",
+   days: ".23456.",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Portuguese",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
+ },
+ {
+   frequency: 17715,
+   time: "2330-0200",
+   days: "..34567",
+   stationName: "R.EXTERIOR DE ESPANA",
+   language: "Spanish",
+   itu: "E",
+   txLocation: "Noblejas",
+   coordinates: "395729N0032550W",
+   power: "200",
+   azimuth: "230",
+   remarks: "REE a25"
  },
  {
    frequency: 17720,
@@ -72034,16 +68745,16 @@ export const radioSchedules = [
  },
  {
    frequency: 17720,
-   time: "1250-1330",
+   time: "1300-1350",
    days: ".23456.",
    stationName: "Shan News Radio",
-   language: "Burmese",
+   language: "Shan/Burmese",
    itu: "UAE",
    txLocation: "Al-Dhabbiya",
    coordinates: "241012N0541459E",
    power: "250",
    azimuth: "90",
-   remarks: "ENC a24 May3-"
+   remarks: "ENC a25"
  },
  {
    frequency: 17720,
@@ -72332,149 +69043,6 @@ export const radioSchedules = [
    remarks: "CRI a25"
  },
  {
-   frequency: 17750,
-   time: "0600-0700",
-   days: "1357",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "KWT",
-   txLocation: "Kuwait",
-   coordinates: "293047N0474023E",
-   power: "250",
-   azimuth: "70",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 17755,
-   time: "1500-2300",
-   days: "1.....7",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "1600-1630",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "1730-1800",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Arabic",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "1800-1830",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Russian",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "1900-2300",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Spanish",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "2230-2300",
-   days: "1......",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "2230-2300",
-   days: ".23456.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Arabic",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "2300-2330",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "English",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "2300-2330",
-   days: "..3....",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "Ladino",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
-   frequency: 17755,
-   time: "2330-2400",
-   days: ".2.4.6.",
-   stationName: "R.EXTERIOR DE ESPANA",
-   language: "French",
-   itu: "E",
-   txLocation: "Noblejas",
-   coordinates: "395729N0032550W",
-   power: "200",
-   azimuth: "161",
-   remarks: "REE b24"
- },
- {
    frequency: 17760,
    time: "0200-0257",
    days: "1234567",
@@ -72485,7 +69053,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72498,7 +69066,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "67",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72511,7 +69079,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "100",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72524,7 +69092,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "165",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72537,7 +69105,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72550,20 +69118,20 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
    time: "1230-1257",
    days: "1234567",
-   stationName: "R.ROMANIA INT.",
-   language: "Chinese",
+   stationName: "R.ROMANIA INT. DRM E1001",
+   language: "Chinese(Digital)",
    itu: "ROU",
-   txLocation: "Tiganesti",
+   txLocation: "SNR Tiganesti E2",
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "67",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17760,
@@ -72576,7 +69144,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17765,
@@ -72628,7 +69196,7 @@ export const radioSchedules = [
    coordinates: "341523N1183829W",
    power: "50",
    azimuth: "100",
-   remarks: "KVOH b21"
+   remarks: "KVOH"
  },
  {
    frequency: 17775,
@@ -72641,7 +69209,7 @@ export const radioSchedules = [
    coordinates: "341523N1183829W",
    power: "50",
    azimuth: "100",
-   remarks: "KVOH b21"
+   remarks: "KVOH"
  },
  {
    frequency: 17775,
@@ -72654,20 +69222,7 @@ export const radioSchedules = [
    coordinates: "341523N1183829W",
    power: "50",
    azimuth: "100",
-   remarks: "KVOH b21"
- },
- {
-   frequency: 17775,
-   time: "1030-1100",
-   days: "1234567",
-   stationName: "VOICE OF AMERICA",
-   language: "Somali",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "130",
-   remarks: "VOA/AGM a24"
+   remarks: "KVOH"
  },
  {
    frequency: 17780,
@@ -72693,7 +69248,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17780,
@@ -72706,7 +69261,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "285",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17780,
@@ -72719,7 +69274,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "142",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17780.26,
@@ -72732,7 +69287,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 17785,
@@ -72771,7 +69326,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "100",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17790,
@@ -72784,7 +69339,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "110",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17790,
@@ -72797,7 +69352,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "280",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 17790,
@@ -72982,17 +69537,56 @@ export const radioSchedules = [
    remarks: "RMI b24"
  },
  {
-   frequency: 17790,
-   time: "1400-1500",
-   days: "....5..",
-   stationName: "WRMI Radio for Peace International",
-   language: "English",
-   itu: "USA",
-   txLocation: "Okeechobee4",
-   coordinates: "272726N0805559W",
-   power: "100",
-   azimuth: "160",
-   remarks: "RMI RFPI a23"
+   frequency: 17800,
+   time: "2300-0100",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25 May20-"
+ },
+ {
+   frequency: 17800,
+   time: "0100-0200",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 17800,
+   time: "0200-0500",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Mongolian",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25"
+ },
+ {
+   frequency: 17800,
+   time: "0500-0600",
+   days: "1234567",
+   stationName: "CNR 8",
+   language: "Chinese",
+   itu: "CHN",
+   txLocation: "Qiqihar 2021",
+   coordinates: "472128N1241458E",
+   power: "500",
+   azimuth: "254",
+   remarks: "CNR8 a25"
  },
  {
    frequency: 17800,
@@ -73104,7 +69698,7 @@ export const radioSchedules = [
    days: "1234567",
    stationName: "NHK WORLD RADIO JAPAN",
    language: "Japanese",
-   itu: "JAP",
+   itu: "J",
    txLocation: "Ibaragi-Koga-Yamata",
    coordinates: "361024N1394923E",
    power: "300",
@@ -73123,19 +69717,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "41",
    remarks: "VAT a25"
- },
- {
-   frequency: 17815,
-   time: "0559-0700",
-   days: "1234567",
-   stationName: "BBC DRM 11",
-   language: "English(Digital)",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "100",
-   azimuth: "225",
-   remarks: "BBC a25"
  },
  {
    frequency: 17815,
@@ -73164,19 +69745,6 @@ export const radioSchedules = [
    remarks: "TRT a25"
  },
  {
-   frequency: 17820,
-   time: "0200-0330",
-   days: "1234567",
-   stationName: "R.PILIPINAS",
-   language: "English",
-   itu: "PHL",
-   txLocation: "Tinang",
-   coordinates: "152244N1203733E",
-   power: "250",
-   azimuth: "315",
-   remarks: "AGM/PBS a24"
- },
- {
    frequency: 17825,
    time: "0600-0830",
    days: "12345",
@@ -73191,16 +69759,16 @@ export const radioSchedules = [
  },
  {
    frequency: 17825,
-   time: "1400-1600",
+   time: "1200-1300",
    days: "1234567",
-   stationName: "BBC DRM 11",
-   language: "English(Digital)",
+   stationName: "BBC",
+   language: "English",
    itu: "OMA",
    txLocation: "Al Seela",
    coordinates: "215538N0593741E",
-   power: "100",
-   azimuth: "63",
-   remarks: "BBC a25"
+   power: "250",
+   azimuth: "60",
+   remarks: "BBC a25 May15-"
  },
  {
    frequency: 17830,
@@ -73214,19 +69782,6 @@ export const radioSchedules = [
    power: "125",
    azimuth: "85",
    remarks: "BBC a25"
- },
- {
-   frequency: 17830,
-   time: "0100-0800",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3EC",
-   language: "Chinese(Digital)",
-   itu: "TKS",
-   txLocation: "Urumqi Changji 523",
-   coordinates: "435828N0871459E",
-   power: "30",
-   azimuth: "98",
-   remarks: "CNR1 DRM a25"
  },
  {
    frequency: 17830,
@@ -73408,33 +69963,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "172",
-   remarks: "ROR a25"
- },
- {
-   frequency: 17860,
-   time: "1200-1300",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan(Amdo/Khams)",
-   itu: "D",
-   txLocation: "Lampertheim",
-   coordinates: "493617N0083220E",
-   power: "100",
-   azimuth: "77",
-   remarks: "RFA4/AGM a24"
- },
- {
-   frequency: 17860,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "R.FREE ASIA",
-   language: "Tibetan",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "500",
-   azimuth: "60",
-   remarks: "RFA4/AGM a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 17865,
@@ -73526,136 +70055,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "85",
    remarks: "FBM ENC a24"
- },
- {
-   frequency: 17880,
-   time: "0330-0430",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0430-0530",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0530-0630",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0630-0730",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0730-0830",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0830-0930",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "0930-1030",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "1030-1130",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "1130-1230",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Pashto",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
- },
- {
-   frequency: 17880,
-   time: "1230-1330",
-   days: "1234567",
-   stationName: "R.AZADI (R.Free Afghanistan)",
-   language: "Dari",
-   itu: "THA",
-   txLocation: "Udon Thani",
-   coordinates: "174030N1031201E",
-   power: "250",
-   azimuth: "300",
-   remarks: "RFAF/AGM a24"
  },
  {
    frequency: 17890,
@@ -73759,7 +70158,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 18199.796,
@@ -73772,20 +70171,20 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 18899.609,
    time: "2200-1000",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
-   language: "Chinese",
+   language: "Chinese.",
    itu: "TWN",
    txLocation: "Miaoli",
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 18969.897,
@@ -73798,85 +70197,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "1",
    azimuth: "ND",
-   remarks: "SOH b24"
- },
- {
-   frequency: 19052,
-   time: "0200-0300",
-   days: "1234567",
-   stationName: "Carriers only",
-   language: "Carriers only",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Carriers only a25"
- },
- {
-   frequency: 19052,
-   time: "0300-1000",
-   days: "1234567",
-   stationName: "Carriers only",
-   language: "Carriers only",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Carriers only a25"
- },
- {
-   frequency: 19052,
-   time: "0100-0200",
-   days: "1234567",
-   stationName: "XingXing guangbo diantai 1",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Random numbers b24"
- },
- {
-   frequency: 19052,
-   time: "1100-1200",
-   days: "1234567",
-   stationName: "XingXing guangbo diantai 2",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Random numbers b24"
- },
- {
-   frequency: 19052,
-   time: "1300-1400",
-   days: "1234567",
-   stationName: "XingXing guangbo diantai 3",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Random numbers b24"
- },
- {
-   frequency: 19052,
-   time: "1000-1100",
-   days: "1234567",
-   stationName: "XingXing guangbo diantai 4",
-   language: "Chinese",
-   itu: "TWN",
-   txLocation: "Kuanyin",
-   coordinates: "250209N1210549E",
-   power: "10",
-   azimuth: "ND",
-   remarks: "Random numbers b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 20000,
@@ -73931,7 +70252,7 @@ export const radioSchedules = [
    remarks: "Random numbers b24"
  },
  {
-   frequency: 20095,
+   frequency: 20025,
    time: "2200-1000",
    days: "1234567",
    stationName: "Carriers only",
@@ -73996,6 +70317,84 @@ export const radioSchedules = [
    remarks: "Random numbers b24"
  },
  {
+   frequency: 21000,
+   time: "0200-0300",
+   days: "1234567",
+   stationName: "Carriers only",
+   language: "Carriers only",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Carriers only a25"
+ },
+ {
+   frequency: 21000,
+   time: "0300-1000",
+   days: "1234567",
+   stationName: "Carriers only",
+   language: "Carriers only",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Carriers only a25"
+ },
+ {
+   frequency: 21000,
+   time: "0100-0200",
+   days: "1234567",
+   stationName: "XingXing guangbo diantai 1",
+   language: "Chinese",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Random numbers b24"
+ },
+ {
+   frequency: 21000,
+   time: "1100-1200",
+   days: "1234567",
+   stationName: "XingXing guangbo diantai 2",
+   language: "Chinese",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Random numbers b24"
+ },
+ {
+   frequency: 21000,
+   time: "1300-1400",
+   days: "1234567",
+   stationName: "XingXing guangbo diantai 3",
+   language: "Chinese",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Random numbers b24"
+ },
+ {
+   frequency: 21000,
+   time: "1000-1100",
+   days: "1234567",
+   stationName: "XingXing guangbo diantai 4",
+   language: "Chinese",
+   itu: "TWN",
+   txLocation: "Kuanyin",
+   coordinates: "250209N1210549E",
+   power: "10",
+   azimuth: "ND",
+   remarks: "Random numbers b24"
+ },
+ {
    frequency: 21470,
    time: "1400-1430",
    days: ".23456.",
@@ -74045,7 +70444,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 21480,
@@ -74058,20 +70457,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "307",
-   remarks: "ROR a25"
- },
- {
-   frequency: 21485,
-   time: "1445-1600",
-   days: "1234567",
-   stationName: "JRC Radio Tamazui",
-   language: "Juba Arabic",
-   itu: "F",
-   txLocation: "Issoudun",
-   coordinates: "465704N0015305E",
-   power: "250",
-   azimuth: "138",
-   remarks: "JRC/MGB a24"
+   remarks: "RRO a25"
  },
  {
    frequency: 21490.172,
@@ -74084,7 +70470,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 21510,
@@ -74097,189 +70483,7 @@ export const radioSchedules = [
    coordinates: "464438N0265041E",
    power: "300",
    azimuth: "172",
-   remarks: "ROR a25"
- },
- {
-   frequency: 21530,
-   time: "0003-0100",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0103-0200",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0203-0300",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0303-0600",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0603-0700",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0703-0800",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0801-0900",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "0903-1000",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "1001-1100",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "1101-1200",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "1203-1300",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "1303-1400",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
- },
- {
-   frequency: 21530,
-   time: "2203-2300",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25 Jammer"
- },
- {
-   frequency: 21530,
-   time: "2301-2400",
-   days: "1234567",
-   stationName: "CNR 1 (DRM) 3E8",
-   language: "Chinese(Digital)",
-   itu: "CHN",
-   txLocation: "Dongfang Hainan 871",
-   coordinates: "185220N1084049E",
-   power: "30",
-   azimuth: "341",
-   remarks: "CNR1 DRM a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 21540,
@@ -74305,20 +70509,20 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "67",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 21550,
    time: "0530-0557",
    days: "1234567",
-   stationName: "R.ROMANIA INT.",
+   stationName: "R.ROMANIA INT. DRM E1001",
    language: "English",
    itu: "ROU",
-   txLocation: "Tiganesti",
+   txLocation: "SNR Tiganesti E2",
    coordinates: "444457N0260610E",
    power: "90",
    azimuth: "97",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 21550,
@@ -74331,7 +70535,7 @@ export const radioSchedules = [
    coordinates: "444457N0260610E",
    power: "300",
    azimuth: "247",
-   remarks: "ROR a25"
+   remarks: "RRO a25"
  },
  {
    frequency: 21550,
@@ -74344,7 +70548,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 21560,
@@ -74357,6 +70561,19 @@ export const radioSchedules = [
    coordinates: "215538N0593741E",
    power: "250",
    azimuth: "225",
+   remarks: "BBC a25"
+ },
+ {
+   frequency: 21565,
+   time: "1200-1400",
+   days: "1234567",
+   stationName: "BBC",
+   language: "English",
+   itu: "MDG",
+   txLocation: "Talata-Volonondry",
+   coordinates: "184509S0473654E",
+   power: "250",
+   azimuth: "85",
    remarks: "BBC a25"
  },
  {
@@ -74412,6 +70629,19 @@ export const radioSchedules = [
    remarks: "RFI a25"
  },
  {
+   frequency: 21590,
+   time: "2200-1200",
+   days: "1234567",
+   stationName: "CNR 1 (DRM) 3EC",
+   language: "Chinese(Digital)",
+   itu: "TKS",
+   txLocation: "Urumqi Changji 523",
+   coordinates: "435828N0871459E",
+   power: "30",
+   azimuth: "98",
+   remarks: "CNR1 DRM a25 Apr.15-"
+ },
+ {
    frequency: 21595,
    time: "1200-1300",
    days: "1234567",
@@ -74464,19 +70694,6 @@ export const radioSchedules = [
    remarks: "BBC a25"
  },
  {
-   frequency: 21630,
-   time: "0400-1100",
-   days: "1234567",
-   stationName: "BBC DRM 11",
-   language: "English(Digital)",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "100",
-   azimuth: "63",
-   remarks: "BBC a25"
- },
- {
    frequency: 21645,
    time: "1300-1700",
    days: "7",
@@ -74491,7 +70708,7 @@ export const radioSchedules = [
  },
  {
    frequency: 21645,
-   time: "2200-1200",
+   time: "2200-1300",
    days: "1234567",
    stationName: "SOH Xi Wang Zhi Sheng",
    language: "Chinese",
@@ -74500,7 +70717,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 21660,
@@ -74555,19 +70772,6 @@ export const radioSchedules = [
    remarks: "BSKSA a24"
  },
  {
-   frequency: 21680,
-   time: "0759-0900",
-   days: "1234567",
-   stationName: "BBC DRM 11",
-   language: "English(Digital)",
-   itu: "OMA",
-   txLocation: "Al Seela",
-   coordinates: "215538N0593741E",
-   power: "100",
-   azimuth: "63",
-   remarks: "BBC a25"
- },
- {
    frequency: 21690,
    time: "1200-1259",
    days: "1234567",
@@ -74605,32 +70809,6 @@ export const radioSchedules = [
    power: "250",
    azimuth: "155",
    remarks: "RFI a25"
- },
- {
-   frequency: 21700,
-   time: "1230-1250",
-   days: "1234567",
-   stationName: "VATICAN RADIO",
-   language: "Russian",
-   itu: "CVA",
-   txLocation: "Santa Maria di Galeria",
-   coordinates: "420239N0121922E",
-   power: "250",
-   azimuth: "43",
-   remarks: "VAT a25"
- },
- {
-   frequency: 21710,
-   time: "1130-1200",
-   days: "1234567",
-   stationName: "BNI",
-   language: "",
-   itu: "UAE",
-   txLocation: "Al-Dhabbiya",
-   coordinates: "241012N0541459E",
-   power: "250",
-   azimuth: "90",
-   remarks: "BNI/ENC b24"
  },
  {
    frequency: 21730,
@@ -74673,6 +70851,19 @@ export const radioSchedules = [
  },
  {
    frequency: 21760,
+   time: "1230-1250",
+   days: "1234567",
+   stationName: "VATICAN RADIO",
+   language: "Russian",
+   itu: "CVA",
+   txLocation: "Santa Maria di Galeria",
+   coordinates: "420239N0121922E",
+   power: "250",
+   azimuth: "43",
+   remarks: "VAT a25"
+ },
+ {
+   frequency: 21760,
    time: "1100-1145",
    days: "......7",
    stationName: "VATICAN RADIO",
@@ -74708,7 +70899,7 @@ export const radioSchedules = [
    coordinates: "242317N1204253E",
    power: "0.1",
    azimuth: "ND",
-   remarks: "SOH b24"
+   remarks: "SOH a25"
  },
  {
    frequency: 25800,
@@ -74720,6 +70911,19 @@ export const radioSchedules = [
    txLocation: "Marslet",
    coordinates: "5606N01012E",
    power: "0.15",
+   azimuth: "180",
+   remarks: "WMR a25"
+ },
+ {
+   frequency: 25820,
+   time: "0000-2400",
+   days: "1234567",
+   stationName: "World Music Radio",
+   language: "Danish/English",
+   itu: "DNK",
+   txLocation: "Marslet",
+   coordinates: "5606N01012E",
+   power: "0.1",
    azimuth: "180",
    remarks: "WMR a25"
  }

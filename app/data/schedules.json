@@ -17417,7 +17417,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 3623,
@@ -17495,7 +17495,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 3920,
@@ -17586,7 +17586,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 3945,
@@ -17820,7 +17820,7 @@
    "coordinates": "371249N1264640E",
    "power": "100",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 3985,
@@ -18301,7 +18301,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 4560,
@@ -18314,7 +18314,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 4750,
@@ -19029,7 +19029,7 @@
    "coordinates": "373811N1270629E",
    "power": "10",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 4885,
@@ -23098,7 +23098,7 @@
    "coordinates": "371249N1264640E",
    "power": "100",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 5995,
@@ -28155,7 +28155,7 @@
    "coordinates": "373811N1270629E",
    "power": "10",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 6250,
@@ -28259,7 +28259,7 @@
    "coordinates": "371249N1264640E",
    "power": "100",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 6350,
@@ -28350,7 +28350,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 6600,
@@ -28376,7 +28376,7 @@
    "coordinates": "373542N1265038E",
    "power": "50",
    "azimuth": "ND",
-   "remarks": "\\VOP a25 Jun.2"
+   "remarks": "\\VOP a25 July7 off"
  },
  {
    "frequency": 6730,
@@ -33771,7 +33771,7 @@
    "coordinates": "373811N1270629E",
    "power": "10",
    "azimuth": "ND",
-   "remarks": "\\EOH a25 Jun.2"
+   "remarks": "\\EOH a25 July7 off"
  },
  {
    "frequency": 7730,
@@ -34948,7 +34948,7 @@
    "time": "2100-1610",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese",
+   "language": "Chinese/",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -35299,7 +35299,7 @@
    "time": "2130-1630",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese",
+   "language": "Chinese.",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -36336,7 +36336,7 @@
  },
  {
    "frequency": 9410,
-   "time": "0700-0900",
+   "time": "0600-1100",
    "days": "1234567",
    "stationName": "Fu Hsing BS",
    "language": "Chinese",
@@ -36345,20 +36345,7 @@
    "coordinates": "250209N1210549E",
    "power": "10",
    "azimuth": "ND",
-   "remarks": "FHBS b24"
- },
- {
-   "frequency": 9410,
-   "time": "1000-1300",
-   "days": "1234567",
-   "stationName": "Fu Hsing BS",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "FHBS b24"
+   "remarks": "FHBS a25 Jul.1"
  },
  {
    "frequency": 9410,
@@ -36918,6 +36905,19 @@
    "power": "200",
    "azimuth": "ND",
    "remarks": "VOK a25"
+ },
+ {
+   "frequency": 9450,
+   "time": "1700-1900",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "UAE",
+   "txLocation": "Al-Dhabbiya",
+   "coordinates": "241343N0542456E",
+   "power": "250",
+   "azimuth": "35",
+   "remarks": "RFE/ENC a25 Jun.20-"
  },
  {
    "frequency": 9450,
@@ -39947,6 +39947,19 @@
    "power": "100",
    "azimuth": "315",
    "remarks": "WCB KNLS a25"
+ },
+ {
+   "frequency": 9620,
+   "time": "2300-0400",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "G",
+   "txLocation": "Woofferton",
+   "coordinates": "521625N0024942W",
+   "power": "250",
+   "azimuth": "92",
+   "remarks": "RFE/ENC a25 Jun.20-"
  },
  {
    "frequency": 9620,
@@ -43918,7 +43931,7 @@
    "time": "2100-1700",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese/Cantonese",
+   "language": "Chinese/",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -47077,7 +47090,7 @@
    "time": "2200-1600",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese/Cantonese",
+   "language": "Chinese/",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -47116,7 +47129,7 @@
    "time": "2200-1610",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese",
+   "language": "Chinese.",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -47467,7 +47480,7 @@
    "time": "2100-1500",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese",
+   "language": "Chinese.",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -53288,19 +53301,6 @@
  },
  {
    "frequency": 11955,
-   "time": "0200-0300",
-   "days": "1234567",
-   "stationName": "BBC DRM 11",
-   "language": "English(Digital)",
-   "itu": "OMA",
-   "txLocation": "Al Seela",
-   "coordinates": "215538N0593741E",
-   "power": "100",
-   "azimuth": "63",
-   "remarks": "BBC a25"
- },
- {
-   "frequency": 11955,
    "time": "1130-1157",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
@@ -53720,7 +53720,7 @@
    "time": "2100-1600",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Cantonese",
+   "language": "Chinese/Cantonese",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -54338,6 +54338,45 @@
    "power": "1",
    "azimuth": "ND",
    "remarks": "RDI b24"
+ },
+ {
+   "frequency": 12035,
+   "time": "0400-0700",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "UAE",
+   "txLocation": "Al-Dhabbiya",
+   "coordinates": "241343N0542456E",
+   "power": "250",
+   "azimuth": "35",
+   "remarks": "RFE/ENC a25 Jun.21-"
+ },
+ {
+   "frequency": 12035,
+   "time": "1300-1700",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "UAE",
+   "txLocation": "Al-Dhabbiya",
+   "coordinates": "241343N0542456E",
+   "power": "250",
+   "azimuth": "35",
+   "remarks": "RFE/ENC a25 Jun.20-"
+ },
+ {
+   "frequency": 12035,
+   "time": "1900-2300",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "G",
+   "txLocation": "Woofferton",
+   "coordinates": "521625N0024942W",
+   "power": "250",
+   "azimuth": "90",
+   "remarks": "RFE/ENC a25 Jun.20-"
  },
  {
    "frequency": 12040,
@@ -55540,7 +55579,7 @@
    "time": "2100-1700",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Cantonese",
+   "language": "Chinese/Cantonese",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -55696,7 +55735,7 @@
    "time": "2200-1700",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese/Cantonese",
+   "language": "Chinese/",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -56307,7 +56346,7 @@
    "time": "2200-1600",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese/Cantonese",
+   "language": "Chinese.",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -57159,6 +57198,19 @@
    "power": "100",
    "azimuth": "286",
    "remarks": "CNR13 a25"
+ },
+ {
+   "frequency": 13710,
+   "time": "0700-1000",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "UAE",
+   "txLocation": "Al-Dhabbiya",
+   "coordinates": "241343N0542456E",
+   "power": "250",
+   "azimuth": "35",
+   "remarks": "RFE/ENC a25 Jun.21-"
  },
  {
    "frequency": 13710,
@@ -61764,7 +61816,7 @@
  },
  {
    "frequency": 15375,
-   "time": "0700-0900",
+   "time": "0600-1100",
    "days": "1234567",
    "stationName": "Fu Hsing BS",
    "language": "Chinese",
@@ -61773,20 +61825,7 @@
    "coordinates": "250209N1210549E",
    "power": "10",
    "azimuth": "ND",
-   "remarks": "FHBS b24"
- },
- {
-   "frequency": 15375,
-   "time": "1000-1300",
-   "days": "1234567",
-   "stationName": "Fu Hsing BS",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "FHBS b24"
+   "remarks": "FHBS a25 Jul.1"
  },
  {
    "frequency": 15380,
@@ -61973,7 +62012,7 @@
  {
    "frequency": 15390,
    "time": "1600-1645",
-   "days": "1",
+   "days": "7",
    "stationName": "KTWR GUAM (DRM)",
    "language": "English(Digital)",
    "itu": "GUM",
@@ -65063,6 +65102,19 @@
    "power": "100",
    "azimuth": "300",
    "remarks": "AWR a25"
+ },
+ {
+   "frequency": 15720,
+   "time": "1000-1300",
+   "days": "1234567",
+   "stationName": "R.FARDA",
+   "language": "Persian",
+   "itu": "UAE",
+   "txLocation": "Al-Dhabbiya",
+   "coordinates": "241343N0542456E",
+   "power": "250",
+   "azimuth": "35",
+   "remarks": "RFE/ENC a25 Jun.21-"
  },
  {
    "frequency": 15720,
@@ -69668,19 +69720,6 @@
  },
  {
    "frequency": 17815,
-   "time": "0559-0700",
-   "days": "1234567",
-   "stationName": "BBC DRM 11",
-   "language": "English(Digital)",
-   "itu": "OMA",
-   "txLocation": "Al Seela",
-   "coordinates": "215538N0593741E",
-   "power": "100",
-   "azimuth": "225",
-   "remarks": "BBC a25"
- },
- {
-   "frequency": 17815,
    "time": "1200-1300",
    "days": "1234567",
    "stationName": "R.FRANCE INT.",
@@ -70139,7 +70178,7 @@
    "time": "2200-1000",
    "days": "1234567",
    "stationName": "SOH Xi Wang Zhi Sheng",
-   "language": "Chinese",
+   "language": "Chinese.",
    "itu": "TWN",
    "txLocation": "Miaoli",
    "coordinates": "242317N1204253E",
@@ -70159,84 +70198,6 @@
    "power": "1",
    "azimuth": "ND",
    "remarks": "SOH a25"
- },
- {
-   "frequency": 19052,
-   "time": "0200-0300",
-   "days": "1234567",
-   "stationName": "Carriers only",
-   "language": "Carriers only",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Carriers only a25"
- },
- {
-   "frequency": 19052,
-   "time": "0300-1000",
-   "days": "1234567",
-   "stationName": "Carriers only",
-   "language": "Carriers only",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Carriers only a25"
- },
- {
-   "frequency": 19052,
-   "time": "0100-0200",
-   "days": "1234567",
-   "stationName": "XingXing guangbo diantai 1",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Random numbers b24"
- },
- {
-   "frequency": 19052,
-   "time": "1100-1200",
-   "days": "1234567",
-   "stationName": "XingXing guangbo diantai 2",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Random numbers b24"
- },
- {
-   "frequency": 19052,
-   "time": "1300-1400",
-   "days": "1234567",
-   "stationName": "XingXing guangbo diantai 3",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Random numbers b24"
- },
- {
-   "frequency": 19052,
-   "time": "1000-1100",
-   "days": "1234567",
-   "stationName": "XingXing guangbo diantai 4",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kuanyin",
-   "coordinates": "250209N1210549E",
-   "power": "10",
-   "azimuth": "ND",
-   "remarks": "Random numbers b24"
  },
  {
    "frequency": 20000,
@@ -70291,7 +70252,7 @@
    "remarks": "Random numbers b24"
  },
  {
-   "frequency": 20095,
+   "frequency": 20025,
    "time": "2200-1000",
    "days": "1234567",
    "stationName": "Carriers only",
@@ -70347,6 +70308,84 @@
    "time": "1000-1100",
    "days": "1234567",
    "stationName": "XingXing guangbo diantai 5",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Random numbers b24"
+ },
+ {
+   "frequency": 21000,
+   "time": "0200-0300",
+   "days": "1234567",
+   "stationName": "Carriers only",
+   "language": "Carriers only",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Carriers only a25"
+ },
+ {
+   "frequency": 21000,
+   "time": "0300-1000",
+   "days": "1234567",
+   "stationName": "Carriers only",
+   "language": "Carriers only",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Carriers only a25"
+ },
+ {
+   "frequency": 21000,
+   "time": "0100-0200",
+   "days": "1234567",
+   "stationName": "XingXing guangbo diantai 1",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Random numbers b24"
+ },
+ {
+   "frequency": 21000,
+   "time": "1100-1200",
+   "days": "1234567",
+   "stationName": "XingXing guangbo diantai 2",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Random numbers b24"
+ },
+ {
+   "frequency": 21000,
+   "time": "1300-1400",
+   "days": "1234567",
+   "stationName": "XingXing guangbo diantai 3",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kuanyin",
+   "coordinates": "250209N1210549E",
+   "power": "10",
+   "azimuth": "ND",
+   "remarks": "Random numbers b24"
+ },
+ {
+   "frequency": 21000,
+   "time": "1000-1100",
+   "days": "1234567",
+   "stationName": "XingXing guangbo diantai 4",
    "language": "Chinese",
    "itu": "TWN",
    "txLocation": "Kuanyin",
@@ -70655,19 +70694,6 @@
    "remarks": "BBC a25"
  },
  {
-   "frequency": 21630,
-   "time": "0400-1100",
-   "days": "1234567",
-   "stationName": "BBC DRM 11",
-   "language": "English(Digital)",
-   "itu": "OMA",
-   "txLocation": "Al Seela",
-   "coordinates": "215538N0593741E",
-   "power": "100",
-   "azimuth": "63",
-   "remarks": "BBC a25"
- },
- {
    "frequency": 21645,
    "time": "1300-1700",
    "days": "7",
@@ -70744,19 +70770,6 @@
    "power": "500",
    "azimuth": "100",
    "remarks": "BSKSA a24"
- },
- {
-   "frequency": 21680,
-   "time": "0759-0900",
-   "days": "1234567",
-   "stationName": "BBC DRM 11",
-   "language": "English(Digital)",
-   "itu": "OMA",
-   "txLocation": "Al Seela",
-   "coordinates": "215538N0593741E",
-   "power": "100",
-   "azimuth": "63",
-   "remarks": "BBC a25"
  },
  {
    "frequency": 21690,
