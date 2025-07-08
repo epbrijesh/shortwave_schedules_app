@@ -62012,7 +62012,7 @@ export const radioSchedules = [
  {
    frequency: 15390,
    time: "1600-1645",
-   days: "7",
+   days: "1",
    stationName: "KTWR GUAM (DRM)",
    language: "English(Digital)",
    itu: "GUM",
