@@ -17,6 +17,7 @@ V.2.0.0
 - Distance Filter according to Current location and Transmitter location.
 - Transmitter Power Filter above 25 kw.
 - Show / Hide map in Station details page.
+- Transmission Direction Graphical representation.
 - Language & ITU Selection is redesigned.
 - DRM Stations Quick Filtering.
 - Database updated to 2.0.3 (2025-07-08 13:00 UTC)
