@@ -70213,19 +70213,6 @@
    "remarks": "BBC a25"
  },
  {
-   "frequency": 21630,
-   "time": "0400-1100",
-   "days": "1234567",
-   "stationName": "BBC DRM 11",
-   "language": "English(Digital)",
-   "itu": "OMA",
-   "txLocation": "Al Seela",
-   "coordinates": "215538N0593741E",
-   "power": "100",
-   "azimuth": "63",
-   "remarks": "BBC a25"
- },
- {
    "frequency": 21645,
    "time": "1300-1700",
    "days": "7",
@@ -70472,4 +70459,5 @@
    "azimuth": "180",
    "remarks": "WMR a25"
  }
+
 ]
