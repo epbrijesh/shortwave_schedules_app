@@ -556,7 +556,7 @@
    "coordinates": "290843N0474605E",
    "power": 600,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 540,
@@ -5418,7 +5418,7 @@
    "coordinates": "291051N0480240E",
    "power": 20,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 963,
@@ -5431,7 +5431,7 @@
    "coordinates": "291051N0480240E",
    "power": 20,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 963,
@@ -5444,7 +5444,7 @@
    "coordinates": "291051N0480240E",
    "power": 20,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 963,
@@ -5457,7 +5457,7 @@
    "coordinates": "291051N0480240E",
    "power": 20,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 972,
@@ -6861,7 +6861,7 @@
    "coordinates": "362322N1381626E",
    "power": 0.1,
    "azimuth": "",
-   "remarks": "JOSL"
+   "remarks": "JOSL '25Dec.1-off"
  },
  {
    "frequency": 1062,
@@ -7654,7 +7654,7 @@
    "coordinates": "290843N0474605E",
    "power": 100,
    "azimuth": "ND",
-   "remarks": "MOI b25"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 1143,
@@ -8568,7 +8568,7 @@
  },
  {
    "frequency": 1188,
-   "time": "1000-2200",
+   "time": "2200-1400",
    "days": "1234567",
    "stationName": "FEBC RADIO",
    "language": "Korean",
@@ -8581,16 +8581,16 @@
  },
  {
    "frequency": 1188,
-   "time": "2200-1000",
+   "time": "1400-2200",
    "days": "1234567",
-   "stationName": "FEBC RADIO",
+   "stationName": "VOICE OF AMERICA",
    "language": "Korean",
    "itu": "KOR",
    "txLocation": "Daebu Ansan",
    "coordinates": "371314N1263329E",
    "power": 100,
    "azimuth": "",
-   "remarks": "HLKX febc"
+   "remarks": "VOA/AGM a26 Sep.30-"
  },
  {
    "frequency": 1188,
@@ -10091,14 +10091,14 @@
    "frequency": 1341,
    "time": "0000-2400",
    "days": "1234567",
-   "stationName": "BBC Radio Ulster/Radio 5 Live",
-   "language": "English",
-   "itu": "G",
-   "txLocation": "Lisnagarvey",
-   "coordinates": "542923N0060337W",
+   "stationName": "R.KUWAIT",
+   "language": "Arabic",
+   "itu": "KWT",
+   "txLocation": "Al-Maqwa",
+   "coordinates": "291052N0480239E",
    "power": 100,
    "azimuth": "",
-   "remarks": "BBC"
+   "remarks": "MOI a26"
  },
  {
    "frequency": 1341,
@@ -12165,7 +12165,7 @@
    "coordinates": "361713N1382854E",
    "power": 0.1,
    "azimuth": "",
-   "remarks": ""
+   "remarks": "25Dec.1-off"
  },
  {
    "frequency": 1458,
@@ -12958,7 +12958,7 @@
    "coordinates": "362005N1383617E",
    "power": 0.1,
    "azimuth": "",
-   "remarks": ""
+   "remarks": "25Dec.1-off"
  },
  {
    "frequency": 1485,
@@ -13703,32 +13703,6 @@
  },
  {
    "frequency": 1557,
-   "time": "2200-2300",
-   "days": "1234567",
-   "stationName": "eBible Fellowship",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kouhu",
-   "coordinates": "233215N1200948E",
-   "power": 250,
-   "azimuth": "299",
-   "remarks": "BFS b25"
- },
- {
-   "frequency": 1557,
-   "time": "1100-1200",
-   "days": "1234567",
-   "stationName": "KBS WORLD RADIO",
-   "language": "Chinese",
-   "itu": "TWN",
-   "txLocation": "Kouhu",
-   "coordinates": "233215N1200948E",
-   "power": 250,
-   "azimuth": "299",
-   "remarks": "KBS a26 ENC"
- },
- {
-   "frequency": 1557,
    "time": "0800-0900",
    "days": "1234567",
    "stationName": "R.TAIWAN INT.",
@@ -13755,6 +13729,19 @@
  },
  {
    "frequency": 1557,
+   "time": "1100-1200",
+   "days": "1234567",
+   "stationName": "KBS WORLD RADIO",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kouhu",
+   "coordinates": "233215N1200948E",
+   "power": 250,
+   "azimuth": "299",
+   "remarks": "KBS a26 ENC"
+ },
+ {
+   "frequency": 1557,
    "time": "1200-1700",
    "days": "1234567",
    "stationName": "R.TAIWAN INT.",
@@ -13765,6 +13752,19 @@
    "power": 250,
    "azimuth": "299",
    "remarks": "CBSC a26"
+ },
+ {
+   "frequency": 1557,
+   "time": "2200-2300",
+   "days": "1234567",
+   "stationName": "Bible Fellowship",
+   "language": "Chinese",
+   "itu": "TWN",
+   "txLocation": "Kouhu",
+   "coordinates": "233215N1200948E",
+   "power": 250,
+   "azimuth": "299",
+   "remarks": "BFS b25"
  },
  {
    "frequency": 1557,
@@ -13781,6 +13781,32 @@
  },
  {
    "frequency": 1566,
+   "time": "1000-1058",
+   "days": "1234567",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "KOR",
+   "txLocation": "Jeju",
+   "coordinates": "332912N1262308E",
+   "power": 250,
+   "azimuth": "352",
+   "remarks": "VOA/AGM a26 Sep.30-"
+ },
+ {
+   "frequency": 1566,
+   "time": "1100-1230",
+   "days": "1234567",
+   "stationName": "FEBC Radio Liangyou",
+   "language": "Chinese",
+   "itu": "KOR",
+   "txLocation": "Jeju",
+   "coordinates": "332912N1262308E",
+   "power": 250,
+   "azimuth": "265",
+   "remarks": "HLAZ/FEBC a26"
+ },
+ {
+   "frequency": 1566,
    "time": "1230-1345",
    "days": "1234567",
    "stationName": "FEBC RADIO",
@@ -13790,6 +13816,19 @@
    "coordinates": "332912N1262308E",
    "power": 250,
    "azimuth": "80",
+   "remarks": "HLAZ/FEBC a26"
+ },
+ {
+   "frequency": 1566,
+   "time": "1345-1630",
+   "days": "1234567",
+   "stationName": "FEBC Radio Liangyou",
+   "language": "Chinese",
+   "itu": "KOR",
+   "txLocation": "Jeju",
+   "coordinates": "332912N1262308E",
+   "power": 250,
+   "azimuth": "265",
    "remarks": "HLAZ/FEBC a26"
  },
  {
@@ -13807,7 +13846,20 @@
  },
  {
    "frequency": 1566,
-   "time": "1700-1100",
+   "time": "1700-1800",
+   "days": "1234567",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "KOR",
+   "txLocation": "Jeju",
+   "coordinates": "332912N1262308E",
+   "power": 250,
+   "azimuth": "352",
+   "remarks": "VOA/AGM a26 Sep.30-"
+ },
+ {
+   "frequency": 1566,
+   "time": "1800-1000",
    "days": "1234567",
    "stationName": "FEBC RADIO",
    "language": "Korean",
@@ -13816,32 +13868,6 @@
    "coordinates": "332912N1262308E",
    "power": 250,
    "azimuth": "352",
-   "remarks": "HLAZ/FEBC a26"
- },
- {
-   "frequency": 1566,
-   "time": "1100-1230",
-   "days": "1234567",
-   "stationName": "FEBC Radio Liangyou",
-   "language": "Chinese",
-   "itu": "KOR",
-   "txLocation": "Jeju",
-   "coordinates": "332912N1262308E",
-   "power": 250,
-   "azimuth": "265",
-   "remarks": "HLAZ/FEBC a26"
- },
- {
-   "frequency": 1566,
-   "time": "1345-1630",
-   "days": "1234567",
-   "stationName": "FEBC Radio Liangyou",
-   "language": "Chinese",
-   "itu": "KOR",
-   "txLocation": "Jeju",
-   "coordinates": "332912N1262308E",
-   "power": 250,
-   "azimuth": "265",
    "remarks": "HLAZ/FEBC a26"
  },
  {
@@ -14102,7 +14128,7 @@
    "coordinates": "331004N1294302E",
    "power": 0.3,
    "azimuth": "ND",
-   "remarks": "AFN"
+   "remarks": "AFN-Aug.31off(93.1)"
  },
  {
    "frequency": 1575,
@@ -18448,7 +18474,7 @@
  },
  {
    "frequency": 5860,
-   "time": "0000-2400",
+   "time": "1300-0400",
    "days": "1234567",
    "stationName": "RADIO FARDA",
    "language": "Persian",
@@ -18929,19 +18955,6 @@
  },
  {
    "frequency": 5920,
-   "time": "1730-1800",
-   "days": "135",
-   "stationName": "New Korean Hope Radio",
-   "language": "Korean",
-   "itu": "TWN",
-   "txLocation": "Tamsui District",
-   "coordinates": "251108N1212458E",
-   "power": 200,
-   "azimuth": "352",
-   "remarks": "_NKHB a26"
- },
- {
-   "frequency": 5920,
    "time": "0000-1400",
    "days": "1234567",
    "stationName": "WTWW",
@@ -18955,8 +18968,8 @@
  },
  {
    "frequency": 5920,
-   "time": "1600-1630",
-   "days": "267",
+   "time": "1405-1435",
+   "days": "1234567",
    "stationName": "Shiokaze (Sea-breeze)",
    "language": "Japanese",
    "itu": "J",
@@ -18964,59 +18977,7 @@
    "coordinates": "361024N1394923E",
    "power": 300,
    "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
-   "frequency": 5920,
-   "time": "1600-1700",
-   "days": "35",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5920,
-   "time": "1600-1700",
-   "days": "4",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "English",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5920,
-   "time": "1600-1700",
-   "days": "1",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5920,
-   "time": "1630-1700",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
+   "remarks": "_JSR a26 Sep.16"
  },
  {
    "frequency": 5925,
@@ -19095,6 +19056,71 @@
    "power": 0.15,
    "azimuth": "ND",
    "remarks": "WMR a26"
+ },
+ {
+   "frequency": 5935,
+   "time": "1600-1630",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 5935,
+   "time": "1600-1700",
+   "days": "35",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 5935,
+   "time": "1600-1700",
+   "days": "4",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "English",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
+ },
+ {
+   "frequency": 5935,
+   "time": "1600-1700",
+   "days": "1",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 5935,
+   "time": "1630-1700",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
  },
  {
    "frequency": 5935,
@@ -19264,71 +19290,6 @@
    "power": 100,
    "azimuth": "85",
    "remarks": "TOM WWCR2 b25"
- },
- {
-   "frequency": 5935,
-   "time": "1300-1330",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
-   "frequency": 5935,
-   "time": "1300-1400",
-   "days": "35",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5935,
-   "time": "1300-1400",
-   "days": "4",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "English",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5935,
-   "time": "1300-1400",
-   "days": "1",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 5935,
-   "time": "1330-1400",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
  },
  {
    "frequency": 5940,
@@ -19680,19 +19641,6 @@
    "power": 1,
    "azimuth": "90",
    "remarks": "HVR b25"
- },
- {
-   "frequency": 5955,
-   "time": "1705-1805",
-   "days": "1234567",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese/Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
  },
  {
    "frequency": 5960,
@@ -20109,19 +20057,6 @@
    "power": 0.1,
    "azimuth": "ND",
    "remarks": "SWR a23 1st each month"
- },
- {
-   "frequency": 5980,
-   "time": "1405-1435",
-   "days": "1234567",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
  },
  {
    "frequency": 5985,
@@ -20616,6 +20551,19 @@
    "power": 100,
    "azimuth": "306",
    "remarks": "RTI a26"
+ },
+ {
+   "frequency": 6005,
+   "time": "0000-2400",
+   "days": "1234567",
+   "stationName": "Radio Europe 2",
+   "language": "English",
+   "itu": "HOL",
+   "txLocation": "Alphen aan den Rijn",
+   "coordinates": "520813N0043520E",
+   "power": 2,
+   "azimuth": "ND",
+   "remarks": "EUR a26"
  },
  {
    "frequency": 6010,
@@ -21370,6 +21318,19 @@
    "power": 500,
    "azimuth": "138",
    "remarks": "TRT a26"
+ },
+ {
+   "frequency": 6040,
+   "time": "1950-2050",
+   "days": "1234567",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese/Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
  },
  {
    "frequency": 6045,
@@ -22178,19 +22139,6 @@
    "remarks": "CNR2=11670 a26"
  },
  {
-   "frequency": 6065,
-   "time": "1950-2050",
-   "days": "1234567",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese/Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
    "frequency": 6070,
    "time": "1200-1300",
    "days": "7",
@@ -22319,71 +22267,6 @@
    "power": 10,
    "azimuth": "ND",
    "remarks": "R48/FNA VORW a24"
- },
- {
-   "frequency": 6070,
-   "time": "1300-1330",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
-   "frequency": 6070,
-   "time": "1300-1400",
-   "days": "35",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6070,
-   "time": "1300-1400",
-   "days": "4",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "English",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6070,
-   "time": "1300-1400",
-   "days": "1",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6070,
-   "time": "1330-1400",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
  },
  {
    "frequency": 6075,
@@ -22670,6 +22553,19 @@
    "power": 100,
    "azimuth": "ND",
    "remarks": "DRO"
+ },
+ {
+   "frequency": 6090,
+   "time": "1405-1435",
+   "days": "1234567",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
  },
  {
    "frequency": 6095,
@@ -23404,7 +23300,7 @@
    "time": "0000-2400",
    "days": "1234567",
    "stationName": "R.FRANCE INT. DRM 1000",
-   "language": "French(Digital)",
+   "language": "French (Digital)",
    "itu": "F",
    "txLocation": "Issoudun",
    "coordinates": "465755N0015146E",
@@ -24220,6 +24116,71 @@
  },
  {
    "frequency": 6165,
+   "time": "1300-1330",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 6165,
+   "time": "1300-1400",
+   "days": "35",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 6165,
+   "time": "1300-1400",
+   "days": "4",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "English",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
+ },
+ {
+   "frequency": 6165,
+   "time": "1300-1400",
+   "days": "1",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 6165,
+   "time": "1330-1400",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 6165,
    "time": "1600-1657",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
@@ -24453,71 +24414,6 @@
    "remarks": "TRT a26"
  },
  {
-   "frequency": 6165,
-   "time": "1600-1630",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
-   "frequency": 6165,
-   "time": "1600-1700",
-   "days": "35",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6165,
-   "time": "1600-1700",
-   "days": "4",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "English",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6165,
-   "time": "1600-1700",
-   "days": "1",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
-   "frequency": 6165,
-   "time": "1630-1700",
-   "days": "267",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26"
- },
- {
    "frequency": 6170,
    "time": "0000-1200",
    "days": "7",
@@ -24594,6 +24490,19 @@
    "power": 50,
    "azimuth": "3",
    "remarks": "TWR a26"
+ },
+ {
+   "frequency": 6175,
+   "time": "1950-2050",
+   "days": "1234567",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese/Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
  },
  {
    "frequency": 6180,
@@ -25611,6 +25520,71 @@
  },
  {
    "frequency": 7215,
+   "time": "1600-1630",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7215,
+   "time": "1600-1700",
+   "days": "35",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7215,
+   "time": "1600-1700",
+   "days": "4",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "English",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
+ },
+ {
+   "frequency": 7215,
+   "time": "1600-1700",
+   "days": "1",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7215,
+   "time": "1630-1700",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7215,
    "time": "1300-1357",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
@@ -26587,19 +26561,6 @@
  {
    "frequency": 7245,
    "time": "1059-1358",
-   "days": "23456",
-   "stationName": "R.NEW ZEALAND INT.",
-   "language": "English",
-   "itu": "NZL",
-   "txLocation": "Rangitaiki",
-   "coordinates": "385002S1762501E",
-   "power": 50,
-   "azimuth": "335",
-   "remarks": "RNZ a26"
- },
- {
-   "frequency": 7245,
-   "time": "1059-1358",
    "days": "17",
    "stationName": "R.NEW ZEALAND INT.",
    "language": "English",
@@ -27012,19 +26973,6 @@
    "power": 100,
    "azimuth": "ND",
    "remarks": "XJBS a26"
- },
- {
-   "frequency": 7264.7,
-   "time": "0000-2400",
-   "days": "1234567",
-   "stationName": "Radio Europe 2",
-   "language": "English",
-   "itu": "HOL",
-   "txLocation": "Alphen aan den Rijn",
-   "coordinates": "520813N0043520E",
-   "power": 2,
-   "azimuth": "ND",
-   "remarks": "EUR a26"
  },
  {
    "frequency": 7265,
@@ -27717,6 +27665,71 @@
  },
  {
    "frequency": 7295,
+   "time": "1300-1330",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7295,
+   "time": "1300-1400",
+   "days": "35",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7295,
+   "time": "1300-1400",
+   "days": "4",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "English",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
+ },
+ {
+   "frequency": 7295,
+   "time": "1300-1400",
+   "days": "1",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7295,
+   "time": "1330-1400",
+   "days": "267",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26"
+ },
+ {
+   "frequency": 7295,
    "time": "1900-2100",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
@@ -27977,16 +27990,29 @@
  },
  {
    "frequency": 7315,
-   "time": "0330-0400",
+   "time": "0400-0430",
    "days": "3456",
    "stationName": "JRC Radio Dabanga",
-   "language": "Darfur Arabic",
-   "itu": "MDG",
-   "txLocation": "Talata-Volonondry 1",
-   "coordinates": "184509S0473654E",
+   "language": "Juba Arabic",
+   "itu": "CVA",
+   "txLocation": "Santa Maria di Galeria",
+   "coordinates": "420239N0121922E",
    "power": 250,
-   "azimuth": "335",
+   "azimuth": "144",
    "remarks": "JRC/MGB a26"
+ },
+ {
+   "frequency": 7320,
+   "time": "1705-1805",
+   "days": "1234567",
+   "stationName": "Shiokaze (Sea-breeze)",
+   "language": "Japanese/Korean",
+   "itu": "J",
+   "txLocation": "Ibaragi-Koga-Yamata",
+   "coordinates": "361024N1394923E",
+   "power": 300,
+   "azimuth": "290",
+   "remarks": "_JSR a26 Sep.16"
  },
  {
    "frequency": 7320,
@@ -28052,19 +28078,6 @@
    "power": 250,
    "azimuth": "70",
    "remarks": "FEBC a26 ENC"
- },
- {
-   "frequency": 7325,
-   "time": "1405-1435",
-   "days": "1234567",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
  },
  {
    "frequency": 7325,
@@ -28925,19 +28938,6 @@
    "remarks": "AWR a26"
  },
  {
-   "frequency": 7375,
-   "time": "0300-1400",
-   "days": "1234567",
-   "stationName": "RADIO FARDA",
-   "language": "Persian",
-   "itu": "KWT",
-   "txLocation": "Kuwait",
-   "coordinates": "290843N0474605E",
-   "power": 250,
-   "azimuth": "58",
-   "remarks": "RFE/AGM a26 Au..28-"
- },
- {
    "frequency": 7380,
    "time": "2000-2028",
    "days": "1",
@@ -29342,19 +29342,6 @@
  },
  {
    "frequency": 7420,
-   "time": "1950-2050",
-   "days": "1234567",
-   "stationName": "Shiokaze (Sea-breeze)",
-   "language": "Japanese/Korean",
-   "itu": "J",
-   "txLocation": "Ibaragi-Koga-Yamata",
-   "coordinates": "361024N1394923E",
-   "power": 300,
-   "azimuth": "290",
-   "remarks": "_JSR a26 Jul.31"
- },
- {
-   "frequency": 7420,
    "time": "1700-1800",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
@@ -29511,7 +29498,7 @@
  },
  {
    "frequency": 7425,
-   "time": "1651-1858",
+   "time": "1651-1758",
    "days": "123456",
    "stationName": "R.NEW ZEALAND INT.(DRM)",
    "language": "English(Digital)",
@@ -29965,6 +29952,19 @@
    "remarks": "SOH a26"
  },
  {
+   "frequency": 7470,
+   "time": "2100-2400",
+   "days": "23456",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Chinese",
+   "itu": "TJK",
+   "txLocation": "Dushanbe-Orzu",
+   "coordinates": "373216N0684738E",
+   "power": 250,
+   "azimuth": "95",
+   "remarks": "VOA/AGM a26 Oct.8-"
+ },
+ {
    "frequency": 7490,
    "time": "0000-0100",
    "days": "4",
@@ -30288,6 +30288,19 @@
    "power": 100,
    "azimuth": "85",
    "remarks": "WWCR2 b25"
+ },
+ {
+   "frequency": 7500,
+   "time": "1500-2200",
+   "days": "17",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.26-"
  },
  {
    "frequency": 7500,
@@ -32266,6 +32279,19 @@
    "remarks": "RFE/AGM a26"
  },
  {
+   "frequency": 9375,
+   "time": "2100-2400",
+   "days": "34567",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Chinese",
+   "itu": "TJK",
+   "txLocation": "Dushanbe-Orzu",
+   "coordinates": "373216N0684738E",
+   "power": 250,
+   "azimuth": "87",
+   "remarks": "VOA/AGM a26 Oct.8--"
+ },
+ {
    "frequency": 9380,
    "time": "1630-1645",
    "days": "1234567",
@@ -32303,6 +32329,19 @@
    "power": 100,
    "azimuth": "5",
    "remarks": "TWR a26"
+ },
+ {
+   "frequency": 9390,
+   "time": "0300-1400",
+   "days": "1234567",
+   "stationName": "RADIO FARDA",
+   "language": "Persian",
+   "itu": "KWT",
+   "txLocation": "Kuwait",
+   "coordinates": "290843N0474605E",
+   "power": 250,
+   "azimuth": "58",
+   "remarks": "RFE/AGM a26 Oct.12"
  },
  {
    "frequency": 9390,
@@ -33631,6 +33670,19 @@
    "remarks": "VOK a26"
  },
  {
+   "frequency": 9445,
+   "time": "1430-1530",
+   "days": "234567",
+   "stationName": "New Korean Hope Radio",
+   "language": "Korean",
+   "itu": "TWN",
+   "txLocation": "Tamsui District",
+   "coordinates": "251108N1212458E",
+   "power": 200,
+   "azimuth": "352",
+   "remarks": "_NKHB a26 Sep.1"
+ },
+ {
    "frequency": 9450,
    "time": "0200-0300",
    "days": "1234567",
@@ -34045,19 +34097,6 @@
    "power": 200,
    "azimuth": "352",
    "remarks": "_RBS a26=9685"
- },
- {
-   "frequency": 9470,
-   "time": "1400-1428",
-   "days": "357",
-   "stationName": "New Korean Hope Radio",
-   "language": "Korean",
-   "itu": "TWN",
-   "txLocation": "Tamsui District",
-   "coordinates": "251108N1212458E",
-   "power": 200,
-   "azimuth": "352",
-   "remarks": "_NKHB a26"
  },
  {
    "frequency": 9470,
@@ -36231,6 +36270,19 @@
    "remarks": "CBSC a26"
  },
  {
+   "frequency": 9595,
+   "time": "1000-1100",
+   "days": "1234567",
+   "stationName": "CNR 1 Jamming",
+   "language": "Chinese",
+   "itu": "CHN",
+   "txLocation": "Kunming-Anning 501",
+   "coordinates": "245255N1022945E",
+   "power": 500,
+   "azimuth": "20",
+   "remarks": "CNR1 Jam.a26"
+ },
+ {
    "frequency": 9600,
    "time": "1200-1300",
    "days": "1234567",
@@ -38169,19 +38221,6 @@
  },
  {
    "frequency": 9700,
-   "time": "0000-0057",
-   "days": "1234567",
-   "stationName": "CHINA RADIO INTERNATIONAL",
-   "language": "English",
-   "itu": "TKS",
-   "txLocation": "Kashi-Saibagh 2022",
-   "coordinates": "392152N0754258E",
-   "power": 100,
-   "azimuth": "174",
-   "remarks": "CRI a26"
- },
- {
-   "frequency": 9700,
    "time": "0100-0700",
    "days": "1234567",
    "stationName": "Ifrikya FM",
@@ -38192,32 +38231,6 @@
    "power": 300,
    "azimuth": "210",
    "remarks": "TDA a26"
- },
- {
-   "frequency": 9700,
-   "time": "1759-1858",
-   "days": "1234567",
-   "stationName": "R.NEW ZEALAND INT.",
-   "language": "English",
-   "itu": "NZL",
-   "txLocation": "Rangitaiki",
-   "coordinates": "385002S1762501E",
-   "power": 50,
-   "azimuth": "35",
-   "remarks": "RNZ a26"
- },
- {
-   "frequency": 9700,
-   "time": "0600-0627",
-   "days": "1234567",
-   "stationName": "R.ROMANIA INT.",
-   "language": "German",
-   "itu": "ROU",
-   "txLocation": "Tiganesti",
-   "coordinates": "444457N0260610E",
-   "power": 300,
-   "azimuth": "307",
-   "remarks": "RRO a26"
  },
  {
    "frequency": 9700,
@@ -38244,6 +38257,71 @@
    "power": 50,
    "azimuth": "35",
    "remarks": "RNZ a26"
+ },
+ {
+   "frequency": 9700,
+   "time": "1059-1358",
+   "days": "23456",
+   "stationName": "R.NEW ZEALAND INT.",
+   "language": "English",
+   "itu": "NZL",
+   "txLocation": "Rangitaiki",
+   "coordinates": "385002S1762501E",
+   "power": 50,
+   "azimuth": "335",
+   "remarks": "RNZ a26"
+ },
+ {
+   "frequency": 9700,
+   "time": "1759-1858",
+   "days": "1234567",
+   "stationName": "R.NEW ZEALAND INT.",
+   "language": "English",
+   "itu": "NZL",
+   "txLocation": "Rangitaiki",
+   "coordinates": "385002S1762501E",
+   "power": 50,
+   "azimuth": "35",
+   "remarks": "RNZ a26"
+ },
+ {
+   "frequency": 9700,
+   "time": "1759-1858",
+   "days": "7",
+   "stationName": "R.NEW ZEALAND INT.",
+   "language": "English",
+   "itu": "NZL",
+   "txLocation": "Rangitaiki",
+   "coordinates": "385002S1762501E",
+   "power": 50,
+   "azimuth": "35",
+   "remarks": "RNZ a26"
+ },
+ {
+   "frequency": 9700,
+   "time": "0600-0627",
+   "days": "1234567",
+   "stationName": "R.ROMANIA INT.",
+   "language": "German",
+   "itu": "ROU",
+   "txLocation": "Tiganesti",
+   "coordinates": "444457N0260610E",
+   "power": 300,
+   "azimuth": "307",
+   "remarks": "RRO a26"
+ },
+ {
+   "frequency": 9700,
+   "time": "0000-0057",
+   "days": "1234567",
+   "stationName": "CHINA RADIO INTERNATIONAL",
+   "language": "English",
+   "itu": "TKS",
+   "txLocation": "Kashi-Saibagh 2022",
+   "coordinates": "392152N0754258E",
+   "power": 100,
+   "azimuth": "174",
+   "remarks": "CRI a26"
  },
  {
    "frequency": 9705,
@@ -39859,7 +39937,7 @@
  },
  {
    "frequency": 9780,
-   "time": "1859-1958",
+   "time": "1759-1858",
    "days": "123456",
    "stationName": "R.NEW ZEALAND INT.(DRM)",
    "language": "English(Digital)",
@@ -42420,6 +42498,19 @@
  },
  {
    "frequency": 9950,
+   "time": "1500-2400",
+   "days": "17",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.26-"
+ },
+ {
+   "frequency": 9950,
    "time": "1500-2200",
    "days": "23456",
    "stationName": "VOICE OF AMERICA",
@@ -42430,6 +42521,19 @@
    "power": 250,
    "azimuth": "21",
    "remarks": "VOA/AGM a26 Jul.27"
+ },
+ {
+   "frequency": 9950,
+   "time": "2200-2400",
+   "days": "23456",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.18-"
  },
  {
    "frequency": 9950,
@@ -44971,7 +45075,7 @@
    "time": "2000-2100",
    "days": "35",
    "stationName": "Music 4 Joy DRM",
-   "language": "Music(Digital)",
+   "language": "Music (Digital)",
    "itu": "D",
    "txLocation": "Nauen",
    "coordinates": "523855N0125433E",
@@ -44980,8 +45084,34 @@
    "remarks": "M4J MBR a26 DRM"
  },
  {
+   "frequency": 11615,
+   "time": "0400-0430",
+   "days": "3456",
+   "stationName": "JRC Radio Tamazui",
+   "language": "Juba Arabic",
+   "itu": "CVA",
+   "txLocation": "Santa Maria di Galeria",
+   "coordinates": "420239N0121922E",
+   "power": 250,
+   "azimuth": "148",
+   "remarks": "JRC/MGB a26"
+ },
+ {
+   "frequency": 11615,
+   "time": "1600-1630",
+   "days": "23456",
+   "stationName": "JRC Radio Tamazui",
+   "language": "Juba Arabic",
+   "itu": "MDG",
+   "txLocation": "Talata-Volonondry 1",
+   "coordinates": "184509S0473654E",
+   "power": 250,
+   "azimuth": "335",
+   "remarks": "JRC/MGB a26 Sep.8-"
+ },
+ {
    "frequency": 11620,
-   "time": "1000-1257",
+   "time": "0958-1257",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
    "language": "Japanese",
@@ -45189,7 +45319,7 @@
  },
  {
    "frequency": 11635,
-   "time": "1000-1057",
+   "time": "0958-1057",
    "days": "1234567",
    "stationName": "CHINA RADIO INTERNATIONAL",
    "language": "English",
@@ -45313,8 +45443,8 @@
    "itu": "CVA",
    "txLocation": "Santa Maria di Galeria",
    "coordinates": "420239N0121922E",
-   "power": 100,
-   "azimuth": "146",
+   "power": 250,
+   "azimuth": "148",
    "remarks": "JRC/MGB a26 Jun.16"
  },
  {
@@ -46583,7 +46713,7 @@
    "time": "1830-1930",
    "days": "35",
    "stationName": "Music 4 Joy DRM",
-   "language": "Music(Digital)",
+   "language": "Music (Digital)",
    "itu": "D",
    "txLocation": "Nauen",
    "coordinates": "523855N0125433E",
@@ -46841,6 +46971,19 @@
  {
    "frequency": 11725,
    "time": "1859-1958",
+   "days": "1234567",
+   "stationName": "R.NEW ZEALAND INT.",
+   "language": "English",
+   "itu": "NZL",
+   "txLocation": "Rangitaiki",
+   "coordinates": "385002S1762501E",
+   "power": 50,
+   "azimuth": "35",
+   "remarks": "RNZ a26"
+ },
+ {
+   "frequency": 11725,
+   "time": "0459-0658",
    "days": "1234567",
    "stationName": "R.NEW ZEALAND INT.",
    "language": "English",
@@ -52691,6 +52834,19 @@
  {
    "frequency": 12140,
    "time": "0500-1500",
+   "days": "12",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.27-"
+ },
+ {
+   "frequency": 12140,
+   "time": "0500-1500",
    "days": "34567",
    "stationName": "VOICE OF AMERICA",
    "language": "Korean",
@@ -54211,7 +54367,7 @@
  },
  {
    "frequency": 13670,
-   "time": "0200-0600",
+   "time": "0135-0600",
    "days": "1234567",
    "stationName": "PBS Xinjiang",
    "language": "Uyghur",
@@ -54396,39 +54552,13 @@
    "time": "1600-1657",
    "days": "1234567",
    "stationName": "R.ROMANIA INT. DRM xHE E1E101",
-   "language": "French(Digital)",
+   "language": "French (Digital)",
    "itu": "ROU",
    "txLocation": "SNR Tiganesti E2",
    "coordinates": "444457N0260610E",
    "power": 90,
    "azimuth": "292",
    "remarks": "RRO a26"
- },
- {
-   "frequency": 13690,
-   "time": "0459-0658",
-   "days": "1234567",
-   "stationName": "R.NEW ZEALAND INT.",
-   "language": "English",
-   "itu": "NZL",
-   "txLocation": "Rangitaiki",
-   "coordinates": "385002S1762501E",
-   "power": 50,
-   "azimuth": "35",
-   "remarks": "RNZ a26"
- },
- {
-   "frequency": 13690,
-   "time": "1859-1958",
-   "days": "7",
-   "stationName": "R.NEW ZEALAND INT.",
-   "language": "English",
-   "itu": "NZL",
-   "txLocation": "Rangitaiki",
-   "coordinates": "385002S1762501E",
-   "power": 50,
-   "azimuth": "35",
-   "remarks": "RNZ a26"
  },
  {
    "frequency": 13695,
@@ -54533,32 +54663,6 @@
    "power": 100,
    "azimuth": "285",
    "remarks": "CNR13 a26=17680"
- },
- {
-   "frequency": 13710,
-   "time": "2200-2400",
-   "days": "23456",
-   "stationName": "VOICE OF AMERICA",
-   "language": "Korean",
-   "itu": "PHL",
-   "txLocation": "Tinang",
-   "coordinates": "152244N1203733E",
-   "power": 250,
-   "azimuth": "330",
-   "remarks": "VOA/AGM a26 Aug.28-"
- },
- {
-   "frequency": 13710,
-   "time": "0000-0500",
-   "days": "34567",
-   "stationName": "VOICE OF AMERICA",
-   "language": "Korean",
-   "itu": "PHL",
-   "txLocation": "Tinang",
-   "coordinates": "152244N1203733E",
-   "power": 250,
-   "azimuth": "330",
-   "remarks": "VOA/AGM a26 Aug.29-"
  },
  {
    "frequency": 13710,
@@ -54773,7 +54877,7 @@
    "time": "1830-1930",
    "days": "35",
    "stationName": "Music 4 Joy DRM",
-   "language": "Music(Digital)",
+   "language": "Music (Digital)",
    "itu": "D",
    "txLocation": "Nauen",
    "coordinates": "523855N0125433E",
@@ -54929,7 +55033,7 @@
    "time": "1700-1757",
    "days": "1234567",
    "stationName": "R.ROMANIA INT. DRM xHE E1E101",
-   "language": "English(Digital)",
+   "language": "English (Digital)",
    "itu": "ROU",
    "txLocation": "SNR Tiganesti E2",
    "coordinates": "444457N0260610E",
@@ -55606,9 +55710,9 @@
    "days": "1234567",
    "stationName": "CNR 1 Jamming",
    "language": "Chinese",
-   "itu": "URU",
-   "txLocation": "",
-   "coordinates": "",
+   "itu": "TKS",
+   "txLocation": "Kashi-Saibagh 2022",
+   "coordinates": "392152N0754258E",
    "power": 100,
    "azimuth": "128",
    "remarks": "CNR1 Jam.a26"
@@ -55872,19 +55976,6 @@
    "power": 300,
    "azimuth": "210",
    "remarks": "TDA a26"
- },
- {
-   "frequency": 13860,
-   "time": "2100-1100",
-   "days": "1234567",
-   "stationName": "Audio (DRM) 1 xHE AAC",
-   "language": "Chinese(Digital)",
-   "itu": "CHN",
-   "txLocation": "Beijing 572",
-   "coordinates": "394454N1164841E",
-   "power": 30,
-   "azimuth": "175",
-   "remarks": "CNR1 DRM a26 Jun.3"
  },
  {
    "frequency": 13860,
@@ -56824,6 +56915,32 @@
  },
  {
    "frequency": 15140,
+   "time": "2200-2400",
+   "days": "17",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.26-"
+ },
+ {
+   "frequency": 15140,
+   "time": "0000-0500",
+   "days": "12",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.27-"
+ },
+ {
+   "frequency": 15140,
    "time": "0000-0500",
    "days": "34567",
    "stationName": "VOICE OF AMERICA",
@@ -57497,6 +57614,19 @@
    "power": 300,
    "azimuth": "205",
    "remarks": "RFA/AGM a26 May21-"
+ },
+ {
+   "frequency": 15210,
+   "time": "1300-1357",
+   "days": "1234567",
+   "stationName": "R.ROMANIA INT.",
+   "language": "Russian",
+   "itu": "ROU",
+   "txLocation": "Tiganesti",
+   "coordinates": "444457N0260610E",
+   "power": 300,
+   "azimuth": "52",
+   "remarks": "RRO a26"
  },
  {
    "frequency": 15215,
@@ -58856,9 +58986,9 @@
    "days": "1234567",
    "stationName": "CNR 1 Jamming",
    "language": "Chinese",
-   "itu": "URU",
-   "txLocation": "",
-   "coordinates": "",
+   "itu": "TKS",
+   "txLocation": "Kashi-Saibagh 2022",
+   "coordinates": "392152N0754258E",
    "power": 100,
    "azimuth": "128",
    "remarks": "CNR1 Jam.a26"
@@ -60711,7 +60841,7 @@
  },
  {
    "frequency": 15450,
-   "time": "2300-0030",
+   "time": "2330-0030",
    "days": "1234567",
    "stationName": "FEBC RADIO",
    "language": "Burmese",
@@ -61555,19 +61685,6 @@
    "remarks": "AWR a26"
  },
  {
-   "frequency": 15530,
-   "time": "1300-1357",
-   "days": "1234567",
-   "stationName": "R.ROMANIA INT.",
-   "language": "Russian",
-   "itu": "ROU",
-   "txLocation": "Tiganesti",
-   "coordinates": "444457N0260610E",
-   "power": 300,
-   "azimuth": "52",
-   "remarks": "RRO a26"
- },
- {
    "frequency": 15540,
    "time": "0100-0600",
    "days": "1234567",
@@ -61683,6 +61800,19 @@
    "power": 100,
    "azimuth": "175",
    "remarks": "CNR7/GBA a26=7345"
+ },
+ {
+   "frequency": 15550,
+   "time": "1630-1700",
+   "days": "17",
+   "stationName": "JRC Radio Dabanga",
+   "language": "Darfur Arabic",
+   "itu": "MDG",
+   "txLocation": "Talata-Volonondry 1",
+   "coordinates": "184509S0473654E",
+   "power": 125,
+   "azimuth": "340",
+   "remarks": "JRC/MGB a26 Sep.12-"
  },
  {
    "frequency": 15550,
@@ -62571,6 +62701,19 @@
  {
    "frequency": 15640,
    "time": "0500-1100",
+   "days": "12",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.27-"
+ },
+ {
+   "frequency": 15640,
+   "time": "0500-1100",
    "days": "34567",
    "stationName": "VOICE OF AMERICA",
    "language": "Korean",
@@ -63035,6 +63178,19 @@
    "power": 1,
    "azimuth": "ND",
    "remarks": "SOH a26"
+ },
+ {
+   "frequency": 15745,
+   "time": "1100-1200",
+   "days": "1234567",
+   "stationName": "CNR",
+   "language": "Chinese",
+   "itu": "CHN",
+   "txLocation": "Lingshi 725",
+   "coordinates": "365216N1115547E",
+   "power": 100,
+   "azimuth": "253",
+   "remarks": ""
  },
  {
    "frequency": 15750,
@@ -65290,7 +65446,7 @@
    "time": "2100-2157",
    "days": "1234567",
    "stationName": "R.ROMANIA INT. DRM xHE E1E101",
-   "language": "Spanish(Digital)",
+   "language": "Spanish (Digital)",
    "itu": "ROU",
    "txLocation": "SNR Tiganesti E2",
    "coordinates": "444457N0260610E",
@@ -65989,6 +66145,19 @@
  },
  {
    "frequency": 17665,
+   "time": "0030-0130",
+   "days": "1",
+   "stationName": "Voice of Independent Myanmar",
+   "language": "Burmese",
+   "itu": "",
+   "txLocation": "",
+   "coordinates": "",
+   "power": null,
+   "azimuth": "",
+   "remarks": "Mizzima/RSF Aug.9-"
+ },
+ {
+   "frequency": 17665,
    "time": "0100-0200",
    "days": "1234567",
    "stationName": "CNR 8",
@@ -66083,7 +66252,7 @@
    "time": "1300-1400",
    "days": "35",
    "stationName": "Music 4 Joy DRM",
-   "language": "Music(Digital)",
+   "language": "Music (Digital)",
    "itu": "D",
    "txLocation": "Nauen",
    "coordinates": "523855N0125433E",
@@ -66174,7 +66343,7 @@
    "time": "0530-0557",
    "days": "1234567",
    "stationName": "R.ROMANIA INT. DRM E1001",
-   "language": "English(Digital)",
+   "language": "English (Digital)",
    "itu": "ROU",
    "txLocation": "SNR Tiganesti E2",
    "coordinates": "444457N0260610E",
@@ -66207,6 +66376,19 @@
    "power": 300,
    "azimuth": "142",
    "remarks": "RRO a26"
+ },
+ {
+   "frequency": 17695,
+   "time": "0800-1200",
+   "days": "1234567",
+   "stationName": "Audio (DRM) 1 xHE AAC",
+   "language": "Chinese(Digital)",
+   "itu": "CHN",
+   "txLocation": "Beijing 572",
+   "coordinates": "394454N1164841E",
+   "power": 30,
+   "azimuth": "290",
+   "remarks": "CNR1 DRM a26 Sep.15-"
  },
  {
    "frequency": 17700,
@@ -66636,6 +66818,19 @@
    "power": 250,
    "azimuth": "98",
    "remarks": "VAT a26"
+ },
+ {
+   "frequency": 17720,
+   "time": "0800-1200",
+   "days": "1234567",
+   "stationName": "Audio (DRM) 1 xHE AAC",
+   "language": "Chinese(Digital)",
+   "itu": "CHN",
+   "txLocation": "Beijing 572",
+   "coordinates": "394454N1164841E",
+   "power": 30,
+   "azimuth": "290",
+   "remarks": "CNR1 DRM a26 Sep.15-"
  },
  {
    "frequency": 17720,
@@ -67201,7 +67396,7 @@
    "time": "0300-0357",
    "days": "1234567",
    "stationName": "R.ROMANIA INT. DRM xHE E1E101",
-   "language": "English(Digital)",
+   "language": "English (Digital)",
    "itu": "ROU",
    "txLocation": "SNR Tiganesti E2",
    "coordinates": "444457N0260610E",
@@ -68066,6 +68261,32 @@
    "power": 300,
    "azimuth": "172",
    "remarks": "RRO a26 alt"
+ },
+ {
+   "frequency": 17865,
+   "time": "0000-0500",
+   "days": "12",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.27-"
+ },
+ {
+   "frequency": 17865,
+   "time": "0000-0500",
+   "days": "34567",
+   "stationName": "VOICE OF AMERICA",
+   "language": "Korean",
+   "itu": "PHL",
+   "txLocation": "Tinang",
+   "coordinates": "152244N1203733E",
+   "power": 250,
+   "azimuth": "21",
+   "remarks": "VOA/AGM a26 Sep.18-"
  },
  {
    "frequency": 17865,
